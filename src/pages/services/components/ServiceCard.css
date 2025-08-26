@@ -1,0 +1,94 @@
+/* Card container */
+
+#services-grid-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 30px;
+}
+
+@media (min-width: 768px) {
+  #services-grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+#services-grid-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+#service-card {
+  margin: 20px 0px;
+}
+
+#service-card .card {
+  max-width: 30rem; /* same as Tailwind's max-w-sm */
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb; /* gray-200 */
+  border-radius: 0.5rem; /* rounded-lg */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); /* shadow-sm */
+  overflow: hidden;
+}
+
+/* Card image */
+#service-card .card-img {
+  width: 100%;
+  display: block;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+/* Card body */
+#service-card .card-body {
+  padding: 1.25rem; /* p-5 */
+}
+
+/* Title */
+#service-card .card-title {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: bold;
+  color: #111827; /* gray-900 */
+  line-height: 1.2;
+}
+
+/* Text */
+#service-card .card-text {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  color: #374151; /* gray-700 */
+}
+
+/* Button */
+#service-card .card-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #1d4ed8; /* blue-700 */
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition:
+    background-color 0.2s,
+    box-shadow 0.2s;
+}
+
+#service-card .card-btn:hover {
+  background-color: #1e40af; /* blue-800 */
+}
+
+#service-card .card-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.5); /* focus:ring */
+}
+
+/* SVG Icon */
+#service-card .card-btn .icon {
+  width: 14px;
+  height: 14px;
+  margin-left: 0.5rem;
+}

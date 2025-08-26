@@ -1,0 +1,51 @@
+#team .container {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: auto 500px;
+}
+
+#team .members__container {
+  padding: 20px 10px;
+  /* height: 100%; */
+}
+
+#team .member {
+  background: var(--bg-secondary);
+  border-radius: var(--radius-3);
+  padding: 40px 20px;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#team .member .image__container {
+  width: 5rem;
+  height: 5rem;
+  margin: auto;
+  border-radius: var(--radius-3);
+  overflow: hidden;
+}
+
+#team .member .details {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+#team .member .social__container {
+  gap: 5px;
+}
+
+#team .member .social__container .icon {
+  border: var(--gray-border);
+}
+
+@media (max-width: 930px) {
+  #team .container {
+    grid-template-columns: 100%;
+  }
+}

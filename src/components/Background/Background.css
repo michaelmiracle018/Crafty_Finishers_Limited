@@ -1,0 +1,125 @@
+#background .hero-container {
+  background-color: black;
+  width: 100%;
+  height: fit-content;
+  margin: auto;
+  padding-top: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 1024px) {
+  #background .hero-container {
+    height: 700px;
+    padding-top: 0;
+    padding-left: 150px;
+    padding-right: 150px;
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+
+#background .hero-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+@media (min-width: 1024px) {
+  #background .hero-text {
+    width: 60%;
+    gap: 32px;
+  }
+}
+
+#background .hero-subtitle {
+  color: #496ded;
+  font-size: 1.5rem; /* text-2xl */
+}
+
+#background .hero-title {
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#background .hero-divider {
+  width: 120px;
+  height: 6px;
+  background-color: #496ded;
+}
+
+#background .hero-description {
+  color: white;
+  font-size: 20px;
+}
+
+#background .hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#background .btn-primary {
+  background-color: #496ded;
+  color: white;
+  padding: 12px 40px;
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#background .btn-primary:hover {
+  background-color: white;
+  color: black;
+}
+
+#background .btn-outline {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 12px 40px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#background .btn-outline:hover {
+  border-color: #496ded;
+  color: #fff;
+}
+
+#background .hero-image-wrapper {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#background .hero-image {
+  height: 300px;
+}
+
+@media (min-width: 1024px) {
+  #background .hero-image {
+    height: 600px;
+    margin-bottom: -100px;
+  }
+}
