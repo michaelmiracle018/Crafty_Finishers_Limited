@@ -1,4 +1,3 @@
-import tailwindcss from "@tailwindcss/vite";
 import { tanstackRouter } from "@tanstack/router-vite-plugin";
 import react from "@vitejs/plugin-react";
 import { defineConfig, loadEnv } from "vite";
@@ -11,9 +10,13 @@ export default defineConfig(({ mode }) => {
   const { PORT = DEFAULT_PORT } = loadEnv(mode, process.cwd(), "");
 
   return {
+    css: {
+      lightningcss: {
+        errorRecovery: true, // 🚀 ignores and strips invalid CSS hacks
+      },
+    },
     entries: ["index.html"],
     plugins: [
-      tailwindcss(),
       react({
         babel: {
           plugins: mode === "test" ? [] : ["babel-plugin-react-compiler"],
@@ -37,7 +40,7 @@ export default defineConfig(({ mode }) => {
           "playwright-report/**",
           "**/*.stories.*",
           "**/main.tsx",
-          "{tailwind,postcss,playwright}.config.*",
+          "{postcss,playwright}.config.*",
           "**/*.gen.*",
         ],
       },
