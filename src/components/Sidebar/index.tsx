@@ -2,6 +2,7 @@ import { FaTimes } from "react-icons/fa";
 import { navigations } from "../../data";
 import Logo from "../Logo";
 import "./Sidebar.css";
+import { Link } from "@tanstack/react-router";
 
 const Sidebar = ({
   openSidebar,
@@ -23,14 +24,16 @@ const Sidebar = ({
           <div className="middle navlinks">
             {" "}
             {navigations.map((nav, index) => (
-              <div
-                onClick={onClose}
-                // activeClass="active"
+              <Link
+                to={nav.to}
+                hash={nav.hash}
+                hashScrollIntoView={{ behavior: "smooth", block: "start" }}
                 key={index}
                 className="navitem"
+                onClick={onClose}
               >
                 {nav.label}
-              </div>
+              </Link>
             ))}
           </div>
         </div>

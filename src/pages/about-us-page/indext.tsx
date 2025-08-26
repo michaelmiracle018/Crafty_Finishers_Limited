@@ -22,7 +22,12 @@ const AboutUsPage = () => {
           {
             label: "READ MORE",
             variant: "primary",
-            onClick: () => console.log("Read More"),
+            onClick: () =>
+              router.navigate({
+                to: "/about-us",
+                hash: "#about-company",
+                hashScrollIntoView: { behavior: "smooth", block: "start" },
+              }),
           },
           {
             label: "REACH US",

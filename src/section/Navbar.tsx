@@ -24,14 +24,25 @@ const Navbar = () => {
         <Logo />
         <div className="navbar__links">
           {navigations.map((nav, index) => (
-            <Link to={nav.to} key={index} className="nav__item">
+            <Link
+              to={nav.to}
+              hash={nav.hash}
+              hashScrollIntoView={{ behavior: "smooth", block: "start" }}
+              key={index}
+              className="nav__item"
+            >
               {nav.label}
             </Link>
           ))}
         </div>
         <SocialHandles />
         <div className="flex__center">
-          <Link to="/contact-us" className="flex__center btn primary">
+          <Link
+            to="/contact-us"
+            hash="#contact-us-on"
+            hashScrollIntoView={{ behavior: "smooth", block: "start" }}
+            className="flex__center btn primary"
+          >
             Reach Us
             <PiPhone />
           </Link>

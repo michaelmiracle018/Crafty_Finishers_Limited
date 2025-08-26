@@ -58,26 +58,32 @@ export const navigations = [
   {
     label: "About Us",
     to: "/about-us",
+    hash: "",
   },
   {
     label: "Services",
     to: "/services",
+    hash: "",
   },
   {
     label: "Portfolio",
-    to: "/portfolio",
+    to: "/",
+    hash: "#portfolio",
   },
   {
     label: "Team",
-    to: "/team",
+    to: "/",
+    hash: "#team",
   },
   {
     label: "Testimonials",
-    to: "/testimonials",
+    to: "/",
+    hash: "#testimonials",
   },
   {
     label: "Contact Us",
     to: "/contact-us",
+    hash: "",
   },
 ];
 
