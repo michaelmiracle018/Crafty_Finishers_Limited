@@ -3190,10 +3190,10 @@ formatly@^0.3.0:
   dependencies:
     fd-package-json "^2.0.0"
 
-framer-motion@^12.23.13:
-  version "12.23.13"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-12.23.13.tgz#146ffad7710172359b9274c46f75c677068f1092"
-  integrity sha512-OMF57Xh0fuTXfJQPtCieYGeU9Fam4SxqPLVz78YI7ATRFrfz8SARtqr1+qv56cX45kPFcIEfkUorVfxlOsjcUg==
+framer-motion@^12.23.15:
+  version "12.23.15"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-12.23.15.tgz#114a34e383d88beab66efd57a49ac8a6d7e35413"
+  integrity sha512-MBxUEHjWr/fRQ2aHg2CgdcjJpHMJ9ttHiPeClHDGiOJOYgmde3OXZUrbWDeeE8yvFrWA62hsPS4+rKQ9OJaoQA==
   dependencies:
     motion-dom "^12.23.12"
     motion-utils "^12.23.6"
@@ -5055,10 +5055,10 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-swiper@^12.0.1:
-  version "12.0.1"
-  resolved "https://registry.yarnpkg.com/swiper/-/swiper-12.0.1.tgz#107c1d9e608360e669290a75ce1777947b3d5f07"
-  integrity sha512-Fi+gNw/tfc4hsGowQU5tRC/f1HFknkh4Vz8PaDI4JTinLUMTwhZyaovcH/va+iXq98BNUHN5ok0c2lEI82Fsgw==
+swiper@^12.0.2:
+  version "12.0.2"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-12.0.2.tgz#aa52251d125fc6e9986af09ae3769fe836e68780"
+  integrity sha512-y8F6fDGXmTVVgwqJj6I00l4FdGuhpFJn0U/9Ucn1MwWOw3NdLV8aH88pZOjyhBgU/6PyBlUx+JuAQ5KMWz906Q==
 
 synckit@0.11.11, synckit@^0.11.0:
   version "0.11.11"
