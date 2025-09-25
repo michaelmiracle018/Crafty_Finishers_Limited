@@ -1255,14 +1255,14 @@
     "@tanstack/router-devtools-core" "1.132.0"
     vite "^7.1.1"
 
-"@tanstack/react-router@1.132.2":
-  version "1.132.2"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.132.2.tgz#e8b7ff4e2e503924c01e3e68b4212ce8b029491f"
-  integrity sha512-667txdisNZVLS8jZnu8HNe8fhQAvayMobUBAGsLjMN7YWOT9F9YwGA1tHugtm0PkfS6k4aevBcNpCKZbJsHc5w==
+"@tanstack/react-router@1.132.7":
+  version "1.132.7"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.132.7.tgz#646e2fe44bdd37c28677c570e306998a980628db"
+  integrity sha512-NuZHVFA2Mh1MIPpSet8g6dU6bbLM6AMonNFmhU4tCgQgjOW8oeqnnfWZ4hf4V++mD7CM/E53iNHUOLY2CEjc7Q==
   dependencies:
     "@tanstack/history" "1.132.0"
     "@tanstack/react-store" "^0.7.0"
-    "@tanstack/router-core" "1.132.2"
+    "@tanstack/router-core" "1.132.7"
     isbot "^5.1.22"
     tiny-invariant "^1.3.3"
     tiny-warning "^1.0.3"
@@ -1288,10 +1288,10 @@
     tiny-invariant "^1.3.3"
     tiny-warning "^1.0.3"
 
-"@tanstack/router-core@1.132.2":
-  version "1.132.2"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.132.2.tgz#004c424c5641ad84e1357f805e8dcc6ed3fff871"
-  integrity sha512-PDaEp1tmBirGaNDtrV6AS7awbO42GCegNTxMi0H1mwgWccDwp6RUS7nOF33jPzfBJXhDJ0xFBNdRI3ItakZgug==
+"@tanstack/router-core@1.132.7":
+  version "1.132.7"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.132.7.tgz#4b47b6b46e7a8468657a97929d59fb92f63a7032"
+  integrity sha512-HgarEo427V1rlpQtA1jIoK4/S/JYgM7/mU3TKO2d7/tyx0FRE9LP8hvUmlxz/Zi71lD6yaICHoCSVcOh0dGLbA==
   dependencies:
     "@tanstack/history" "1.132.0"
     "@tanstack/store" "^0.7.0"
@@ -3243,10 +3243,10 @@ formatly@^0.3.0:
   dependencies:
     fd-package-json "^2.0.0"
 
-framer-motion@^12.23.21:
-  version "12.23.21"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-12.23.21.tgz#8e82b381c79fb843c844121455feba19847c0978"
-  integrity sha512-UWDtzzPdRA3UpSNGril5HjUtPF1Uo/BCt5VKG/YQ8tVpSkAZ22+q8o+hYO0C1uDAZuotQjcfzsTsDtQxD46E/Q==
+framer-motion@^12.23.22:
+  version "12.23.22"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-12.23.22.tgz#798333fdcc5cd65fabfc450985b7236bbdbf5d64"
+  integrity sha512-ZgGvdxXCw55ZYvhoZChTlG6pUuehecgvEAJz0BHoC5pQKW1EC5xf1Mul1ej5+ai+pVY0pylyFfdl45qnM1/GsA==
   dependencies:
     motion-dom "^12.23.21"
     motion-utils "^12.23.6"
