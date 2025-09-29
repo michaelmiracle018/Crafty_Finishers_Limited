@@ -1093,10 +1093,10 @@
   resolved "https://registry.yarnpkg.com/@rolldown/pluginutils/-/pluginutils-1.0.0-beta.31.tgz#7d10d1eae711096a8dd2a015efa75cde40fc235b"
   integrity sha512-IaDZ9NhjOIOkYtm+hH0GX33h3iVZ2OeSUnFF0+7Z4+1GuKs4Kj5wK3+I2zNV9IPLfqV4XlwWif8SXrZNutxciQ==
 
-"@rolldown/pluginutils@1.0.0-beta.35":
-  version "1.0.0-beta.35"
-  resolved "https://registry.yarnpkg.com/@rolldown/pluginutils/-/pluginutils-1.0.0-beta.35.tgz#1a477e7742b154b67519d40e4fc17485de338e7a"
-  integrity sha512-slYrCpoxJUqzFDDNlvrOYRazQUNRvWPjXA17dAOISY3rDMxX6k8K4cj2H+hEYMHF81HO3uNd5rHVigAWRM5dSg==
+"@rolldown/pluginutils@1.0.0-beta.38":
+  version "1.0.0-beta.38"
+  resolved "https://registry.yarnpkg.com/@rolldown/pluginutils/-/pluginutils-1.0.0-beta.38.tgz#95253608c4629eb2a5f3d656009ac9ba031eb292"
+  integrity sha512-N/ICGKleNhA5nc9XXQG/kkKHJ7S55u0x0XUJbbkmdCnFuoRkM1Il12q9q0eX19+M7KKUEPw/daUPIRnxhcxAIw==
 
 "@rollup/rollup-android-arm-eabi@4.48.1":
   version "4.48.1"
@@ -1229,6 +1229,11 @@
   resolved "https://registry.yarnpkg.com/@tanstack/history/-/history-1.132.0.tgz#d84ab5a0a85380e1a7f3c7ba95d553fb14670e44"
   integrity sha512-GG2R9I6QSlbNR9fEuX2sQCigY6K28w51h2634TWmkaHXlzQw+rWuIWr4nAGM9doA+kWRi1LFSFMvAiG3cOqjXQ==
 
+"@tanstack/history@1.132.21":
+  version "1.132.21"
+  resolved "https://registry.yarnpkg.com/@tanstack/history/-/history-1.132.21.tgz#09ae649b0c0c2d1093f0b1e34b9ab0cd3b2b1d2f"
+  integrity sha512-5ziPz3YarKU5cBJoEJ4muV8cy+5W4oWdJMqW7qosMrK5fb9Qfm+QWX+kO3emKJMu4YOUofVu3toEuuD3x1zXKw==
+
 "@tanstack/query-core@5.90.2":
   version "5.90.2"
   resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.90.2.tgz#ac5d0d0f19a38071db2d21d758b5c35a85d9c1d8"
@@ -1253,13 +1258,13 @@
   dependencies:
     "@tanstack/query-core" "5.90.2"
 
-"@tanstack/react-router-devtools@1.132.7":
-  version "1.132.7"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-router-devtools/-/react-router-devtools-1.132.7.tgz#5ba9856b22044a50ada441c8d468126644f36401"
-  integrity sha512-Sx+Vx96seR/trFL5SXUEh8LxfqVkYGFQsTm2jAilMtAZKD0Mt7gZ2j4o14kpazevxUv7nUI7c+vdINGipyfEcA==
+"@tanstack/react-router-devtools@1.132.23":
+  version "1.132.23"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router-devtools/-/react-router-devtools-1.132.23.tgz#72dbbb4986c8e368cd20c09d58a2fc18cdb24080"
+  integrity sha512-9+PvLsSfiKHaQSDXqzXDIIAkw1JKAhcb7dKHIxw3mNvFBhatC3ugGecygrLv7QZj0K0kKvo9rla06Ako5SrO5Q==
   dependencies:
-    "@tanstack/router-devtools-core" "1.132.7"
-    vite "^7.1.1"
+    "@tanstack/router-devtools-core" "1.132.21"
+    vite "^7.1.7"
 
 "@tanstack/react-router@1.132.7":
   version "1.132.7"
@@ -1281,6 +1286,19 @@
     "@tanstack/store" "0.7.4"
     use-sync-external-store "^1.5.0"
 
+"@tanstack/router-core@1.132.21":
+  version "1.132.21"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.132.21.tgz#ab111f946cd946a373b2ae3eab783b97c43a555f"
+  integrity sha512-C+Pe/p6EwMs9DIPBfAXoNtbp1POo/abfl4AEWsDXNAnjVr2OB6aHFMIENUJx1cjs6zUT/4t9FtA/+zptSWtv9A==
+  dependencies:
+    "@tanstack/history" "1.132.21"
+    "@tanstack/store" "^0.7.0"
+    cookie-es "^2.0.0"
+    seroval "^1.3.2"
+    seroval-plugins "^1.3.2"
+    tiny-invariant "^1.3.3"
+    tiny-warning "^1.0.3"
+
 "@tanstack/router-core@1.132.7":
   version "1.132.7"
   resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.132.7.tgz#4b47b6b46e7a8468657a97929d59fb92f63a7032"
@@ -1294,34 +1312,34 @@
     tiny-invariant "^1.3.3"
     tiny-warning "^1.0.3"
 
-"@tanstack/router-devtools-core@1.132.7":
-  version "1.132.7"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-devtools-core/-/router-devtools-core-1.132.7.tgz#5424237d04db7668811157a7d77334806c72d4d5"
-  integrity sha512-pSu479zcw+e/cAv8PLQ7oIAnqQ5G5EjibYrj+fY6ShMZrRPBw09AudchrCbFBIF0YYAOY1narav7xHeqEJZpIA==
+"@tanstack/router-devtools-core@1.132.21":
+  version "1.132.21"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-devtools-core/-/router-devtools-core-1.132.21.tgz#f9a54dfddf652b45c3096c29245bb1118775d7c6"
+  integrity sha512-tcQxVHXME0gEcsmm2t7a+7EivIZsyN+IKOFmqfvEu+FAPSj0TB+iYc/K2QrXC6QKqJ2SM9YeHpRH2EgrD0E1Hg==
   dependencies:
     clsx "^2.1.1"
     goober "^2.1.16"
     solid-js "^1.9.5"
-    vite "^7.1.1"
+    vite "^7.1.7"
 
-"@tanstack/router-generator@1.132.7":
-  version "1.132.7"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-generator/-/router-generator-1.132.7.tgz#a849894ced7721f5d1476483cc2073df097da889"
-  integrity sha512-DdBpKBH9itPJXiZIHB9aomVo5/lmFRAPOq/Dk//dXA/cD66ioBrcHqraenM6SqhbjQE8h/6tkgzrpIqyKdjBtQ==
+"@tanstack/router-generator@1.132.21":
+  version "1.132.21"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-generator/-/router-generator-1.132.21.tgz#27a18c758384612a5999cb47b3b496d199f46bcb"
+  integrity sha512-AyWjZdPxykhU5pbCRjMZELycVJ/pmuCndP48SmYUvB1m2wtUWl8Ssi7a4BlNFEcd+AXcciKq6P2EWjZ0zzm90g==
   dependencies:
-    "@tanstack/router-core" "1.132.7"
-    "@tanstack/router-utils" "1.132.0"
-    "@tanstack/virtual-file-routes" "1.132.0"
+    "@tanstack/router-core" "1.132.21"
+    "@tanstack/router-utils" "1.132.21"
+    "@tanstack/virtual-file-routes" "1.132.21"
     prettier "^3.5.0"
     recast "^0.23.11"
     source-map "^0.7.4"
     tsx "^4.19.2"
     zod "^3.24.2"
 
-"@tanstack/router-plugin@1.132.7":
-  version "1.132.7"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-plugin/-/router-plugin-1.132.7.tgz#6d47c08d6256faa2527766b700b2ba569fa400cb"
-  integrity sha512-uyx7kosj/y1nfj2L5vARu5aUUVGcFlh52Rm8dcqR64X/6k/5MRP/uFk2icf693BsZwmwisbU7CAihBbvIhWT6w==
+"@tanstack/router-plugin@1.132.23":
+  version "1.132.23"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-plugin/-/router-plugin-1.132.23.tgz#324a5066839f5971c18dbc7ed7532a5c0e11f6d7"
+  integrity sha512-XKyBi2PrLqs73O1udcTRQyjp6m/shYgRUK/ydGNspSkyGJ7TtRL6+6o6UKQMu95PLZOrZTRpVkv5W4yk6FRFVw==
   dependencies:
     "@babel/core" "^7.27.7"
     "@babel/plugin-syntax-jsx" "^7.27.1"
@@ -1329,19 +1347,19 @@
     "@babel/template" "^7.27.2"
     "@babel/traverse" "^7.27.7"
     "@babel/types" "^7.27.7"
-    "@tanstack/router-core" "1.132.7"
-    "@tanstack/router-generator" "1.132.7"
-    "@tanstack/router-utils" "1.132.0"
-    "@tanstack/virtual-file-routes" "1.132.0"
+    "@tanstack/router-core" "1.132.21"
+    "@tanstack/router-generator" "1.132.21"
+    "@tanstack/router-utils" "1.132.21"
+    "@tanstack/virtual-file-routes" "1.132.21"
     babel-dead-code-elimination "^1.0.10"
     chokidar "^3.6.0"
     unplugin "^2.1.2"
     zod "^3.24.2"
 
-"@tanstack/router-utils@1.132.0":
-  version "1.132.0"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-utils/-/router-utils-1.132.0.tgz#3c828d6694f5a83d5b1a228a07e00539445713de"
-  integrity sha512-WDnvAi9kO20joLDzlsTvfgXNv+FgQ4G98xAD8r4jKWoTdTTG05DU2sRYimtbdq4Q7E3uVdvyvPdhRy45wan7bw==
+"@tanstack/router-utils@1.132.21":
+  version "1.132.21"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-utils/-/router-utils-1.132.21.tgz#64f5f4ddae26323f91d16e0e4f2d47fb8361d434"
+  integrity sha512-d9MvyhdPaKN78hQOss89bayiv/HR/7FpVHuKTNGEzzYrBWDVIUBd0yMNaBxQBpTg6NuNxtZ01ZJS5VkbedbzJw==
   dependencies:
     "@babel/core" "^7.27.4"
     "@babel/generator" "^7.27.5"
@@ -1352,22 +1370,22 @@
     fast-glob "^3.3.3"
     pathe "^2.0.3"
 
-"@tanstack/router-vite-plugin@1.132.7":
-  version "1.132.7"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-vite-plugin/-/router-vite-plugin-1.132.7.tgz#a5cb7f6e1b8f69498d5b33bfe2a1154ec8588c18"
-  integrity sha512-wvT4OFipgmszUxtBZIB2QHI8i2Zlx72+dVfuoSJNKX4rKvFMAf/w0kbU018x9Ln2wwbtgh693FEQ+oqWCUCDfQ==
+"@tanstack/router-vite-plugin@1.132.23":
+  version "1.132.23"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-vite-plugin/-/router-vite-plugin-1.132.23.tgz#97c3554d6d2f367bcb95df84749626e3df873e89"
+  integrity sha512-PkWW1NU0RGKyb444tmksBSx43oaIBMCQsdYhGpG1abkgzvb/NzH0XkGd4jTZG6WC55RtMOy8k4KV0ybYqezY7w==
   dependencies:
-    "@tanstack/router-plugin" "1.132.7"
+    "@tanstack/router-plugin" "1.132.23"
 
 "@tanstack/store@0.7.4", "@tanstack/store@^0.7.0":
   version "0.7.4"
   resolved "https://registry.yarnpkg.com/@tanstack/store/-/store-0.7.4.tgz#11345771f9e88eda8e2911a67ea4e1db0fde6adb"
   integrity sha512-F1XqZQici1Aq6WigEfcxJSml92nW+85Om8ElBMokPNg5glCYVOmPkZGIQeieYFxcPiKTfwo0MTOQpUyJtwncrg==
 
-"@tanstack/virtual-file-routes@1.132.0":
-  version "1.132.0"
-  resolved "https://registry.yarnpkg.com/@tanstack/virtual-file-routes/-/virtual-file-routes-1.132.0.tgz#adeaacb78785bb7a45b58069e020e51e93b4de5f"
-  integrity sha512-d3do4ih9IdLPBVY4Gb8x7Ho7z0oFDLpxoao7uNVkfWtYU7nc3B+rnnVejXIgprmI5gt1hNzyNDJFr8G/W926GA==
+"@tanstack/virtual-file-routes@1.132.21":
+  version "1.132.21"
+  resolved "https://registry.yarnpkg.com/@tanstack/virtual-file-routes/-/virtual-file-routes-1.132.21.tgz#eec5d43cd34e891ac7e689d407031be57df67a14"
+  integrity sha512-+eT+vxZnf2/QPr9ci5aPn7i3MnVyWYNG2DUqiKJXGi7EvuFrXV9r8zDK40QfUTNGdCg9F880YOVe3cTwMCO0zw==
 
 "@total-typescript/ts-reset@0.6.1":
   version "0.6.1"
@@ -1421,12 +1439,12 @@
   dependencies:
     "@babel/types" "^7.28.2"
 
-"@types/bun@1.2.22":
-  version "1.2.22"
-  resolved "https://registry.yarnpkg.com/@types/bun/-/bun-1.2.22.tgz#c8e62a81dafc99a9a48dd51b9375e25597fab652"
-  integrity sha512-5A/KrKos2ZcN0c6ljRSOa1fYIyCKhZfIVYeuyb4snnvomnpFqC0tTsEkdqNxbAgExV384OETQ//WAjl3XbYqQA==
+"@types/bun@1.2.23":
+  version "1.2.23"
+  resolved "https://registry.yarnpkg.com/@types/bun/-/bun-1.2.23.tgz#c8af662c9df3d32958e627a1d94b964ae881e39f"
+  integrity sha512-le8ueOY5b6VKYf19xT3McVbXqLqmxzPXHsQT/q9JHgikJ2X22wyTW3g3ohz2ZMnp7dod6aduIiq8A14Xyimm0A==
   dependencies:
-    bun-types "1.2.22"
+    bun-types "1.2.23"
 
 "@types/chai@^5.2.2":
   version "5.2.2"
@@ -1477,10 +1495,10 @@
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-19.1.9.tgz#5ab695fce1e804184767932365ae6569c11b4b4b"
   integrity sha512-qXRuZaOsAdXKFyOhRBg6Lqqc0yay13vN7KrIg4L7N4aaHN68ma9OK3NE1BoDFgFOTfM7zg+3/8+2n8rLUH3OKQ==
 
-"@types/react@19.1.13":
-  version "19.1.13"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-19.1.13.tgz#fc650ffa680d739a25a530f5d7ebe00cdd771883"
-  integrity sha512-hHkbU/eoO3EG5/MZkuFSKmYqPbSVk5byPFa3e7y/8TybHiLMACgI8seVYlicwk7H5K/rI2px9xrQp/C+AUDTiQ==
+"@types/react@19.1.15":
+  version "19.1.15"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-19.1.15.tgz#cf854cdf6624f79e34633ddf6dc1e104be459908"
+  integrity sha512-+kLxJpaJzXybyDyFXYADyP1cznTO8HSuBpenGlnKOAkH4hyNINiywvXS/tGJhsrGGP/gM185RA3xpjY0Yg4erA==
   dependencies:
     csstype "^3.0.2"
 
@@ -1782,15 +1800,15 @@
   resolved "https://registry.yarnpkg.com/@unrs/resolver-binding-win32-x64-msvc/-/resolver-binding-win32-x64-msvc-1.11.1.tgz#538b1e103bf8d9864e7b85cc96fa8d6fb6c40777"
   integrity sha512-lrW200hZdbfRtztbygyaq/6jP6AKE8qQN2KvPcJ+x7wiD038YtnYtZ82IMNJ69GJibV7bwL3y9FgK+5w/pYt6g==
 
-"@vitejs/plugin-react@5.0.3":
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/@vitejs/plugin-react/-/plugin-react-5.0.3.tgz#182ea45406d89e55b4e35c92a4a8c2c8388726c8"
-  integrity sha512-PFVHhosKkofGH0Yzrw1BipSedTH68BFF8ZWy1kfUpCtJcouXXY0+racG8sExw7hw0HoX36813ga5o3LTWZ4FUg==
+"@vitejs/plugin-react@5.0.4":
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/@vitejs/plugin-react/-/plugin-react-5.0.4.tgz#d642058e89c5b712655c8cbd13482f5813519602"
+  integrity sha512-La0KD0vGkVkSk6K+piWDKRUyg8Rl5iAIKRMH0vMJI0Eg47bq1eOxmoObAaQG37WMW9MSyk7Cs8EIWwJC1PtzKA==
   dependencies:
     "@babel/core" "^7.28.4"
     "@babel/plugin-transform-react-jsx-self" "^7.27.1"
     "@babel/plugin-transform-react-jsx-source" "^7.27.1"
-    "@rolldown/pluginutils" "1.0.0-beta.35"
+    "@rolldown/pluginutils" "1.0.0-beta.38"
     "@types/babel__core" "^7.20.5"
     react-refresh "^0.17.0"
 
@@ -2167,10 +2185,10 @@ builtin-modules@^5.0.0:
   resolved "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-5.0.0.tgz#9be95686dedad2e9eed05592b07733db87dcff1a"
   integrity sha512-bkXY9WsVpY7CvMhKSR6pZilZu9Ln5WDrKVBUXf2S443etkmEO4V58heTecXcUIsNsi4Rx8JUO4NfX1IcQl4deg==
 
-bun-types@1.2.22:
-  version "1.2.22"
-  resolved "https://registry.yarnpkg.com/bun-types/-/bun-types-1.2.22.tgz#c4c4339ffda16ba8c637938025d0975da6213b5b"
-  integrity sha512-hwaAu8tct/Zn6Zft4U9BsZcXkYomzpHJX28ofvx7k0Zz2HNz54n1n+tDgxoWFGB4PcFvJXJQloPhaV2eP3Q6EA==
+bun-types@1.2.23:
+  version "1.2.23"
+  resolved "https://registry.yarnpkg.com/bun-types/-/bun-types-1.2.23.tgz#d2550c5b1ad32cc779d27e146d1062cb45329101"
+  integrity sha512-R9f0hKAZXgFU3mlrA0YpE/fiDvwV0FT9rORApt2aQVWSuJDzZOyB5QLc0N/4HF57CS8IXJ6+L5E4W1bW6NS2Aw==
   dependencies:
     "@types/node" "*"
 
@@ -3419,10 +3437,10 @@ graphemer@^1.4.0:
   resolved "https://registry.yarnpkg.com/graphemer/-/graphemer-1.4.0.tgz#fb2f1d55e0e3a1849aeffc90c4fa0dd53a0e66c6"
   integrity sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==
 
-happy-dom@18.0.1:
-  version "18.0.1"
-  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-18.0.1.tgz#8f8a2199462842deb675f54e405af55f3b674540"
-  integrity sha512-qn+rKOW7KWpVTtgIUi6RVmTBZJSe2k0Db0vh1f7CWrWclkkc7/Q+FrOfkZIb2eiErLyqu5AXEzE7XthO9JVxRA==
+happy-dom@19.0.1:
+  version "19.0.1"
+  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-19.0.1.tgz#a601bc92f9e224bb1777cea112cc29fb9ba40eed"
+  integrity sha512-Rr1H/mvgdCGoIq+jjaGxE/y+ZB+O2DhUBXk9vqoRVc5zsZ/Ne6Fssb8fXaAjPFh3Ajmbx+kfDDf946PHiUbC6Q==
   dependencies:
     "@types/node" "^20.0.0"
     "@types/whatwg-mimetype" "^3.0.2"
@@ -3916,71 +3934,71 @@ language-tags@^1.0.9:
   dependencies:
     language-subtag-registry "^0.3.20"
 
-lefthook-darwin-arm64@1.13.4:
-  version "1.13.4"
-  resolved "https://registry.yarnpkg.com/lefthook-darwin-arm64/-/lefthook-darwin-arm64-1.13.4.tgz#09662f8c12719b1b23ebdaeaf0cfe543fb4e0fc8"
-  integrity sha512-A/t0OYW9NCEqJ+j3volPvetfgErveioYxTG0tzgmJoMOR4joFN0vkjahKQpKPIMQ1HSqFQtiRefXL3M97rCD1A==
+lefthook-darwin-arm64@1.13.5:
+  version "1.13.5"
+  resolved "https://registry.yarnpkg.com/lefthook-darwin-arm64/-/lefthook-darwin-arm64-1.13.5.tgz#7b56875d0aa8cdbb93814514ac299be531dffd61"
+  integrity sha512-BYt5CnAOXasVCS6i+A4ljUo9xru/B5uMFD6EWHhs3R26jGF7mBSDxM3ErzXTUaJRTP0kQI/XBmgqBryBqoqZOQ==
 
-lefthook-darwin-x64@1.13.4:
-  version "1.13.4"
-  resolved "https://registry.yarnpkg.com/lefthook-darwin-x64/-/lefthook-darwin-x64-1.13.4.tgz#b2c01d49d260bea2839d2ce2f45da13facf21314"
-  integrity sha512-pBCy4pm8HEjsDSPNYv4Y4p94ZJYC7Q3KOMkYVH6no7e7ide2adetRq5eylNM7OyKF6fDA3VMv8ywINxHVKu3tg==
+lefthook-darwin-x64@1.13.5:
+  version "1.13.5"
+  resolved "https://registry.yarnpkg.com/lefthook-darwin-x64/-/lefthook-darwin-x64-1.13.5.tgz#2763c58ab9e97e5dd38e80bac73dbb542cf2e8d1"
+  integrity sha512-ZDtLBzvI5e26C/RZ4irOHpELTd22x9lDTgF2+eCYcnrBWOkB7800V8tuAvBybsLGvg6JwKjFxn+NTRNZnCC2hw==
 
-lefthook-freebsd-arm64@1.13.4:
-  version "1.13.4"
-  resolved "https://registry.yarnpkg.com/lefthook-freebsd-arm64/-/lefthook-freebsd-arm64-1.13.4.tgz#bb730c43f50dc7f85cf3af79e5da74da127071f0"
-  integrity sha512-km8VRaIhORrebspVVwP+j01rYv2Wl8gDpEPcz42az9tfcp1o2d87Hi3zZ3DNSucSq+e7bMul1WNFYnk9xRy0jw==
+lefthook-freebsd-arm64@1.13.5:
+  version "1.13.5"
+  resolved "https://registry.yarnpkg.com/lefthook-freebsd-arm64/-/lefthook-freebsd-arm64-1.13.5.tgz#b03da21788e3bc38343d721b12110cd89226f370"
+  integrity sha512-uQ/kQZSSedw74aGCpsfOPN4yVt3klg8grOP6gHQOCRUMv5oK/Lj3pe1PylpTuuhxWORWRzkauPMot26J0OZZdA==
 
-lefthook-freebsd-x64@1.13.4:
-  version "1.13.4"
-  resolved "https://registry.yarnpkg.com/lefthook-freebsd-x64/-/lefthook-freebsd-x64-1.13.4.tgz#48f308216c7f042864005efede9310ce7f2c3ea1"
-  integrity sha512-eWiFL4uFSg1XhLnbSo8dNF8K5yJ1Al3HauV1XbDfa8rUoonJfGWxOz6z22qzKj8mVkwl7Tk1hhjnAyNtXZNG8g==
+lefthook-freebsd-x64@1.13.5:
+  version "1.13.5"
+  resolved "https://registry.yarnpkg.com/lefthook-freebsd-x64/-/lefthook-freebsd-x64-1.13.5.tgz#490d72c252d471fe5996f4fe2d626c2c79bf1f09"
+  integrity sha512-6czek8XagVrI7ExURawkfrfX40Qjc/wktc8bLq/iXfRlmdvKDMrx2FrA82mDfEVCAEz+tTvkteK1TfR3icYF3Q==
 
-lefthook-linux-arm64@1.13.4:
-  version "1.13.4"
-  resolved "https://registry.yarnpkg.com/lefthook-linux-arm64/-/lefthook-linux-arm64-1.13.4.tgz#8b035b1097bf936a460a63a11e773dad9bcd4294"
-  integrity sha512-0aHeK1WoRPHwvgbEXdo1Q25MMCWNeY5wouhcShHpxhmrVBX1c0rYkWC9mQgR+632eUKkA/48+1J69x3mvtMZRg==
+lefthook-linux-arm64@1.13.5:
+  version "1.13.5"
+  resolved "https://registry.yarnpkg.com/lefthook-linux-arm64/-/lefthook-linux-arm64-1.13.5.tgz#0b5e277aed98b377c18048f8c6fca6a5896669be"
+  integrity sha512-MjWtiuW1br+rpTtgG1KGV53mSGtL5MWQwgafYzrFleJ89fKb86F4TD/4mVNzk5thmZ+HVPZw9bRZGUHFBnNJWg==
 
-lefthook-linux-x64@1.13.4:
-  version "1.13.4"
-  resolved "https://registry.yarnpkg.com/lefthook-linux-x64/-/lefthook-linux-x64-1.13.4.tgz#fdd9b9a254dbe1283eb5fcddb9ec52366f4256c4"
-  integrity sha512-f0rM3o5b7HNX+eKnCZzOPPWV+uPwOgfZEIKd1MqfkxxreQ+kloAcuUcNt6huwrs8foR7+45eC31T5plII3aTnw==
+lefthook-linux-x64@1.13.5:
+  version "1.13.5"
+  resolved "https://registry.yarnpkg.com/lefthook-linux-x64/-/lefthook-linux-x64-1.13.5.tgz#45a327e68b419b8168c50e1149709de5b31390df"
+  integrity sha512-TIm+AYCanBR/+BVbBuIY3EMp3Z5lcJh+dovB52gHiuUjiauAptFXvntezyR5wAbyptLpYsb4WDmpSR8O2eln+w==
 
-lefthook-openbsd-arm64@1.13.4:
-  version "1.13.4"
-  resolved "https://registry.yarnpkg.com/lefthook-openbsd-arm64/-/lefthook-openbsd-arm64-1.13.4.tgz#afa8c2cd5128c143ff28eb54a5ab8cfe69249409"
-  integrity sha512-ov9rjWPOtphlNG2SOPQAPBSeWVTfB/vbh5AcvPECnVVe9jZTCthhKIyr9wx/UfKKqGxlL4wi7jk7BQ1BEJuC5w==
+lefthook-openbsd-arm64@1.13.5:
+  version "1.13.5"
+  resolved "https://registry.yarnpkg.com/lefthook-openbsd-arm64/-/lefthook-openbsd-arm64-1.13.5.tgz#57f5540afa934b6c22bddb2441ea15f69d86b855"
+  integrity sha512-lYXrWf0/hBrwtG8ceaHq886bcqRKh3Lfv+jZJs+ykMLB6L/kaqk8tA4V2NHWydQ5h56o45ugs/580nMz36ZdRg==
 
-lefthook-openbsd-x64@1.13.4:
-  version "1.13.4"
-  resolved "https://registry.yarnpkg.com/lefthook-openbsd-x64/-/lefthook-openbsd-x64-1.13.4.tgz#9eac9273355bc90a257e0dcce7ec9f54ac44be43"
-  integrity sha512-4TVuVG86fJhWGBx8nR+USq00lYHuzLp1PqrW3vDKmTwxlMf3gmquO6PyQ85I5jfr1G2QpKn/cVJCvj3ExMUOxg==
+lefthook-openbsd-x64@1.13.5:
+  version "1.13.5"
+  resolved "https://registry.yarnpkg.com/lefthook-openbsd-x64/-/lefthook-openbsd-x64-1.13.5.tgz#9c6928400c6ac5ea86f569c44ac25f383153c6a7"
+  integrity sha512-Ba1JrsRbfan4WKd8Q7gUhTxCUuppXzirDObd3JxpLRSLxA47yxhjMv7KByDunRDTvzTgsXoykZI6mPupkc1JiQ==
 
-lefthook-windows-arm64@1.13.4:
-  version "1.13.4"
-  resolved "https://registry.yarnpkg.com/lefthook-windows-arm64/-/lefthook-windows-arm64-1.13.4.tgz#28b9a15a379f8fc4df5236849a5d23bd11e264b0"
-  integrity sha512-y46ZgRAgyMy5MQYkZoSBtHYUYj0+54cM0VDT/Lu/jz1GRFAE8JkrRVetk3geqECpnMGxBkSgfhcbGDYeEvJQdw==
+lefthook-windows-arm64@1.13.5:
+  version "1.13.5"
+  resolved "https://registry.yarnpkg.com/lefthook-windows-arm64/-/lefthook-windows-arm64-1.13.5.tgz#40634f5475e5962ee5590de997e751b45b55f975"
+  integrity sha512-Y/CpmEIb0hlFe+kTT/efWgX6+/gUTp5NItTF+gmUrY1/G/bTLIxdIRS7WpodVM0MEN24sOrQVTSi9DN9FvGoGg==
 
-lefthook-windows-x64@1.13.4:
-  version "1.13.4"
-  resolved "https://registry.yarnpkg.com/lefthook-windows-x64/-/lefthook-windows-x64-1.13.4.tgz#821ee4a1d100a2e0635c3c89ece6c25458004494"
-  integrity sha512-p2YfWuj/43gUT0nHJ6j0pTRpLLwX9n2bio60POuXOrr3RVxdv5MEaQchdRhqYG5uWj7Zsm86K9FWkNuxPG81IA==
+lefthook-windows-x64@1.13.5:
+  version "1.13.5"
+  resolved "https://registry.yarnpkg.com/lefthook-windows-x64/-/lefthook-windows-x64-1.13.5.tgz#0570f5e5da06d82f7f701bef676a9fa8ecf98f0c"
+  integrity sha512-WJBqGNBlFJnunRwy12QyaDHdGULtostPqpYSZSS4boFJDY0lP5qtz9lAGmJ49aA5GQ19jrnDjGLwVPFiwIqksQ==
 
-lefthook@1.13.4:
-  version "1.13.4"
-  resolved "https://registry.yarnpkg.com/lefthook/-/lefthook-1.13.4.tgz#49a8ff76e55876aaac193d43271ab9b72d1fac91"
-  integrity sha512-4EJfkcNlZW69ISxyEuBzkyivER/XIVCJcGYTemVBf5DWlBwK97hSrbgDH8O5JuHiCR5lW83hDa1T5TW/dRfnGg==
+lefthook@1.13.5:
+  version "1.13.5"
+  resolved "https://registry.yarnpkg.com/lefthook/-/lefthook-1.13.5.tgz#2c6db744d857a5356c274df3e7380e38f099a3c6"
+  integrity sha512-tpDfEviaODCNcvLohh8vKwo5dCAa6m/KX6ECsiCPYsp4H+XDATuy9S9o6G1We5MuQwz1cFAYv+LQRtWd7eoSow==
   optionalDependencies:
-    lefthook-darwin-arm64 "1.13.4"
-    lefthook-darwin-x64 "1.13.4"
-    lefthook-freebsd-arm64 "1.13.4"
-    lefthook-freebsd-x64 "1.13.4"
-    lefthook-linux-arm64 "1.13.4"
-    lefthook-linux-x64 "1.13.4"
-    lefthook-openbsd-arm64 "1.13.4"
-    lefthook-openbsd-x64 "1.13.4"
-    lefthook-windows-arm64 "1.13.4"
-    lefthook-windows-x64 "1.13.4"
+    lefthook-darwin-arm64 "1.13.5"
+    lefthook-darwin-x64 "1.13.5"
+    lefthook-freebsd-arm64 "1.13.5"
+    lefthook-freebsd-x64 "1.13.5"
+    lefthook-linux-arm64 "1.13.5"
+    lefthook-linux-x64 "1.13.5"
+    lefthook-openbsd-arm64 "1.13.5"
+    lefthook-openbsd-x64 "1.13.5"
+    lefthook-windows-arm64 "1.13.5"
+    lefthook-windows-x64 "1.13.5"
 
 levn@^0.4.1:
   version "0.4.1"
@@ -5468,7 +5486,7 @@ vite-tsconfig-paths@5.1.4:
     globrex "^0.1.2"
     tsconfck "^3.0.3"
 
-"vite@^5.0.0 || ^6.0.0 || ^7.0.0-0", vite@^7.1.1:
+"vite@^5.0.0 || ^6.0.0 || ^7.0.0-0", vite@^7.1.7:
   version "7.1.7"
   resolved "https://registry.yarnpkg.com/vite/-/vite-7.1.7.tgz#ed3f9f06e21d6574fe1ad425f6b0912d027ffc13"
   integrity sha512-VbA8ScMvAISJNJVbRDTJdCwqQoAareR/wutevKanhR2/1EkoXVZVkkORaYm/tNVCjP/UDTKtcw3bAkwOUdedmA==
