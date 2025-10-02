@@ -1224,6 +1224,11 @@
   resolved "https://registry.yarnpkg.com/@tanstack/history/-/history-1.132.21.tgz#09ae649b0c0c2d1093f0b1e34b9ab0cd3b2b1d2f"
   integrity sha512-5ziPz3YarKU5cBJoEJ4muV8cy+5W4oWdJMqW7qosMrK5fb9Qfm+QWX+kO3emKJMu4YOUofVu3toEuuD3x1zXKw==
 
+"@tanstack/history@1.132.31":
+  version "1.132.31"
+  resolved "https://registry.yarnpkg.com/@tanstack/history/-/history-1.132.31.tgz#f03b1076a34a34a55d07a947dd312024a2151d84"
+  integrity sha512-UCHM2uS0t/uSszqPEo+SBSSoQVeQ+LlOWAVBl5SA7+AedeAbKafIPjFn8huZCXNLAYb0WKV2+wETr7lDK9uz7g==
+
 "@tanstack/query-core@5.90.2":
   version "5.90.2"
   resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.90.2.tgz#ac5d0d0f19a38071db2d21d758b5c35a85d9c1d8"
@@ -1256,14 +1261,14 @@
     "@tanstack/router-devtools-core" "1.132.27"
     vite "^7.1.7"
 
-"@tanstack/react-router@1.132.25":
-  version "1.132.25"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.132.25.tgz#b6a09806574f338fdfb782ec7228c0f47e78933f"
-  integrity sha512-ws/yTHal60QYKDwp7L6PknXr+TGfrXVViLz0vcuXdLwqngOZfXoaicSPSL7meTYM0lQ8a6iJLaeRf65REX9zVg==
+"@tanstack/react-router@1.132.31":
+  version "1.132.31"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.132.31.tgz#994dba658eaee1fb20a48f206ca8d2863dc4b31d"
+  integrity sha512-bgYgffI9TQhi8Zc/I5DMQEO4WOcDNtSll66Eb3/+k3iuI59ovVB/CiVCGjqdT8+2YBBj2x0saRDjsF00vj5+Yg==
   dependencies:
-    "@tanstack/history" "1.132.21"
+    "@tanstack/history" "1.132.31"
     "@tanstack/react-store" "^0.7.0"
-    "@tanstack/router-core" "1.132.21"
+    "@tanstack/router-core" "1.132.31"
     isbot "^5.1.22"
     tiny-invariant "^1.3.3"
     tiny-warning "^1.0.3"
@@ -1276,10 +1281,10 @@
     "@tanstack/store" "0.7.4"
     use-sync-external-store "^1.5.0"
 
-"@tanstack/router-core@1.132.21":
-  version "1.132.21"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.132.21.tgz#ab111f946cd946a373b2ae3eab783b97c43a555f"
-  integrity sha512-C+Pe/p6EwMs9DIPBfAXoNtbp1POo/abfl4AEWsDXNAnjVr2OB6aHFMIENUJx1cjs6zUT/4t9FtA/+zptSWtv9A==
+"@tanstack/router-core@1.132.27":
+  version "1.132.27"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.132.27.tgz#8869e98d10ea42338cb115af45bdcbc10eaf2b7f"
+  integrity sha512-mNx+nba7mXc7sJdX+kYH4rSW8f7Jx/+0hPOkX4XAnqiq7I1ng3gGqmGuf4+2BYTG2aD+aTSPExUPczy9VNgRfQ==
   dependencies:
     "@tanstack/history" "1.132.21"
     "@tanstack/store" "^0.7.0"
@@ -1289,12 +1294,12 @@
     tiny-invariant "^1.3.3"
     tiny-warning "^1.0.3"
 
-"@tanstack/router-core@1.132.27":
-  version "1.132.27"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.132.27.tgz#8869e98d10ea42338cb115af45bdcbc10eaf2b7f"
-  integrity sha512-mNx+nba7mXc7sJdX+kYH4rSW8f7Jx/+0hPOkX4XAnqiq7I1ng3gGqmGuf4+2BYTG2aD+aTSPExUPczy9VNgRfQ==
+"@tanstack/router-core@1.132.31":
+  version "1.132.31"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.132.31.tgz#20f00ba3433a560574c05c613a38f3fb5add6495"
+  integrity sha512-74W+J5N1NuPcuWDwsBAjCgK4ahtIRaB51KdegYrD1AeSNqiV4u8KzOzHKAAZD01UipQApUbpJbzFrHq0XQ9BHw==
   dependencies:
-    "@tanstack/history" "1.132.21"
+    "@tanstack/history" "1.132.31"
     "@tanstack/store" "^0.7.0"
     cookie-es "^2.0.0"
     seroval "^1.3.2"
@@ -1480,15 +1485,15 @@
   dependencies:
     undici-types "~6.21.0"
 
-"@types/react-dom@19.1.10":
-  version "19.1.10"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-19.1.10.tgz#be9ef8bf0b5bf2597703fc2bb2b994bfdcf5c1cb"
-  integrity sha512-rjLOyiY96RFVspVdQaZHmBgtoZmlHFCPC/prqZmKK4eI1kAiSAZOVgkRKeUj5v/2cWkmMd0k5gCepaRAZbGgvQ==
+"@types/react-dom@19.2.0":
+  version "19.2.0"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-19.2.0.tgz#97ebfc8400702db00d1177b06ade6720dda641c1"
+  integrity sha512-brtBs0MnE9SMx7px208g39lRmC5uHZs96caOJfTjFcYSLHNamvaSMfJNagChVNkup2SdtOxKX1FDBkRSJe1ZAg==
 
-"@types/react@19.1.17":
-  version "19.1.17"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-19.1.17.tgz#8be0b9c546cede389b930a98eb3fad1897f209c3"
-  integrity sha512-Qec1E3mhALmaspIrhWt9jkQMNdw6bReVu64mjvhbhq2NFPftLPVr+l1SZgmw/66WwBNpDh7ao5AT6gF5v41PFA==
+"@types/react@19.2.0":
+  version "19.2.0"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-19.2.0.tgz#8412946e7e1efb0de9bb59b3aa87676d96add385"
+  integrity sha512-1LOH8xovvsKsCBq1wnT4ntDUdCJKmnEakhsuoUSy6ExlHCkGP2hqnatagYTgFk6oeL0VU31u7SNjunPN+GchtA==
   dependencies:
     csstype "^3.0.2"
 
@@ -4543,12 +4548,12 @@ queue-microtask@^1.2.2:
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
-react-dom@19.1.1:
-  version "19.1.1"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-19.1.1.tgz#2daa9ff7f3ae384aeb30e76d5ee38c046dc89893"
-  integrity sha512-Dlq/5LAZgF0Gaz6yiqZCf6VCcZs1ghAJyrsu84Q/GT0gV+mCxbfmKNoGRKBYMJ8IEdGPqu49YWXD02GCknEDkw==
+react-dom@19.2.0:
+  version "19.2.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-19.2.0.tgz#00ed1e959c365e9a9d48f8918377465466ec3af8"
+  integrity sha512-UlbRu4cAiGaIewkPyiRGJk0imDN2T3JjieT6spoL2UeSf5od4n5LB/mQ4ejmxhCFT1tYe8IvaFulzynWovsEFQ==
   dependencies:
-    scheduler "^0.26.0"
+    scheduler "^0.27.0"
 
 react-icons@^5.5.0:
   version "5.5.0"
@@ -4567,10 +4572,10 @@ react-refresh@^0.17.0:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.17.0.tgz#b7e579c3657f23d04eccbe4ad2e58a8ed51e7e53"
   integrity sha512-z6F7K9bV85EfseRCp2bzrpyQ0Gkw1uLoCel9XBVWPg/TjRj94SkJzUTGfOa4bs7iJvBWtQG0Wq7wnI0syw3EBQ==
 
-react@19.1.1:
-  version "19.1.1"
-  resolved "https://registry.yarnpkg.com/react/-/react-19.1.1.tgz#06d9149ec5e083a67f9a1e39ce97b06a03b644af"
-  integrity sha512-w8nqGImo45dmMIfljjMwOGtbmC/mk4CMYhWIicdSflH91J9TyCyczcPFXJzrZ/ZXcgGRFeP6BU0BEJTw6tZdfQ==
+react@19.2.0:
+  version "19.2.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-19.2.0.tgz#d33dd1721698f4376ae57a54098cb47fc75d93a5"
+  integrity sha512-tmbWg6W31tQLeB5cdIBOicJDJRR2KzXsV7uSK9iNfLWQ5bIZfxuPEHp7M8wiHyHnn0DD1i7w3Zmin0FtkrwoCQ==
 
 readdirp@~3.6.0:
   version "3.6.0"
@@ -4764,10 +4769,10 @@ sass-formatter@^0.7.6:
   dependencies:
     suf-log "^2.5.3"
 
-scheduler@^0.26.0:
-  version "0.26.0"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.26.0.tgz#4ce8a8c2a2095f13ea11bf9a445be50c555d6337"
-  integrity sha512-NlHwttCI/l5gCPR3D1nNXtWABUmBwvZpEQiD4IXSbIDq8BzLIK/7Ir5gTFSGZDUu37K5cMNp0hFtzO38sC7gWA==
+scheduler@^0.27.0:
+  version "0.27.0"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.27.0.tgz#0c4ef82d67d1e5c1e359e8fc76d3a87f045fe5bd"
+  integrity sha512-eNv+WrVbKu1f3vbYJT/xtiF5syA5HPIMtf9IgY/nKg0sWqzAUEvqY/xm7OcZc/qafLx/iO9FgOmeSAp4v5ti/Q==
 
 scslre@^0.3.0:
   version "0.3.0"
