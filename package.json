@@ -42,7 +42,7 @@
     "@jimmy.codes/prettier-config": "2.0.2",
     "@playwright/test": "1.56.0",
     "@tanstack/react-query-devtools": "5.90.2",
-    "@tanstack/react-router-devtools": "1.132.51",
+    "@tanstack/react-router-devtools": "1.133.1",
     "@tanstack/router-vite-plugin": "1.132.56",
     "@total-typescript/ts-reset": "0.6.1",
     "@types/bun": "1.3.0",
