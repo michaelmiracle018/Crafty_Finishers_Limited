@@ -1266,10 +1266,10 @@
     "@tanstack/router-devtools-core" "1.133.3"
     vite "^7.1.7"
 
-"@tanstack/react-router@1.133.3":
-  version "1.133.3"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.133.3.tgz#ec9994b8ddb7b551f211411fe3914b38f901c5ef"
-  integrity sha512-m83U/KbCtcFhjeF0+TFt7L3h4aKoq9e4ikfGwEIoNZn3JyKv9LoUEz0ofXbIswCY034xpnMWW0WHqPvpodOPvQ==
+"@tanstack/react-router@1.133.7":
+  version "1.133.7"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.133.7.tgz#8c6d18110e429d5696f26b707ad74a2e2376f66b"
+  integrity sha512-NcPgALdTTY7oMb4/wu1Kyq4UhrWFolultBX5kEs/yj5ETIsJhAWNJKO4f5kAX/0+YI0M/GW4TlcfU4/vpB2S9g==
   dependencies:
     "@tanstack/history" "1.133.3"
     "@tanstack/react-store" "^0.7.0"
