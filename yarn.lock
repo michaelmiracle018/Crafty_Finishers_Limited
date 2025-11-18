@@ -1229,10 +1229,10 @@
   resolved "https://registry.yarnpkg.com/@tanstack/history/-/history-1.133.28.tgz#488a4050b48333b7d983b22cd4712bd234a5e46c"
   integrity sha512-B7+x7eP2FFvi3fgd3rNH9o/Eixt+pp0zCIdGhnQbAJjFrlwIKGjGnwyJjhWJ5fMQlGks/E2LdDTqEV4W9Plx7g==
 
-"@tanstack/query-core@5.90.8":
-  version "5.90.8"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.90.8.tgz#4a2600a5acf403494e4d5a3fcfac038ed84c5db7"
-  integrity sha512-4E0RP/0GJCxSNiRF2kAqE/LQkTJVlL/QNU7gIJSptaseV9HP6kOuA+N11y4bZKZxa3QopK3ZuewwutHx6DqDXQ==
+"@tanstack/query-core@5.90.10":
+  version "5.90.10"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.90.10.tgz#2704b038277fb41e631f356e7428951b5354ed13"
+  integrity sha512-EhZVFu9rl7GfRNuJLJ3Y7wtbTnENsvzp+YpcAV7kCYiXni1v8qZh++lpw4ch4rrwC0u/EZRnBHIehzCGzwXDSQ==
 
 "@tanstack/query-devtools@5.90.1":
   version "5.90.1"
@@ -1246,12 +1246,12 @@
   dependencies:
     "@tanstack/query-devtools" "5.90.1"
 
-"@tanstack/react-query@5.90.8":
-  version "5.90.8"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.90.8.tgz#c9b8bdbffd2df4b023094c3da144324a9daa5cef"
-  integrity sha512-/3b9QGzkf4rE5/miL6tyhldQRlLXzMHcySOm/2Tm2OLEFE9P1ImkH0+OviDBSvyAvtAOJocar5xhd7vxdLi3aQ==
+"@tanstack/react-query@5.90.10":
+  version "5.90.10"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.90.10.tgz#dc2d4acbe1c06b708ccaeed43a26ad56bc5d1718"
+  integrity sha512-BKLss9Y8PQ9IUjPYQiv3/Zmlx92uxffUOX8ZZNoQlCIZBJPT5M+GOMQj7xislvVQ6l1BstBjcX0XB/aHfFYVNw==
   dependencies:
-    "@tanstack/query-core" "5.90.8"
+    "@tanstack/query-core" "5.90.10"
 
 "@tanstack/react-router-devtools@1.136.1":
   version "1.136.1"
@@ -1261,14 +1261,14 @@
     "@tanstack/router-devtools-core" "1.136.1"
     vite "^7.1.7"
 
-"@tanstack/react-router@1.135.2":
-  version "1.135.2"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.135.2.tgz#037ab0cfa267cb1d629dd75594bb6fcd4cd7f637"
-  integrity sha512-IzvCJ5bZ4dTEh65J1NrILF3Ab+ajRgsHYQYl/3du1sptRfQkUSsRYQGXffQQU3JH++plmO/tJXtRTmgrAp4inA==
+"@tanstack/react-router@1.136.8":
+  version "1.136.8"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.136.8.tgz#beff16aa314eb69e5236db0900bc2535d5b3e71e"
+  integrity sha512-m9aJvQaAHSehPld5fBQX4K/e91S+JHGweJyBLH/+/fmHQnusgB+roeEwyn74Nag74sT4ErA5GwGYKE8ZLH5h3g==
   dependencies:
     "@tanstack/history" "1.133.28"
     "@tanstack/react-store" "^0.8.0"
-    "@tanstack/router-core" "1.135.2"
+    "@tanstack/router-core" "1.136.8"
     isbot "^5.1.22"
     tiny-invariant "^1.3.3"
     tiny-warning "^1.0.3"
@@ -1281,10 +1281,10 @@
     "@tanstack/store" "0.8.0"
     use-sync-external-store "^1.6.0"
 
-"@tanstack/router-core@1.135.2":
-  version "1.135.2"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.135.2.tgz#fff0719073a76fa5092692339216c8eca74cb704"
-  integrity sha512-fhJSGmbqE78Ou6e+cnJ9exmjCzCZ9IXT2rApiPAgeItKj2yy1qmTEoR11n0x0fiNkkBxHL1us+QyG8JfNELiQA==
+"@tanstack/router-core@1.136.1":
+  version "1.136.1"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.136.1.tgz#e5650ceaf45deb2aa0be5ce0b0e7f872b27c2cc9"
+  integrity sha512-+X3Z99w4g2MpZuB2ZgK5q5bSi7Egp3N88Ee+ZyLw8kMvOk+NRlXBVkEyq92Qn/hEl5LX8jYsv6RhChm2yRs/6A==
   dependencies:
     "@tanstack/history" "1.133.28"
     "@tanstack/store" "^0.8.0"
@@ -1294,10 +1294,10 @@
     tiny-invariant "^1.3.3"
     tiny-warning "^1.0.3"
 
-"@tanstack/router-core@1.136.1":
-  version "1.136.1"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.136.1.tgz#e5650ceaf45deb2aa0be5ce0b0e7f872b27c2cc9"
-  integrity sha512-+X3Z99w4g2MpZuB2ZgK5q5bSi7Egp3N88Ee+ZyLw8kMvOk+NRlXBVkEyq92Qn/hEl5LX8jYsv6RhChm2yRs/6A==
+"@tanstack/router-core@1.136.8":
+  version "1.136.8"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.136.8.tgz#bc0c1f9e3cc94292364b563301c30e94fc2935ad"
+  integrity sha512-qPBWbInoi9CNtcjjKaaWVjoZoE5EiM5q6KVT0qVIQq2yAI4jyR1cWqyGMZp9tWNpFrlrUoG6kDvX9GRlstORJw==
   dependencies:
     "@tanstack/history" "1.133.28"
     "@tanstack/store" "^0.8.0"
