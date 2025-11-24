@@ -1206,11 +1206,6 @@
   dependencies:
     "@typescript-eslint/utils" "^8.44.1"
 
-"@tanstack/history@1.133.28":
-  version "1.133.28"
-  resolved "https://registry.yarnpkg.com/@tanstack/history/-/history-1.133.28.tgz#488a4050b48333b7d983b22cd4712bd234a5e46c"
-  integrity sha512-B7+x7eP2FFvi3fgd3rNH9o/Eixt+pp0zCIdGhnQbAJjFrlwIKGjGnwyJjhWJ5fMQlGks/E2LdDTqEV4W9Plx7g==
-
 "@tanstack/history@1.139.0":
   version "1.139.0"
   resolved "https://registry.yarnpkg.com/@tanstack/history/-/history-1.139.0.tgz#dcd004fbd0ec7ec7bfa10cc573868949a0d018aa"
@@ -1248,14 +1243,14 @@
     "@tanstack/router-devtools-core" "1.139.3"
     vite "^7.1.7"
 
-"@tanstack/react-router@1.136.18":
-  version "1.136.18"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.136.18.tgz#b79598bf8f66cb281e95d4d6d9b9e16ace38ba82"
-  integrity sha512-KXlzIZ5W6LKAl8Ot2p1CJJ7B6ZkXFnfaJEhOkPWHA0K7sTrQYOphMwdFBKyaYUCfoBrygqVM5g17mWMpQ4Va2A==
+"@tanstack/react-router@1.139.3":
+  version "1.139.3"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.139.3.tgz#3123337fda9b8f24497d1a1ceacb463a02e357c9"
+  integrity sha512-lhqK0DnbA7PgHOnmhzOoWVzx8qd8oEpR4cOUbxAjwb3+ExFQWrEvRf9+ZdSxs49ZrtZL2S2UltxBv3vBV4Si5g==
   dependencies:
-    "@tanstack/history" "1.133.28"
+    "@tanstack/history" "1.139.0"
     "@tanstack/react-store" "^0.8.0"
-    "@tanstack/router-core" "1.136.17"
+    "@tanstack/router-core" "1.139.3"
     isbot "^5.1.22"
     tiny-invariant "^1.3.3"
     tiny-warning "^1.0.3"
@@ -1267,19 +1262,6 @@
   dependencies:
     "@tanstack/store" "0.8.0"
     use-sync-external-store "^1.6.0"
-
-"@tanstack/router-core@1.136.17":
-  version "1.136.17"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.136.17.tgz#bc8979fb66a076de0a986d4dc957e71858c86d4a"
-  integrity sha512-LQsR1Bg9ITRFt9qVU9yrsO6Z3izdva5jzow3s3yUaccBhbryBFQdA5f9HTCpuVidFbqC6eVbi0vGfRkyviK4jw==
-  dependencies:
-    "@tanstack/history" "1.133.28"
-    "@tanstack/store" "^0.8.0"
-    cookie-es "^2.0.0"
-    seroval "^1.3.2"
-    seroval-plugins "^1.3.2"
-    tiny-invariant "^1.3.3"
-    tiny-warning "^1.0.3"
 
 "@tanstack/router-core@1.139.3":
   version "1.139.3"
@@ -4727,20 +4709,10 @@ semver@^7.7.3:
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.3.tgz#4b5f4143d007633a8dc671cd0a6ef9147b8bb946"
   integrity sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==
 
-seroval-plugins@^1.3.2:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/seroval-plugins/-/seroval-plugins-1.3.2.tgz#4200b538d699853c9bf5c3b7155c498c7c263a6a"
-  integrity sha512-0QvCV2lM3aj/U3YozDiVwx9zpH0q8A60CTWIv4Jszj/givcudPb48B+rkU5D51NJ0pTpweGMttHjboPa9/zoIQ==
-
 seroval-plugins@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/seroval-plugins/-/seroval-plugins-1.4.0.tgz#0bd453983a0a26039ca161a341c00eca7d42b19a"
   integrity sha512-zir1aWzoiax6pbBVjoYVd0O1QQXgIL3eVGBMsBsNmM8Ukq90yGaWlfx0AB9dTS8GPqrOrbXn79vmItCUP9U3BQ==
-
-seroval@^1.3.2:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/seroval/-/seroval-1.3.2.tgz#7e5be0dc1a3de020800ef013ceae3a313f20eca7"
-  integrity sha512-RbcPH1n5cfwKrru7v7+zrZvjLurgHhGyso3HTyGtRivGWgYjbOmGuivCQaORNELjNONoK35nj28EoWul9sb1zQ==
 
 seroval@^1.4.0:
   version "1.4.0"
