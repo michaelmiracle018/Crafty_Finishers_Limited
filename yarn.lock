@@ -1244,14 +1244,14 @@
     "@tanstack/router-devtools-core" "1.139.13"
     vite "^7.1.7"
 
-"@tanstack/react-router@1.139.12":
-  version "1.139.12"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.139.12.tgz#caf58c2b03f3838b65cacb6661d49c68da942fd2"
-  integrity sha512-qrIxb8c6XXih6MERZKKwdnYg0OannsQLJ/s+4/wRqKqGCG+QmvAMvnmNP7bfYLgFKi+KsE27HqUkHaSpZSenwQ==
+"@tanstack/react-router@1.139.14":
+  version "1.139.14"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.139.14.tgz#863437735e9e8b7cbeaee1c6b1d92dd79ffd651f"
+  integrity sha512-eNQvFu2F+7tjCRLUiXWCHZv5OhNjn/0LP6k7o5IiOg5+JR1TOu2ztxhk1EqZfBHrebuenTFQHyFXfXVDi+3wkA==
   dependencies:
     "@tanstack/history" "1.139.0"
     "@tanstack/react-store" "^0.8.0"
-    "@tanstack/router-core" "1.139.12"
+    "@tanstack/router-core" "1.139.14"
     isbot "^5.1.22"
     tiny-invariant "^1.3.3"
     tiny-warning "^1.0.3"
@@ -1264,10 +1264,10 @@
     "@tanstack/store" "0.8.0"
     use-sync-external-store "^1.6.0"
 
-"@tanstack/router-core@1.139.12":
-  version "1.139.12"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.139.12.tgz#1370df9b207dfe4ecaebdda47e139d4527d62a78"
-  integrity sha512-HCDi4fpnAFeDDogT0C61yd2nJn0FrIyFDhyHG3xJji8emdn8Ni4rfyrN4Av46xKkXTPUGdbsqih45+uuNtunew==
+"@tanstack/router-core@1.139.13":
+  version "1.139.13"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.139.13.tgz#5037275ff72709cc2afe7046657c88716172f8e2"
+  integrity sha512-vqBEBiFHHGt82fdtMqGRQFs9BRE8UKI17pVoYurEpIxafI7t8go1LoIxYbva2l8Q+44z0NZNQ2kqVZJwtEwgkg==
   dependencies:
     "@tanstack/history" "1.139.0"
     "@tanstack/store" "^0.8.0"
@@ -1277,10 +1277,10 @@
     tiny-invariant "^1.3.3"
     tiny-warning "^1.0.3"
 
-"@tanstack/router-core@1.139.13":
-  version "1.139.13"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.139.13.tgz#5037275ff72709cc2afe7046657c88716172f8e2"
-  integrity sha512-vqBEBiFHHGt82fdtMqGRQFs9BRE8UKI17pVoYurEpIxafI7t8go1LoIxYbva2l8Q+44z0NZNQ2kqVZJwtEwgkg==
+"@tanstack/router-core@1.139.14":
+  version "1.139.14"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.139.14.tgz#5b4b1c8e9de8631892f5f51fb11a361b849a352e"
+  integrity sha512-OjNeTlAti75G+8djiAaQsfio4mpnn9HBFfION15nzIgmv+VX6wOS/OyOYKkaKf+QSecXcjajyV3HHc8YornH/A==
   dependencies:
     "@tanstack/history" "1.139.0"
     "@tanstack/store" "^0.8.0"
@@ -4485,10 +4485,10 @@ queue-microtask@^1.2.2:
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
-react-dom@19.2.0:
-  version "19.2.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-19.2.0.tgz#00ed1e959c365e9a9d48f8918377465466ec3af8"
-  integrity sha512-UlbRu4cAiGaIewkPyiRGJk0imDN2T3JjieT6spoL2UeSf5od4n5LB/mQ4ejmxhCFT1tYe8IvaFulzynWovsEFQ==
+react-dom@19.2.1:
+  version "19.2.1"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-19.2.1.tgz#ce3527560bda4f997e47d10dab754825b3061f59"
+  integrity sha512-ibrK8llX2a4eOskq1mXKu/TGZj9qzomO+sNfO98M6d9zIPOEhlBkMkBUBLd1vgS0gQsLDBzA+8jJBVXDnfHmJg==
   dependencies:
     scheduler "^0.27.0"
 
@@ -4509,10 +4509,10 @@ react-refresh@^0.18.0:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.18.0.tgz#2dce97f4fe932a4d8142fa1630e475c1729c8062"
   integrity sha512-QgT5//D3jfjJb6Gsjxv0Slpj23ip+HtOpnNgnb2S5zU3CB26G/IDPGoy4RJB42wzFE46DRsstbW6tKHoKbhAxw==
 
-react@19.2.0:
-  version "19.2.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-19.2.0.tgz#d33dd1721698f4376ae57a54098cb47fc75d93a5"
-  integrity sha512-tmbWg6W31tQLeB5cdIBOicJDJRR2KzXsV7uSK9iNfLWQ5bIZfxuPEHp7M8wiHyHnn0DD1i7w3Zmin0FtkrwoCQ==
+react@19.2.1:
+  version "19.2.1"
+  resolved "https://registry.yarnpkg.com/react/-/react-19.2.1.tgz#8600fa205e58e2e807f6ef431c9f6492591a2700"
+  integrity sha512-DGrYcCWK7tvYMnWh79yrPHt+vdx9tY+1gPZa7nJQtO/p8bLTDaHp4dzwEhQB7pZ4Xe3ok4XKuEPrVuc+wlpkmw==
 
 readdirp@~3.6.0:
   version "3.6.0"
