@@ -1249,14 +1249,14 @@
   dependencies:
     "@tanstack/router-devtools-core" "1.142.8"
 
-"@tanstack/react-router@1.143.3":
-  version "1.143.3"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.143.3.tgz#49e26206cd267d505bb904eff51ef87d8622e50f"
-  integrity sha512-SZZWWxce/muhvss+19xdB06n61XZRIIOrfuHi6hFRkTXiDlsUgkAbuiRmECWZktSp3j6WZVKzsxho64RzfRIxQ==
+"@tanstack/react-router@1.143.4":
+  version "1.143.4"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.143.4.tgz#6f3b61f00d43520b4d3a1f32708a32011deb7de0"
+  integrity sha512-7Tz7YwJc8RKDQga3yNY03zNc/ey+AIDA1A5ppGYqIM+UR47uGdAKc/4MSpItznqkSUi1Csrw2nVtICSkGanKdQ==
   dependencies:
     "@tanstack/history" "1.141.0"
     "@tanstack/react-store" "^0.8.0"
-    "@tanstack/router-core" "1.143.3"
+    "@tanstack/router-core" "1.143.4"
     isbot "^5.1.22"
     tiny-invariant "^1.3.3"
     tiny-warning "^1.0.3"
@@ -1282,10 +1282,10 @@
     tiny-invariant "^1.3.3"
     tiny-warning "^1.0.3"
 
-"@tanstack/router-core@1.143.3":
-  version "1.143.3"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.143.3.tgz#317226200b28d1f954b3db023c5a237852e57ade"
-  integrity sha512-X0OiWyoGkgZoVtmKkkS8r32mMwde4aJdKmkzfsdYvLMdI+F9sOgsam7Te2xu/gkZwRY5guUEduXoX5shRcAPIQ==
+"@tanstack/router-core@1.143.4":
+  version "1.143.4"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.143.4.tgz#4a91c59ef428fd73405a8ea9100138f0d61dcd89"
+  integrity sha512-VlSXrYQ/oBoUUGJx6t93KfzGHeBvL6GOmKRouPbHNqKi4ueVnQ2PdRX+s9eZoDAdcVsgmS7YlTCRgIbh2sAQpA==
   dependencies:
     "@tanstack/history" "1.141.0"
     "@tanstack/store" "^0.8.0"
