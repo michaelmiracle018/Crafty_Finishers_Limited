@@ -1261,10 +1261,10 @@
     goober "^2.1.16"
     tiny-invariant "^1.3.3"
 
-"@tanstack/router-generator@1.144.0":
-  version "1.144.0"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-generator/-/router-generator-1.144.0.tgz#a1f2f500994d640d7f1a14311ef3d04ed05e86ea"
-  integrity sha512-NRXO/e9fZkSPF/Xa2S2+UxKgQWQpA/DmTQLCjQfPumCnNLUHpq0+iQPUWY9b5Rk2fnKwQkBZNLAl2EuWGa7rvw==
+"@tanstack/router-generator@1.145.2":
+  version "1.145.2"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-generator/-/router-generator-1.145.2.tgz#6fa15ff3a33601d6ba242d769bda20d61a9bb2ed"
+  integrity sha512-6DLwfqhexgxw2T2QuS9Y349Vb49hCXBIz9mjWyynjMrpejLXJL+PaHaKJw0Y+H7Ao6RE2vlvXCc2cMjgbz5c7Q==
   dependencies:
     "@tanstack/router-core" "1.144.0"
     "@tanstack/router-utils" "1.143.11"
@@ -1275,10 +1275,10 @@
     tsx "^4.19.2"
     zod "^3.24.2"
 
-"@tanstack/router-plugin@1.144.0":
-  version "1.144.0"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-plugin/-/router-plugin-1.144.0.tgz#a47f70e44e661b316a6e1d6181f3bc6952d2b27a"
-  integrity sha512-P5pJ/dYeDxwgHkDk5xq4MYdWIRWiehlfWjcIewnd21hG0hud/IQCfAwnGY89k/izJV8WZSOV+rKtJf6ufW2aKw==
+"@tanstack/router-plugin@1.145.2":
+  version "1.145.2"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-plugin/-/router-plugin-1.145.2.tgz#9fcb73b79805d03a411beb40361ca6b46faa6d5a"
+  integrity sha512-dOABjCE4M2KxB+f/mY71dDZduwVTpf+tCPb4NxmAqbF5Rxes24QaaIZQmiU12jte/L8zYyIA/yX9fi93xZue5Q==
   dependencies:
     "@babel/core" "^7.28.5"
     "@babel/plugin-syntax-jsx" "^7.27.1"
@@ -1287,7 +1287,7 @@
     "@babel/traverse" "^7.28.5"
     "@babel/types" "^7.28.5"
     "@tanstack/router-core" "1.144.0"
-    "@tanstack/router-generator" "1.144.0"
+    "@tanstack/router-generator" "1.145.2"
     "@tanstack/router-utils" "1.143.11"
     "@tanstack/virtual-file-routes" "1.141.0"
     babel-dead-code-elimination "^1.0.11"
@@ -1308,12 +1308,12 @@
     pathe "^2.0.3"
     tinyglobby "^0.2.15"
 
-"@tanstack/router-vite-plugin@1.144.0":
-  version "1.144.0"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-vite-plugin/-/router-vite-plugin-1.144.0.tgz#f22a1907f3df681b8356a39c8c51da2a8b9201fa"
-  integrity sha512-nqxXbSmbjs1a1hjkDnVJIQQbf1dpZOX9OzJLQcL74Vd/C4ibsNeb8H82jLnU2E9zieHiPZ2R7hF4giDX/wkpvA==
+"@tanstack/router-vite-plugin@1.145.2":
+  version "1.145.2"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-vite-plugin/-/router-vite-plugin-1.145.2.tgz#1accdfed3432bdaa46c32d30aa9942e094aaf896"
+  integrity sha512-d0FQX0frEiAAt4kGz0K5euYEo7l22ok1S7TCreODr05MoGihjRI96xCCzXn+x8LfejRGbm0HcS1Rptt3aoqJ4Q==
   dependencies:
-    "@tanstack/router-plugin" "1.144.0"
+    "@tanstack/router-plugin" "1.145.2"
 
 "@tanstack/store@0.8.0", "@tanstack/store@^0.8.0":
   version "0.8.0"
