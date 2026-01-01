@@ -38,7 +38,7 @@
   "devDependencies": {
     "@iconify-json/logos": "1.2.10",
     "@iconify-json/lucide": "1.2.82",
-    "@jimmy.codes/eslint-config": "6.29.0",
+    "@jimmy.codes/eslint-config": "6.30.0",
     "@jimmy.codes/prettier-config": "2.1.2",
     "@playwright/test": "1.57.0",
     "@tanstack/react-query-devtools": "5.91.2",

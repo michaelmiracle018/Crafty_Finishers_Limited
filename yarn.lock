@@ -684,10 +684,10 @@
   dependencies:
     "@isaacs/balanced-match" "^4.0.1"
 
-"@jimmy.codes/eslint-config@6.29.0":
-  version "6.29.0"
-  resolved "https://registry.yarnpkg.com/@jimmy.codes/eslint-config/-/eslint-config-6.29.0.tgz#eec4e295a6bcc8744b4fa2b8b3683858e49241da"
-  integrity sha512-GMN0ZIXmtNiwJYsN/HlX3ZvHQ4NlaECS4Blos6UMQ2rvhWZoytfxkkchuEDcr+YHkl8Yq1t/1w+/5Y4ZkkgMQg==
+"@jimmy.codes/eslint-config@6.30.0":
+  version "6.30.0"
+  resolved "https://registry.yarnpkg.com/@jimmy.codes/eslint-config/-/eslint-config-6.30.0.tgz#49063ff43910c1913bb336b82f6b346a1d7a7e5b"
+  integrity sha512-5Y7VLlAkOcGLU82H6Xor7/dct7NJkaDhGTe/X/oO4fkvqD6cFIjlClcjCdg3xnd1+m6D3Qc0feyblH8SVOpOew==
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments" "^4.5.0"
     "@eslint/js" "^9.39.2"
