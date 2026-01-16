@@ -826,10 +826,10 @@
   dependencies:
     "@isaacs/balanced-match" "^4.0.1"
 
-"@jimmy.codes/eslint-config@6.31.0":
-  version "6.31.0"
-  resolved "https://registry.yarnpkg.com/@jimmy.codes/eslint-config/-/eslint-config-6.31.0.tgz#65f0dde5c8405215a19a66305027d3a86966eb28"
-  integrity sha512-qWWvJ96rs55ajTL9tox+p0dYufm3Y5vJgiPO7pVnxkSM4mWWuXf2uS5A8KhT/CqFIvs6hN1WAjW6/A21QpF4WQ==
+"@jimmy.codes/eslint-config@6.31.1":
+  version "6.31.1"
+  resolved "https://registry.yarnpkg.com/@jimmy.codes/eslint-config/-/eslint-config-6.31.1.tgz#5adcc121536b3b350cd8c012c6084b9d812de693"
+  integrity sha512-emJUMpmfdzwPVdU6Y8LsOOGf2h4aL66ptVm428XZ8slSwh9eIYZ6PffxhsPgYzpMGt55LOr4Jv1MxbF3HPTKZw==
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments" "^4.5.0"
     "@eslint/js" "^9.39.2"
@@ -3553,10 +3553,10 @@ graceful-fs@^4.2.4:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
   integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
 
-happy-dom@20.3.0:
-  version "20.3.0"
-  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-20.3.0.tgz#ba6d1801ffeb72c4e0543c70c29d4c76cb16dfb4"
-  integrity sha512-5qJbkqcvR8j/a4av5IWqqIWmEGf9dt6OhGMS6qxCgjSOBGzGa5XLoqg40OyD8XNzQ+g1g2zsXi10kjfpzYH55Q==
+happy-dom@20.3.1:
+  version "20.3.1"
+  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-20.3.1.tgz#e564ea43e1ee1b56059043f52ecc103b674156e0"
+  integrity sha512-tLvsizNno05Hij0PoB0QN/S8xf0YU2AGvO11/JlJDw5McA/gzyn0Ni1RwbTI1/zteUbOekJH0t6q8HFvjbxsGg==
   dependencies:
     "@types/node" "^20.0.0"
     "@types/whatwg-mimetype" "^3.0.2"
