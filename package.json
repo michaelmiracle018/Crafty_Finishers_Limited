@@ -27,10 +27,10 @@
   },
   "dependencies": {
     "@tanstack/react-query": "5.90.20",
-    "@tanstack/react-router": "1.154.14",
-    "framer-motion": "^12.29.0",
-    "react": "19.2.3",
-    "react-dom": "19.2.3",
+    "@tanstack/react-router": "1.157.15",
+    "framer-motion": "^12.29.2",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
     "react-icons": "^5.5.0",
     "react-odometerjs": "^3.1.3",
     "swiper": "^12.0.3"
