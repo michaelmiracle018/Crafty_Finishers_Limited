@@ -1362,14 +1362,14 @@
   dependencies:
     "@tanstack/router-devtools-core" "1.157.16"
 
-"@tanstack/react-router@1.157.15":
-  version "1.157.15"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.157.15.tgz#686b2752c63ce202e4e7f637b66656a140ef45ba"
-  integrity sha512-dVHX3Ann1rxLkXCrB9ctNKveGOrkmlKMo5fDIaaPCqqkDN/aC1gZ9O93i0OQVPUNekpkdXijmpHkxw12WqMTRQ==
+"@tanstack/react-router@1.157.16":
+  version "1.157.16"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.157.16.tgz#51d73b7f3883b8237f56494c7c82733f1428b5b0"
+  integrity sha512-xwFQa7S7dhBhm3aJYwU79cITEYgAKSrcL6wokaROIvl2JyIeazn8jueWqUPJzFjv+QF6Q8euKRlKUEyb5q2ymg==
   dependencies:
     "@tanstack/history" "1.154.14"
     "@tanstack/react-store" "^0.8.0"
-    "@tanstack/router-core" "1.157.15"
+    "@tanstack/router-core" "1.157.16"
     isbot "^5.1.22"
     tiny-invariant "^1.3.3"
     tiny-warning "^1.0.3"
@@ -1381,19 +1381,6 @@
   dependencies:
     "@tanstack/store" "0.8.0"
     use-sync-external-store "^1.6.0"
-
-"@tanstack/router-core@1.157.15":
-  version "1.157.15"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.157.15.tgz#afdcf218cd0f8a1028c31f73c5de47d3eb26547d"
-  integrity sha512-KaYz6s+wYcg92kRQ7HXlTJLhBaBXOYiiqRBv5tsRbKRIqqhWNyeGz5+NfDwaYFHg5XLSDs3DvN0elMtxcj4dTg==
-  dependencies:
-    "@tanstack/history" "1.154.14"
-    "@tanstack/store" "^0.8.0"
-    cookie-es "^2.0.0"
-    seroval "^1.4.2"
-    seroval-plugins "^1.4.2"
-    tiny-invariant "^1.3.3"
-    tiny-warning "^1.0.3"
 
 "@tanstack/router-core@1.157.16":
   version "1.157.16"
