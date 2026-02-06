@@ -37,10 +37,10 @@
   },
   "devDependencies": {
     "@iconify-json/logos": "1.2.10",
-    "@iconify-json/lucide": "1.2.88",
+    "@iconify-json/lucide": "1.2.89",
     "@jimmy.codes/eslint-config": "7.1.0",
     "@jimmy.codes/prettier-config": "2.1.2",
-    "@playwright/test": "1.58.1",
+    "@playwright/test": "1.58.2",
     "@tanstack/react-query-devtools": "5.91.3",
     "@tanstack/react-router-devtools": "1.158.1",
     "@tanstack/router-vite-plugin": "1.158.1",
