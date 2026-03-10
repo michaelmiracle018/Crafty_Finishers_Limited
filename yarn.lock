@@ -1367,12 +1367,12 @@
   dependencies:
     "@tanstack/query-core" "5.90.20"
 
-"@tanstack/react-router-devtools@1.166.3":
-  version "1.166.3"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-router-devtools/-/react-router-devtools-1.166.3.tgz#9da2fae73ae7098ab7487adc3bb2a0b0f94824a1"
-  integrity sha512-tmQMxCXBlaTjUfG5zlYPsB1bF9gFKULAOF1q6ePvFpsvhWz5bTmEdKPF2XIjd4D7alGM0MVB1DJGghmqigw7oA==
+"@tanstack/react-router-devtools@1.166.6":
+  version "1.166.6"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router-devtools/-/react-router-devtools-1.166.6.tgz#47656ac75120b421feaf22252bd0008bd9060ae0"
+  integrity sha512-TheVyOgo8ljD8wHHLceFsnKrX7nhTIQv9WokSrPjNTP4H3synUMADxh8yZafVYdr6lS2CBvldd5s7JI8DcwBUg==
   dependencies:
-    "@tanstack/router-devtools-core" "1.166.2"
+    "@tanstack/router-devtools-core" "1.166.6"
 
 "@tanstack/react-router@1.166.3":
   version "1.166.3"
@@ -1407,21 +1407,34 @@
     tiny-invariant "^1.3.3"
     tiny-warning "^1.0.3"
 
-"@tanstack/router-devtools-core@1.166.2":
-  version "1.166.2"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-devtools-core/-/router-devtools-core-1.166.2.tgz#cdead2c50149d542a183e9cfe2b0f83f4b9dd643"
-  integrity sha512-Ke8HquuwMhLYpo/6nxNgrzi9Ns2lsK9uwDba6WKA8I0K7fyYZoAUu+7AD6gdEcVU4NF6LjtMPfUCHmVtYYRTDw==
+"@tanstack/router-core@1.166.6":
+  version "1.166.6"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.166.6.tgz#8c8225d672da12b8e62f9cb85114f8e5d8f9655e"
+  integrity sha512-SwVPMQxjoY4jwiNgD9u5kDFp/iSaf3wgf1t93xRCC6qDHmv/xLaawhvwEPNIJaPepWuSYRpywpJWH9hGlBqVbw==
+  dependencies:
+    "@tanstack/history" "1.161.4"
+    "@tanstack/store" "^0.9.1"
+    cookie-es "^2.0.0"
+    seroval "^1.4.2"
+    seroval-plugins "^1.4.2"
+    tiny-invariant "^1.3.3"
+    tiny-warning "^1.0.3"
+
+"@tanstack/router-devtools-core@1.166.6":
+  version "1.166.6"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-devtools-core/-/router-devtools-core-1.166.6.tgz#c345daadb1a7f12b8fc65a7d9fd071b3189c6658"
+  integrity sha512-ndPnCDeSGW3bd33u3EMe3+EJGLiFOHZaIKRJRLdZClOB6J6pvzKMELJgizBtjaR6X56FdCsC/STgjPkOeR9paA==
   dependencies:
     clsx "^2.1.1"
     goober "^2.1.16"
     tiny-invariant "^1.3.3"
 
-"@tanstack/router-generator@1.166.2":
-  version "1.166.2"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-generator/-/router-generator-1.166.2.tgz#3996a0424c9e68f067af8457bc9d86e03f45a988"
-  integrity sha512-wbvdyP1PKKQKk4aVlGeK9S5uDy8zodTr3tEZ2gRKNavJLusXbEWqtoo42JxHFFNB6dtguehFMt8PyZPAtkgWwQ==
+"@tanstack/router-generator@1.166.6":
+  version "1.166.6"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-generator/-/router-generator-1.166.6.tgz#331ed48bbb78366b65e1611b2e278f619563a459"
+  integrity sha512-D7Z6oLP2IfflXUzOOxIgeCD8v3/SXU//cgBon0pbF13HkKdf9Zlt97kQqcaOkbnruJJ6i5xtUIsoAQbMmj+EsQ==
   dependencies:
-    "@tanstack/router-core" "1.166.2"
+    "@tanstack/router-core" "1.166.6"
     "@tanstack/router-utils" "1.161.4"
     "@tanstack/virtual-file-routes" "1.161.4"
     prettier "^3.5.0"
@@ -1430,10 +1443,10 @@
     tsx "^4.19.2"
     zod "^3.24.2"
 
-"@tanstack/router-plugin@1.166.3":
-  version "1.166.3"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-plugin/-/router-plugin-1.166.3.tgz#f4711fceada14d8ec85fd732bce87adacd6d587d"
-  integrity sha512-yhnJRohpdKB24Fh7fW5mwgffpOcERZlXdk3i8PjXn+OYgAiG/cpuXXOJpZZ6An68vDW+Z5zBuTynXsDi2ZE4JQ==
+"@tanstack/router-plugin@1.166.6":
+  version "1.166.6"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-plugin/-/router-plugin-1.166.6.tgz#3e9e0d298a59c43e142fb8f6ec20fe63463912c8"
+  integrity sha512-07ZwOMNDlKIoaRtrfP5zO3VfqXNg2Zm7qvqZOBaTbbqgMvaKclW0ylqakweXtDwiNs9GPf/+lH/xyc+CgLGUyg==
   dependencies:
     "@babel/core" "^7.28.5"
     "@babel/plugin-syntax-jsx" "^7.27.1"
@@ -1441,8 +1454,8 @@
     "@babel/template" "^7.27.2"
     "@babel/traverse" "^7.28.5"
     "@babel/types" "^7.28.5"
-    "@tanstack/router-core" "1.166.2"
-    "@tanstack/router-generator" "1.166.2"
+    "@tanstack/router-core" "1.166.6"
+    "@tanstack/router-generator" "1.166.6"
     "@tanstack/router-utils" "1.161.4"
     "@tanstack/virtual-file-routes" "1.161.4"
     chokidar "^3.6.0"
@@ -1464,12 +1477,12 @@
     pathe "^2.0.3"
     tinyglobby "^0.2.15"
 
-"@tanstack/router-vite-plugin@1.166.3":
-  version "1.166.3"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-vite-plugin/-/router-vite-plugin-1.166.3.tgz#70a1ae77464d6e328b0fb0c819e8c699dc1ab0e6"
-  integrity sha512-i6dzbUPo6syc89B3T3VvFaR3KIqxS1V8rR4r1BRxD2BvviSvKLXnc4/HTqW4Q34YpN7VxmLGo1KW5jUUlds7Xg==
+"@tanstack/router-vite-plugin@1.166.6":
+  version "1.166.6"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-vite-plugin/-/router-vite-plugin-1.166.6.tgz#b90d529c1eebb372587e24d858e61c407ff452f1"
+  integrity sha512-2N+/CWekT1+DD02AQkgPDCiEK1q0itJK6MZ5MA1FGhBP0ZtZ8gKhJ9FmVFK4/oCqZOQiQ8wTw2l0n5vgE04+jg==
   dependencies:
-    "@tanstack/router-plugin" "1.166.3"
+    "@tanstack/router-plugin" "1.166.6"
 
 "@tanstack/store@0.9.1", "@tanstack/store@^0.9.1":
   version "0.9.1"
@@ -5316,47 +5329,47 @@ tsx@^4.19.2:
   optionalDependencies:
     fsevents "~2.3.3"
 
-turbo-darwin-64@2.8.14:
-  version "2.8.14"
-  resolved "https://registry.yarnpkg.com/turbo-darwin-64/-/turbo-darwin-64-2.8.14.tgz#80d0d414c3e7738df9eb414b4d7de46a4a6be55f"
-  integrity sha512-9sFi7n2lLfEsGWi5OEoA/eTtQU2BPKtzSYKqufMtDeRmqMT9vKjbv9gJCRkllSVE9BOXA0qXC3diyX8V8rKIKw==
+turbo-darwin-64@2.8.15:
+  version "2.8.15"
+  resolved "https://registry.yarnpkg.com/turbo-darwin-64/-/turbo-darwin-64-2.8.15.tgz#48e8e9b1379885d0cb175df0dfa5412ce08d3b08"
+  integrity sha512-EElCh+Ltxex9lXYrouV3hHjKP3HFP31G91KMghpNHR/V99CkFudRcHcnWaorPbzAZizH1m8o2JkLL8rptgb8WQ==
 
-turbo-darwin-arm64@2.8.14:
-  version "2.8.14"
-  resolved "https://registry.yarnpkg.com/turbo-darwin-arm64/-/turbo-darwin-arm64-2.8.14.tgz#82223469a29f5831ddba7439c31dff4e0e31bb0b"
-  integrity sha512-aS4yJuy6A1PCLws+PJpZP0qCURG8Y5iVx13z/WAbKyeDTY6W6PiGgcEllSaeLGxyn++382ztN/EZH85n2zZ6VQ==
+turbo-darwin-arm64@2.8.15:
+  version "2.8.15"
+  resolved "https://registry.yarnpkg.com/turbo-darwin-arm64/-/turbo-darwin-arm64-2.8.15.tgz#371a3ef0960601e8cd06730e2036a9f984cba370"
+  integrity sha512-ORmvtqHiHwvNynSWvLIleyU8dKtwQ4ILk39VsEwfKSEzSHWYWYxZhBmD9GAGRPlNl7l7S1irrziBlDEGVpq+vQ==
 
-turbo-linux-64@2.8.14:
-  version "2.8.14"
-  resolved "https://registry.yarnpkg.com/turbo-linux-64/-/turbo-linux-64-2.8.14.tgz#98c38fa898ae8f9f693256c0a3abe8852e64b907"
-  integrity sha512-XC6wPUDJkakjhNLaS0NrHDMiujRVjH+naEAwvKLArgqRaFkNxjmyNDRM4eu3soMMFmjym6NTxYaF74rvET+Orw==
+turbo-linux-64@2.8.15:
+  version "2.8.15"
+  resolved "https://registry.yarnpkg.com/turbo-linux-64/-/turbo-linux-64-2.8.15.tgz#4ef5c5710125f60de4b127231f69ed77987251dd"
+  integrity sha512-Bk1E61a+PCWUTfhqfXFlhEJMLp6nak0J0Qt14IZX1og1zyaiBLkM6M1GQFbPpiWfbUcdLwRaYQhO0ySB07AJ8w==
 
-turbo-linux-arm64@2.8.14:
-  version "2.8.14"
-  resolved "https://registry.yarnpkg.com/turbo-linux-arm64/-/turbo-linux-arm64-2.8.14.tgz#60402c49e31f603d903c7d3d9aa92fbc981ca915"
-  integrity sha512-ChfE7isyVNjZrVSPDwcfqcHLG/FuIBbOFxnt1FM8vSuBGzHAs8AlTdwFNIxlEMJfZ8Ad9mdMxdmsCUPIWiQ6cg==
+turbo-linux-arm64@2.8.15:
+  version "2.8.15"
+  resolved "https://registry.yarnpkg.com/turbo-linux-arm64/-/turbo-linux-arm64-2.8.15.tgz#9b0bb5c72bdbc0b0a2c50edcbb04f8422210957d"
+  integrity sha512-3BX0Vk+XkP0uiZc8pkjQGNsAWjk5ojC53bQEMp6iuhSdWpEScEFmcT6p7DL7bcJmhP2mZ1HlAu0A48wrTGCtvg==
 
-turbo-windows-64@2.8.14:
-  version "2.8.14"
-  resolved "https://registry.yarnpkg.com/turbo-windows-64/-/turbo-windows-64-2.8.14.tgz#dcf39ef4ffe307fe6e460aa1261cf01e2cf3b723"
-  integrity sha512-FTbIeQL1ycLFW2t9uQNMy+bRSzi3Xhwun/e7ZhFBdM+U0VZxxrtfYEBM9CHOejlfqomk6Jh7aRz0sJoqYn39Hg==
+turbo-windows-64@2.8.15:
+  version "2.8.15"
+  resolved "https://registry.yarnpkg.com/turbo-windows-64/-/turbo-windows-64-2.8.15.tgz#927b18cb4b99d5f56bed8be28bfd3b62d5aa1543"
+  integrity sha512-m14ogunMF+grHZ1jzxSCO6q0gEfF1tmr+0LU+j1QNd/M1X33tfKnQqmpkeUR/REsGjfUlkQlh6PAzqlT3cA3Pg==
 
-turbo-windows-arm64@2.8.14:
-  version "2.8.14"
-  resolved "https://registry.yarnpkg.com/turbo-windows-arm64/-/turbo-windows-arm64-2.8.14.tgz#03115f32db5a3980c1e747541aff135d828baf3f"
-  integrity sha512-KgZX12cTyhY030qS7ieT8zRkhZZE2VWJasDFVUSVVn17nR7IShpv68/7j5UqJNeRLIGF1XPK0phsP5V5yw3how==
+turbo-windows-arm64@2.8.15:
+  version "2.8.15"
+  resolved "https://registry.yarnpkg.com/turbo-windows-arm64/-/turbo-windows-arm64-2.8.15.tgz#d8b10f7fdc0595139347c3c3e299459bd9076465"
+  integrity sha512-HWh6dnzhl7nu5gRwXeqP61xbyDBNmQ4UCeWNa+si4/6RAtHlKEcZTNs7jf4U+oqBnbtv4uxbKZZPf/kN0EK4+A==
 
-turbo@2.8.14:
-  version "2.8.14"
-  resolved "https://registry.yarnpkg.com/turbo/-/turbo-2.8.14.tgz#182e8427536d981c106a7f9ac0150727e3d08d87"
-  integrity sha512-UCTxeMNYT1cKaHiIFdLCQ7ulI+jw5i5uOnJOrRXsgUD7G3+OjlUjwVd7JfeVt2McWSVGjYA3EVW/v1FSsJ5DtA==
+turbo@2.8.15:
+  version "2.8.15"
+  resolved "https://registry.yarnpkg.com/turbo/-/turbo-2.8.15.tgz#907d033fec2b18630ee2b1240392577f3b1414ec"
+  integrity sha512-ERZf7pKOR155NKs/PZt1+83NrSEJfUL7+p9/TGZg/8xzDVMntXEFQlX4CsNJQTyu4h3j+dZYiQWOOlv5pssuHQ==
   optionalDependencies:
-    turbo-darwin-64 "2.8.14"
-    turbo-darwin-arm64 "2.8.14"
-    turbo-linux-64 "2.8.14"
-    turbo-linux-arm64 "2.8.14"
-    turbo-windows-64 "2.8.14"
-    turbo-windows-arm64 "2.8.14"
+    turbo-darwin-64 "2.8.15"
+    turbo-darwin-arm64 "2.8.15"
+    turbo-linux-64 "2.8.15"
+    turbo-linux-arm64 "2.8.15"
+    turbo-windows-64 "2.8.15"
+    turbo-windows-arm64 "2.8.15"
 
 type-check@^0.4.0, type-check@~0.4.0:
   version "0.4.0"
