@@ -1334,22 +1334,22 @@
   dependencies:
     "@tanstack/router-devtools-core" "1.167.1"
 
-"@tanstack/react-router@1.168.3":
-  version "1.168.3"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.168.3.tgz#57164ad2bbe859ed1e3cc60d7f5cc66e89308749"
-  integrity sha512-hMWXhckeaSvjepHT5x9tUYJVXMvT/kUjaVHOUDmCfyOBtjxJNYJKbEWClXoopGwWlHjRTAzhsndhnQQRbIiKmA==
+"@tanstack/react-router@1.168.5":
+  version "1.168.5"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.168.5.tgz#3cf0948f89a6de6b831a6ba3420735b09a4eb1fe"
+  integrity sha512-jh+S5bqvHxH7ng4KKsN3wTYegJIP4V68dGrgUUwmYSmipb4cJyq+09TqCWVRXQ9f9xVeESRAqotAgK7GOS1uFQ==
   dependencies:
     "@tanstack/history" "1.161.6"
-    "@tanstack/react-store" "^0.9.2"
-    "@tanstack/router-core" "1.168.3"
+    "@tanstack/react-store" "^0.9.3"
+    "@tanstack/router-core" "1.168.5"
     isbot "^5.1.22"
 
-"@tanstack/react-store@^0.9.2":
-  version "0.9.2"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-store/-/react-store-0.9.2.tgz#c0383c50c9e7fa7c3816a32931659de7e22f90ec"
-  integrity sha512-Vt5usJE5sHG/cMechQfmwvwne6ktGCELe89Lmvoxe3LKRoFrhPa8OCKWs0NliG8HTJElEIj7PLtaBQIcux5pAQ==
+"@tanstack/react-store@^0.9.3":
+  version "0.9.3"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-store/-/react-store-0.9.3.tgz#4d19d982a4612cc21cedf5ab25a62617323509c9"
+  integrity sha512-y2iHd/N9OkoQbFJLUX1T9vbc2O9tjH0pQRgTcx1/Nz4IlwLvkgpuglXUx+mXt0g5ZDFrEeDnONPqkbfxXJKwRg==
   dependencies:
-    "@tanstack/store" "0.9.2"
+    "@tanstack/store" "0.9.3"
     use-sync-external-store "^1.6.0"
 
 "@tanstack/router-core@1.168.3":
@@ -1435,10 +1435,10 @@
   dependencies:
     "@tanstack/router-plugin" "1.167.6"
 
-"@tanstack/store@0.9.2":
-  version "0.9.2"
-  resolved "https://registry.yarnpkg.com/@tanstack/store/-/store-0.9.2.tgz#9857f02e7d0f71695cc8ee351ae14b8285a4962e"
-  integrity sha512-K013lUJEFJK2ofFQ/hZKJUmCnpcV00ebLyOyFOWQvyQHUOZp/iYO84BM6aOGiV81JzwbX0APTVmW8YI7yiG5oA==
+"@tanstack/store@0.9.3":
+  version "0.9.3"
+  resolved "https://registry.yarnpkg.com/@tanstack/store/-/store-0.9.3.tgz#0f9ebca34d194442fe559afce1e8a7327f6d3eb4"
+  integrity sha512-8reSzl/qGWGGVKhBoxXPMWzATSbZLZFWhwBAFO9NAyp0TxzfBP0mIrGb8CP8KrQTmvzXlR/vFPPUrHTLBGyFyw==
 
 "@tanstack/virtual-file-routes@1.161.7":
   version "1.161.7"
