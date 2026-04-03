@@ -1308,17 +1308,17 @@
   resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.96.1.tgz#464b74fd735f2f736aa6391f3e71b1a8f26ff191"
   integrity sha512-u1yBgtavSy+N8wgtW3PiER6UpxcplMje65yXnnVgiHTqiMwLlxiw4WvQDrXyn+UD6lnn8kHaxmerJUzQcV/MMg==
 
-"@tanstack/query-devtools@5.96.1":
-  version "5.96.1"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-devtools/-/query-devtools-5.96.1.tgz#d2435560ce6cc5b24ecc7bb2071a9ae24b8c626d"
-  integrity sha512-A4+uQTWbiqZDgrLeyjpFYLfMaWaKWpkwTkR1cUfocVj6vPYgym7QTG2se9A01WSxceDdmgxOqvn1ivcTvgWD8w==
+"@tanstack/query-devtools@5.96.2":
+  version "5.96.2"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-devtools/-/query-devtools-5.96.2.tgz#6301662b95d4a7a8b9b53e53d3a9091ae45e4d25"
+  integrity sha512-vBTB1Qhbm3nHSbEUtQwks/EdcAtFfEapr1WyBW4w2ExYKuXVi3jIxUIHf5MlSltiHuL7zNyUuanqT/7sI2sb6g==
 
-"@tanstack/react-query-devtools@5.96.1":
-  version "5.96.1"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query-devtools/-/react-query-devtools-5.96.1.tgz#78af7eaa23d76a8785b1bba0218c2de2300a291f"
-  integrity sha512-3ZZ58fupIXtJFM0evj8YvWrauaZPUrQEqRYaq9e4ER/WPqTKeWEucqWCXn+KJLgWlcot5JIIUtQNynbovGjTTA==
+"@tanstack/react-query-devtools@5.96.2":
+  version "5.96.2"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query-devtools/-/react-query-devtools-5.96.2.tgz#b44a19f1ebdb45a3e59fcf4e4361ff37500f382c"
+  integrity sha512-nTFKLGuTOFvmFRvcyZ3ArWC/DnMNPoBh6h/2yD6rsf7TCTJCQt+oUWOp2uKPTIuEPtF/vN9Kw5tl5mD1Kbposw==
   dependencies:
-    "@tanstack/query-devtools" "5.96.1"
+    "@tanstack/query-devtools" "5.96.2"
 
 "@tanstack/react-query@5.96.1":
   version "5.96.1"
@@ -3994,10 +3994,10 @@ keyv@^4.5.4:
   dependencies:
     json-buffer "3.0.1"
 
-knip@6.2.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/knip/-/knip-6.2.0.tgz#e92f7559966a6f6eff6d2a2c4efb534d6ae793e1"
-  integrity sha512-4OMUMJARvNble8e8TeFv12flp4fKzAITrQec1eKO4g2eA4HnNqEa8CXy2UOPLjuYuAETpe0N0r25jF9yY9FLig==
+knip@6.3.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/knip/-/knip-6.3.0.tgz#712305d353d2e844098f5c440b78e0d5c2b886a8"
+  integrity sha512-g6dVPoTw6iNm3cubC5IWxVkVsd0r5hXhTBTbAGIEQN53GdA2ZM/slMTPJ7n5l8pBebNQPHpxjmKxuR4xVQ2/hQ==
   dependencies:
     "@nodelib/fs.walk" "^1.2.3"
     fast-glob "^3.3.3"
