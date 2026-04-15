@@ -1352,16 +1352,6 @@
     "@tanstack/store" "0.9.3"
     use-sync-external-store "^1.6.0"
 
-"@tanstack/router-core@1.168.14":
-  version "1.168.14"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.168.14.tgz#795640f6b1c89729b339c4b74bbe73320fa351e2"
-  integrity sha512-UhCJtjNrd5wcTmhgB2HyUP0+Rj1M7BD4dS11YsF9x6VC2KH/eqxzs/vK+nN5f+cOhPOLZdmLkWMW+WGmacZ8HA==
-  dependencies:
-    "@tanstack/history" "1.161.6"
-    cookie-es "^3.0.0"
-    seroval "^1.5.0"
-    seroval-plugins "^1.5.0"
-
 "@tanstack/router-core@1.168.15":
   version "1.168.15"
   resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.168.15.tgz#6d079c5f12e19a0082bf5ccc912f383ad7c5b72b"
@@ -4686,10 +4676,10 @@ prettier-plugin-tailwindcss@0.7.2:
   resolved "https://registry.yarnpkg.com/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.7.2.tgz#8de2039fc0363b8532ef5a2d3fc9e2c1b6ca3bd4"
   integrity sha512-LkphyK3Fw+q2HdMOoiEHWf93fNtYJwfamoKPl7UwtjFQdei/iIBoX11G6j706FzN3ymX9mPVi97qIY8328vdnA==
 
-prettier@^3.0.0, prettier@^3.5.0, prettier@^3.8.2:
-  version "3.8.2"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.8.2.tgz#4f52e502193c9aa5b384c3d00852003e551bbd9f"
-  integrity sha512-8c3mgTe0ASwWAJK+78dpviD+A8EqhndQPUBpNUIPt6+xWlIigCwfN01lWr9MAede4uqXGTEKeQWTvzb3vjia0Q==
+prettier@^3.0.0, prettier@^3.5.0, prettier@^3.8.3:
+  version "3.8.3"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.8.3.tgz#560f2de55bf01b4c0503bc629d5df99b9a1d09b0"
+  integrity sha512-7igPTM53cGHMW8xWuVTydi2KO233VFiTNyF5hLJqpilHfmn8C8gPf+PS7dUT64YcXFbiMGZxS9pCSxL/Dxm/Jw==
 
 punycode@^2.1.0:
   version "2.3.1"
