@@ -41,7 +41,7 @@
     "@jimmy.codes/eslint-config": "7.6.1",
     "@jimmy.codes/prettier-config": "2.1.2",
     "@playwright/test": "1.59.1",
-    "@tanstack/react-query-devtools": "5.100.5",
+    "@tanstack/react-query-devtools": "5.100.6",
     "@tanstack/react-router-devtools": "1.166.13",
     "@tanstack/router-vite-plugin": "1.166.43",
     "@total-typescript/ts-reset": "0.6.1",
