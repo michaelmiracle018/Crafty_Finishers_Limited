@@ -1209,17 +1209,17 @@
   resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.100.6.tgz#2f6dc032aaae1f327d85d3b977e6d530c948a91f"
   integrity sha512-Os2CPUr98to98RYm+D4qGqGkiffn7MGSyl2547a4MljVkHE30AMJRqTiyCqBfMwzAx/I91vCkAxp5tHSla6Twg==
 
-"@tanstack/query-devtools@5.100.6":
-  version "5.100.6"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-devtools/-/query-devtools-5.100.6.tgz#6deddea4a9195b293dd1f402c5adb45f968502e3"
-  integrity sha512-2SiNwlOiAdTbqktCSmwlXZH8x8mckSbES2O0bdr3qZNhdQl5DCtImZx0S3HGeNHWTIkzTaHx2Isg+bD4M3WRIg==
+"@tanstack/query-devtools@5.100.7":
+  version "5.100.7"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-devtools/-/query-devtools-5.100.7.tgz#84c65e8bf5e7fa4b5d6d1970438ad4b4b210221f"
+  integrity sha512-bgn0QV1kEGgHHRDaX6JHb+m7KHZ0r/TIyjARYhGhG/PBpbzR74qwpRhdjW+45CtwNseSU4HcqWJVDw1VozCU6w==
 
-"@tanstack/react-query-devtools@5.100.6":
-  version "5.100.6"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query-devtools/-/react-query-devtools-5.100.6.tgz#c779cc25a30410b5c2304ea77d3276b0311568de"
-  integrity sha512-sz3ksMKA2t1rx0+Odzb0x1A3pXH/SVf7fzlzd3sKXzwXz8980f5sbOwfQD6+UfTG8G4Y2KaIg9e3sBn+uC4VTg==
+"@tanstack/react-query-devtools@5.100.7":
+  version "5.100.7"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query-devtools/-/react-query-devtools-5.100.7.tgz#1cfbbc89712fefb5a184a408fa7820e3f98f6b26"
+  integrity sha512-zBaluzWz1mPAe+bxk2M08wqWAbvyb8d+q8LecQ4TQYYgfDLHBzjAk8GvEP2Mr3sbMdUniC0p88D/Pol0aoKAKA==
   dependencies:
-    "@tanstack/query-devtools" "5.100.6"
+    "@tanstack/query-devtools" "5.100.7"
 
 "@tanstack/react-query@5.100.6":
   version "5.100.6"
@@ -1253,20 +1253,20 @@
     "@tanstack/store" "0.9.3"
     use-sync-external-store "^1.6.0"
 
-"@tanstack/router-core@1.168.17":
-  version "1.168.17"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.168.17.tgz#7ffdae6a30bdb38620d6069124d3bd392c23e332"
-  integrity sha512-VDq7HCqRK3sdpxoETwYoTXTaYi+OVQC197g1fdzaiZBUmhntfjn+PQc15OzTqNNhf8Menk6r6ftmuphybMKdig==
+"@tanstack/router-core@1.168.18":
+  version "1.168.18"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.168.18.tgz#f6c8ada89fa69ec3520a3a022cadaa6a9510089c"
+  integrity sha512-rheeg/+hIHSVw9IDzcc5NJlKamKtKJN/c8rPG9XEmLwHvA4C1WRN/yjMTGgoGNU0xKKjL2AzvUhYMSaBdelbEA==
   dependencies:
     "@tanstack/history" "1.161.6"
     cookie-es "^3.0.0"
     seroval "^1.5.0"
     seroval-plugins "^1.5.0"
 
-"@tanstack/router-core@1.168.18":
-  version "1.168.18"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.168.18.tgz#f6c8ada89fa69ec3520a3a022cadaa6a9510089c"
-  integrity sha512-rheeg/+hIHSVw9IDzcc5NJlKamKtKJN/c8rPG9XEmLwHvA4C1WRN/yjMTGgoGNU0xKKjL2AzvUhYMSaBdelbEA==
+"@tanstack/router-core@1.169.1":
+  version "1.169.1"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.169.1.tgz#37864c4322e1d78bcf1b5b3c0b9a69bc042a0f9e"
+  integrity sha512-x+2gIGKTTE1qAn7tLieGfrB5ciOviDmmi2ox9fAWUubRV+yTU5ruGFXocoCIWF+lB+SOtnHjo2E9BLSWyYoEmA==
   dependencies:
     "@tanstack/history" "1.161.6"
     cookie-es "^3.0.0"
@@ -1281,13 +1281,13 @@
     clsx "^2.1.1"
     goober "^2.1.16"
 
-"@tanstack/router-generator@1.166.37":
-  version "1.166.37"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-generator/-/router-generator-1.166.37.tgz#6ace9f4bf84391598ce21e5f2486344ebd23d111"
-  integrity sha512-uj5t0IzKzvwzySiTSrF2JLdxs5xwo3dbKJ3/BpLrJyrUC978VAupNP0kQlvps8VMKrGk9x9s1ogpO5qNu29Qpw==
+"@tanstack/router-generator@1.166.39":
+  version "1.166.39"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-generator/-/router-generator-1.166.39.tgz#318b9575c2918676a2a9e7bf74b055fbc637436f"
+  integrity sha512-j2OW/UvpjM/DT9tHVmuhWW1k6UOezTRrPqBPZFFmIth0fY7iTPqK+Erqpo8r5yGTRGCbMvOS4sL3H2MldnIZew==
   dependencies:
     "@babel/types" "^7.28.5"
-    "@tanstack/router-core" "1.168.18"
+    "@tanstack/router-core" "1.169.1"
     "@tanstack/router-utils" "1.161.7"
     "@tanstack/virtual-file-routes" "1.161.7"
     jiti "^2.6.1"
@@ -1295,10 +1295,10 @@
     prettier "^3.5.0"
     zod "^3.24.2"
 
-"@tanstack/router-plugin@1.167.29":
-  version "1.167.29"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-plugin/-/router-plugin-1.167.29.tgz#6f469a7b2c9555301814e9bfdb62a8ca87bee56b"
-  integrity sha512-Rl5TWqXgn1dbs82IqpswP63WTODdYAmQ4kU/mulNzmCsgMKSer3bjKPFrE1g2dnxBxfoF6iwfDGdAwdreK4mvA==
+"@tanstack/router-plugin@1.167.32":
+  version "1.167.32"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-plugin/-/router-plugin-1.167.32.tgz#a9747bb382e7581bf7474da7ae83ba9d16d37ff8"
+  integrity sha512-i9BA6GzUCoM20UYZ77orXzHwD5zM0OQTtLuPNbqTTSG38CvR6viRFP/d+QFo2aRNyCvun8PR7zSa49bslSggEQ==
   dependencies:
     "@babel/core" "^7.28.5"
     "@babel/plugin-syntax-jsx" "^7.27.1"
@@ -1306,8 +1306,8 @@
     "@babel/template" "^7.27.2"
     "@babel/traverse" "^7.28.5"
     "@babel/types" "^7.28.5"
-    "@tanstack/router-core" "1.168.18"
-    "@tanstack/router-generator" "1.166.37"
+    "@tanstack/router-core" "1.169.1"
+    "@tanstack/router-generator" "1.166.39"
     "@tanstack/router-utils" "1.161.7"
     "@tanstack/virtual-file-routes" "1.161.7"
     chokidar "^3.6.0"
@@ -1329,12 +1329,12 @@
     pathe "^2.0.3"
     tinyglobby "^0.2.15"
 
-"@tanstack/router-vite-plugin@1.166.44":
-  version "1.166.44"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-vite-plugin/-/router-vite-plugin-1.166.44.tgz#28cc6fa81758c9137c688e4ad1dd8c0217b9b6b3"
-  integrity sha512-8+IXNsbXelhwvrOa8hhmIxZKuvtmb8I93W5KE1oicwmwxPEKjrMsB+8gBmzNCw7pazK14kT3gBinC+fkmEQ4NQ==
+"@tanstack/router-vite-plugin@1.166.47":
+  version "1.166.47"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-vite-plugin/-/router-vite-plugin-1.166.47.tgz#43d200b56f240aaf1ae54135d9fca7968be3716c"
+  integrity sha512-9/SElKRWMP8qVR7+cU+LZpPu9P0bp+Ph+xf/idde3D6Uid+EieFWjH6WrMx+I3k7fsbsGP/bxFF89Xmi5D0IGg==
   dependencies:
-    "@tanstack/router-plugin" "1.167.29"
+    "@tanstack/router-plugin" "1.167.32"
 
 "@tanstack/store@0.9.3":
   version "0.9.3"
@@ -1351,35 +1351,35 @@
   resolved "https://registry.yarnpkg.com/@total-typescript/ts-reset/-/ts-reset-0.6.1.tgz#aebb29b6a79bb404e4cf618da6a392c94ed73a45"
   integrity sha512-cka47fVSo6lfQDIATYqb/vO1nvFfbPw7uWLayIXIhGETj0wcOOlrlkobOMDNQOFr9QOafegUPq13V2+6vtD7yg==
 
-"@turbo/darwin-64@2.9.6":
-  version "2.9.6"
-  resolved "https://registry.yarnpkg.com/@turbo/darwin-64/-/darwin-64-2.9.6.tgz#f244275f56285418c2ddc3297d6cc429db2ef7c6"
-  integrity sha512-X/56SnVXIQZBLKwniGTwEQTGmtE5brSACnKMBWpY3YafuxVYefrC2acamfjgxP7BG5w3I+6jf0UrLoSzgPcSJg==
+"@turbo/darwin-64@2.9.7":
+  version "2.9.7"
+  resolved "https://registry.yarnpkg.com/@turbo/darwin-64/-/darwin-64-2.9.7.tgz#46fddae01ea7817192dc6ff36a678cc3879b753b"
+  integrity sha512-wnvOWuVWJ5EUHNKxExEWiGlTeVpLG1L0PCu5MUozyC1P2SHGiWsmpW6/yAuShH91Fa2TAHOvdCRBzriZh4j4Eg==
 
-"@turbo/darwin-arm64@2.9.6":
-  version "2.9.6"
-  resolved "https://registry.yarnpkg.com/@turbo/darwin-arm64/-/darwin-arm64-2.9.6.tgz#1e48b9a443644cc951cd5e4093422114807a3e95"
-  integrity sha512-aalBeSl4agT/QtYGDyf/XLajedWzUC9Vg/pm/YO6QQ93vkQ91Vz5uK1ta5RbVRDozQSz4njxUNqRNmOXDzW+qw==
+"@turbo/darwin-arm64@2.9.7":
+  version "2.9.7"
+  resolved "https://registry.yarnpkg.com/@turbo/darwin-arm64/-/darwin-arm64-2.9.7.tgz#cd7cf3a024509af0f59ae3885216d62fd090fdb6"
+  integrity sha512-mA0FIPMwwN3lodDkQYaGxj6PeT7ZaN5aCEbkKn/WB+ZB9yJdVWA4J83GH7t43jqDc5dcnVluVN5UFx3plRiXhA==
 
-"@turbo/linux-64@2.9.6":
-  version "2.9.6"
-  resolved "https://registry.yarnpkg.com/@turbo/linux-64/-/linux-64-2.9.6.tgz#cbd1cebf2a3daa0754904d7aa84669a1c5ab46be"
-  integrity sha512-YKi05jnNHaD7vevgYwahpzGwbsNNTwzU2c7VZdmdFm7+cGDP4oREUWSsainiMfRqjRuolQxBwRn8wf1jmu+YZA==
+"@turbo/linux-64@2.9.7":
+  version "2.9.7"
+  resolved "https://registry.yarnpkg.com/@turbo/linux-64/-/linux-64-2.9.7.tgz#25ee9a2cb3042498a3203e14653b14041105020f"
+  integrity sha512-fEbUYpgb5l7P+q+5tsWF2gw+/GSjUsuUTcnfm+f0lozUjgcjLKyOat6PgtAChmIFcTPchCL/8rJ3TvkBy01gfA==
 
-"@turbo/linux-arm64@2.9.6":
-  version "2.9.6"
-  resolved "https://registry.yarnpkg.com/@turbo/linux-arm64/-/linux-arm64-2.9.6.tgz#15be0a0a23753e1e4feb9553dfd034e9623f8824"
-  integrity sha512-02o/ZS69cOYEDczXvOB2xmyrtzjQ2hVFtWZK1iqxXUfzMmTjZK4UumrfNnjckSg+gqeBfnPRHa0NstA173Ik3g==
+"@turbo/linux-arm64@2.9.7":
+  version "2.9.7"
+  resolved "https://registry.yarnpkg.com/@turbo/linux-arm64/-/linux-arm64-2.9.7.tgz#5b19d6249a50cb8153b8f2bc22ad10bbda614fbe"
+  integrity sha512-VkUjulo9ytfHKUHOS5gy0XPoh4CTKPXWCL8nLdrlHVi9fSut31ECeUqnm/dAbETP5D4xo9mH9XkJ+qMzGe/zmg==
 
-"@turbo/windows-64@2.9.6":
-  version "2.9.6"
-  resolved "https://registry.yarnpkg.com/@turbo/windows-64/-/windows-64-2.9.6.tgz#5a552383a9e180f15f1fa798ea183ac26a048656"
-  integrity sha512-wVdQjvnBI15wB6JrA+43CtUtagjIMmX6XYO758oZHAsCNSxqRlJtdyujih0D8OCnwCRWiGWGI63zAxR0hO6s9g==
+"@turbo/windows-64@2.9.7":
+  version "2.9.7"
+  resolved "https://registry.yarnpkg.com/@turbo/windows-64/-/windows-64-2.9.7.tgz#900645776fa44ff8333e801d890992736f6dbc72"
+  integrity sha512-/GWdY6/x4aIHqkYJq596Rpdk1x0MkpRPkJcLAoB3yGRwyUms0+u2F1GnV54IbyAZTeKLRWSJKzNC+QwVGdYchA==
 
-"@turbo/windows-arm64@2.9.6":
-  version "2.9.6"
-  resolved "https://registry.yarnpkg.com/@turbo/windows-arm64/-/windows-arm64-2.9.6.tgz#55d3b4fb556147705ad5a506f34a1d653f5613f5"
-  integrity sha512-1XUUyWW0W6FTSqGEhU8RHVqb2wP1SPkr7hIvBlMEwH9jr+sJQK5kqeosLJ/QaUv4ecSAd1ZhIrLoW7qslAzT4A==
+"@turbo/windows-arm64@2.9.7":
+  version "2.9.7"
+  resolved "https://registry.yarnpkg.com/@turbo/windows-arm64/-/windows-arm64-2.9.7.tgz#e678d73fdbcbb12a679403fe7ba070fb67f37810"
+  integrity sha512-xBBgxCC5PK2+WZ1PPRZdp+aJ0bMBcEbweXWux3RUHJvX9ZodcoQySkrW6qt+ahb+uk8ZjyQodLfDwtVSoYds1w==
 
 "@tybys/wasm-util@^0.10.0":
   version "0.10.0"
@@ -3068,10 +3068,10 @@ eslint-visitor-keys@^5.0.0, eslint-visitor-keys@^5.0.1:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-5.0.1.tgz#9e3c9489697824d2d4ce3a8ad12628f91e9f59be"
   integrity sha512-tD40eHxA35h0PEIZNeIjkHoDR4YjjJp34biM0mDvplBe//mB+IHCqHDGV7pxF+7MklTvighcCPPZC7ynWyjdTA==
 
-eslint@^10.2.1:
-  version "10.2.1"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-10.2.1.tgz#224b2a6caeb34473eddcf918762363e2e063222a"
-  integrity sha512-wiyGaKsDgqXvF40P8mDwiUp/KQjE1FdrIEJsM8PZ3XCiniTMXS3OHWWUe5FI5agoCnr8x4xPrTDZuxsBlNHl+Q==
+eslint@^10.3.0:
+  version "10.3.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-10.3.0.tgz#ed5b810eb8e0191bf24bddcf9cdb45b974e0a16d"
+  integrity sha512-XbEXaRva5cF0ZQB8w6MluHA0kZZfV2DuCMJ3ozyEOHLwDpZX2Lmm/7Pp0xdJmI0GL1W05VH5VwIFHEm1Vcw2gw==
   dependencies:
     "@eslint-community/eslint-utils" "^4.8.0"
     "@eslint-community/regexpp" "^4.12.2"
@@ -3861,10 +3861,10 @@ keyv@^4.5.4:
   dependencies:
     json-buffer "3.0.1"
 
-knip@6.9.0:
-  version "6.9.0"
-  resolved "https://registry.yarnpkg.com/knip/-/knip-6.9.0.tgz#9af2d88d192f0cf02f0d6cc35b0d8fd1a396d82d"
-  integrity sha512-2GLjxteBwmsSA3Z5sJZpPDaNPBIMnlm4/9Nx4CZadEK7YccJZ2/4kwKgPWhVYEqxhwhD0WO4txWXNGTO/Odkkg==
+knip@6.10.0:
+  version "6.10.0"
+  resolved "https://registry.yarnpkg.com/knip/-/knip-6.10.0.tgz#54f005033a36acfce5f27e73b4eaddabd40160d3"
+  integrity sha512-u9EaTj17MYkTw2aojWSwMoRQ6pI/ZtjDexuhqkQ8uQuvMFJXeeHu6MhKDdSppijGaiNGtDSMFYs+w5iZLrb2Cg==
   dependencies:
     fdir "^6.5.0"
     formatly "^0.3.0"
@@ -5156,17 +5156,17 @@ tslib@^2.4.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.8.1.tgz#612efe4ed235d567e8aba5f2a5fab70280ade83f"
   integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
 
-turbo@2.9.6:
-  version "2.9.6"
-  resolved "https://registry.yarnpkg.com/turbo/-/turbo-2.9.6.tgz#45f0d8279215bca3154a9a882de61f912f152343"
-  integrity sha512-+v2QJey7ZUeUiuigkU+uFfklvNUyPI2VO2vBpMYJA+a1hKFLFiKtUYlRHdb3P9CrAvMzi0upbjI4WT+zKtqkBg==
+turbo@2.9.7:
+  version "2.9.7"
+  resolved "https://registry.yarnpkg.com/turbo/-/turbo-2.9.7.tgz#da6d5a821f0bde5174e1a55af6690dad5c2fb004"
+  integrity sha512-epxzqVO2s0IxcSWcgb+qKrtco8isfe7g3VtiS6hkYnEK4A9XQDZbrtavQ6MtWR1KoQn+1fUomaQth2rfRHlUlg==
   optionalDependencies:
-    "@turbo/darwin-64" "2.9.6"
-    "@turbo/darwin-arm64" "2.9.6"
-    "@turbo/linux-64" "2.9.6"
-    "@turbo/linux-arm64" "2.9.6"
-    "@turbo/windows-64" "2.9.6"
-    "@turbo/windows-arm64" "2.9.6"
+    "@turbo/darwin-64" "2.9.7"
+    "@turbo/darwin-arm64" "2.9.7"
+    "@turbo/linux-64" "2.9.7"
+    "@turbo/linux-arm64" "2.9.7"
+    "@turbo/windows-64" "2.9.7"
+    "@turbo/windows-arm64" "2.9.7"
 
 type-check@^0.4.0, type-check@~0.4.0:
   version "0.4.0"
