@@ -1204,10 +1204,10 @@
   resolved "https://registry.yarnpkg.com/@tanstack/history/-/history-1.161.6.tgz#9011182f021ef7c9a6a30148570e2b1b99a12d2d"
   integrity sha512-NaOGLRrddszbQj9upGat6HG/4TKvXLvu+osAIgfxPYA+eIvYKv8GKDJOrY2D3/U9MRnKfMWD7bU4jeD4xmqyIg==
 
-"@tanstack/query-core@5.100.6":
-  version "5.100.6"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.100.6.tgz#2f6dc032aaae1f327d85d3b977e6d530c948a91f"
-  integrity sha512-Os2CPUr98to98RYm+D4qGqGkiffn7MGSyl2547a4MljVkHE30AMJRqTiyCqBfMwzAx/I91vCkAxp5tHSla6Twg==
+"@tanstack/query-core@5.100.7":
+  version "5.100.7"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.100.7.tgz#dbdc082b803824edac7caf5a787dc3ba01c35459"
+  integrity sha512-5R7i6ENJLhVeeJrrUz7jKBXUXv/BJrxf9FQJSkR13bPrb3zOcE8A0Z0PxYCcsKPOsiIlTibrBL/zZbtUO1TFyQ==
 
 "@tanstack/query-devtools@5.100.6":
   version "5.100.6"
@@ -1221,12 +1221,12 @@
   dependencies:
     "@tanstack/query-devtools" "5.100.6"
 
-"@tanstack/react-query@5.100.6":
-  version "5.100.6"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.100.6.tgz#f69aefc2136b1e7126e630e0d7881cf7b7e25c77"
-  integrity sha512-uVSrps0PV16Cxmcn2rvL+dUhwTpTUtiRW347AEeYxMZXO2pZe9ja7E24PAMGoQ5u2g89DD8u4QhOviBk+RN8RA==
+"@tanstack/react-query@5.100.7":
+  version "5.100.7"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.100.7.tgz#268d3a087deea723d826b645d1fdbe9ae0d4b8c9"
+  integrity sha512-LoISYWz8dOOuQbeIctF8K6yi42TWtR1WPGpwGuRUpF3u79JVVIg/PVR0MQdIA0VSHqD/ydf/b7PhKTkg3I4fLQ==
   dependencies:
-    "@tanstack/query-core" "5.100.6"
+    "@tanstack/query-core" "5.100.7"
 
 "@tanstack/react-router-devtools@1.166.13":
   version "1.166.13"
@@ -1235,14 +1235,14 @@
   dependencies:
     "@tanstack/router-devtools-core" "1.167.3"
 
-"@tanstack/react-router@1.168.26":
-  version "1.168.26"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.168.26.tgz#34943def22a96ef60ca2bf833947dee21a35445d"
-  integrity sha512-+MV+U5KfMUQGZIU/x8MU3FMRSujxLs678v2jhu1Y8P9ndQBKLVOBYKFY+vv/ypxBUYiyDiOsZkDxPJC8UPo/Ig==
+"@tanstack/react-router@1.169.1":
+  version "1.169.1"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.169.1.tgz#6dac03bca8db469208a596de5f5b81a7a3178cef"
+  integrity sha512-MBtQKSvac3OCcsSa6oBpDrrN90IV47I6Gtv05NxhbFVh+gVjtqvs6HSU4XM9+y5sHZPgS+35eArflX4vM8GEnQ==
   dependencies:
     "@tanstack/history" "1.161.6"
     "@tanstack/react-store" "^0.9.3"
-    "@tanstack/router-core" "1.168.18"
+    "@tanstack/router-core" "1.169.1"
     isbot "^5.1.22"
 
 "@tanstack/react-store@^0.9.3":
@@ -1253,20 +1253,20 @@
     "@tanstack/store" "0.9.3"
     use-sync-external-store "^1.6.0"
 
-"@tanstack/router-core@1.168.17":
-  version "1.168.17"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.168.17.tgz#7ffdae6a30bdb38620d6069124d3bd392c23e332"
-  integrity sha512-VDq7HCqRK3sdpxoETwYoTXTaYi+OVQC197g1fdzaiZBUmhntfjn+PQc15OzTqNNhf8Menk6r6ftmuphybMKdig==
+"@tanstack/router-core@1.168.18":
+  version "1.168.18"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.168.18.tgz#f6c8ada89fa69ec3520a3a022cadaa6a9510089c"
+  integrity sha512-rheeg/+hIHSVw9IDzcc5NJlKamKtKJN/c8rPG9XEmLwHvA4C1WRN/yjMTGgoGNU0xKKjL2AzvUhYMSaBdelbEA==
   dependencies:
     "@tanstack/history" "1.161.6"
     cookie-es "^3.0.0"
     seroval "^1.5.0"
     seroval-plugins "^1.5.0"
 
-"@tanstack/router-core@1.168.18":
-  version "1.168.18"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.168.18.tgz#f6c8ada89fa69ec3520a3a022cadaa6a9510089c"
-  integrity sha512-rheeg/+hIHSVw9IDzcc5NJlKamKtKJN/c8rPG9XEmLwHvA4C1WRN/yjMTGgoGNU0xKKjL2AzvUhYMSaBdelbEA==
+"@tanstack/router-core@1.169.1":
+  version "1.169.1"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.169.1.tgz#37864c4322e1d78bcf1b5b3c0b9a69bc042a0f9e"
+  integrity sha512-x+2gIGKTTE1qAn7tLieGfrB5ciOviDmmi2ox9fAWUubRV+yTU5ruGFXocoCIWF+lB+SOtnHjo2E9BLSWyYoEmA==
   dependencies:
     "@tanstack/history" "1.161.6"
     cookie-es "^3.0.0"
