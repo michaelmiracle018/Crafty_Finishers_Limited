@@ -1271,24 +1271,24 @@
     clsx "^2.1.1"
     goober "^2.1.16"
 
-"@tanstack/router-generator@1.166.39":
-  version "1.166.39"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-generator/-/router-generator-1.166.39.tgz#318b9575c2918676a2a9e7bf74b055fbc637436f"
-  integrity sha512-j2OW/UvpjM/DT9tHVmuhWW1k6UOezTRrPqBPZFFmIth0fY7iTPqK+Erqpo8r5yGTRGCbMvOS4sL3H2MldnIZew==
+"@tanstack/router-generator@1.166.40":
+  version "1.166.40"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-generator/-/router-generator-1.166.40.tgz#3f2c57b768faace96560be02962a55dd79765f01"
+  integrity sha512-78WYpSUBeNFkxJZ76nltzccKdGKNZSqfwCts424nVOyM6nF5CSXPS5Lfbyu28u3Gi7Pu/mGR3e4Rkc9WDKNP1Q==
   dependencies:
     "@babel/types" "^7.28.5"
     "@tanstack/router-core" "1.169.1"
-    "@tanstack/router-utils" "1.161.7"
+    "@tanstack/router-utils" "1.161.8"
     "@tanstack/virtual-file-routes" "1.161.7"
     jiti "^2.6.1"
     magic-string "^0.30.21"
     prettier "^3.5.0"
     zod "^3.24.2"
 
-"@tanstack/router-plugin@1.167.32":
-  version "1.167.32"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-plugin/-/router-plugin-1.167.32.tgz#a9747bb382e7581bf7474da7ae83ba9d16d37ff8"
-  integrity sha512-i9BA6GzUCoM20UYZ77orXzHwD5zM0OQTtLuPNbqTTSG38CvR6viRFP/d+QFo2aRNyCvun8PR7zSa49bslSggEQ==
+"@tanstack/router-plugin@1.167.33":
+  version "1.167.33"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-plugin/-/router-plugin-1.167.33.tgz#d28965acc77f6ebce42673b20f5a4bfbd294cf25"
+  integrity sha512-oopYVBUpLeT28EPpXmnKOtqfeEtY4IYp4YOYLx3OuRMQcOUsssU7lug4KhEhVGUxLx+S9jcBhcMb3bCyTUVlwA==
   dependencies:
     "@babel/core" "^7.28.5"
     "@babel/plugin-syntax-jsx" "^7.27.1"
@@ -1297,17 +1297,17 @@
     "@babel/traverse" "^7.28.5"
     "@babel/types" "^7.28.5"
     "@tanstack/router-core" "1.169.1"
-    "@tanstack/router-generator" "1.166.39"
-    "@tanstack/router-utils" "1.161.7"
+    "@tanstack/router-generator" "1.166.40"
+    "@tanstack/router-utils" "1.161.8"
     "@tanstack/virtual-file-routes" "1.161.7"
     chokidar "^3.6.0"
     unplugin "^3.0.0"
     zod "^3.24.2"
 
-"@tanstack/router-utils@1.161.7":
-  version "1.161.7"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-utils/-/router-utils-1.161.7.tgz#06183f1e711038906b6d0a5e854a7e8c2a07fb6d"
-  integrity sha512-VkY0u7ax/GD0qU6ZLLnfPC+UMxVzxRbvZp4yV4iUSXjgJZ/siAT5/QlLm9FEDJ9QDoC0VD9W7f00tKKreUI7Ng==
+"@tanstack/router-utils@1.161.8":
+  version "1.161.8"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-utils/-/router-utils-1.161.8.tgz#1c1518ef039d88e19648c2dc13629900b3f796ba"
+  integrity sha512-xyiLWEKjfBAVhauDSSjXxyf7s8elU6SM+V050sbkofvGmIIvkwPFtDsX7Gvwh14kBd6iCwAT+RiPvXTxAptY0Q==
   dependencies:
     "@babel/core" "^7.28.5"
     "@babel/generator" "^7.28.5"
@@ -1319,12 +1319,12 @@
     pathe "^2.0.3"
     tinyglobby "^0.2.15"
 
-"@tanstack/router-vite-plugin@1.166.47":
-  version "1.166.47"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-vite-plugin/-/router-vite-plugin-1.166.47.tgz#43d200b56f240aaf1ae54135d9fca7968be3716c"
-  integrity sha512-9/SElKRWMP8qVR7+cU+LZpPu9P0bp+Ph+xf/idde3D6Uid+EieFWjH6WrMx+I3k7fsbsGP/bxFF89Xmi5D0IGg==
+"@tanstack/router-vite-plugin@1.166.48":
+  version "1.166.48"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-vite-plugin/-/router-vite-plugin-1.166.48.tgz#1d2bbdaf33ce3dcbf9217e568f2290075c55cb0a"
+  integrity sha512-28EaZYrA78cXpfcKpNYKbzNn90E8y1U5XVuxO1WOn3Rjcfnfx0q5dIClYUs8CTZBx4mPGLLddZ/fzVDUhrrWRQ==
   dependencies:
-    "@tanstack/router-plugin" "1.167.32"
+    "@tanstack/router-plugin" "1.167.33"
 
 "@tanstack/store@0.9.3":
   version "0.9.3"
