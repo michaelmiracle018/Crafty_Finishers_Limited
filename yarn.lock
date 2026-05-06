@@ -1263,6 +1263,16 @@
     seroval "^1.5.0"
     seroval-plugins "^1.5.0"
 
+"@tanstack/router-core@1.169.2":
+  version "1.169.2"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.169.2.tgz#2ea70a47bc490e92373986d61f7e096acb33b908"
+  integrity sha512-5sm0DJF1A7Mz+9gy4Gz/lLovNailK3yot4vYvz9MkBUPw26uLnhQiR8hSCYxucjE0wD6Mdlc5l+Z0/XTlZ7xHw==
+  dependencies:
+    "@tanstack/history" "1.161.6"
+    cookie-es "^3.0.0"
+    seroval "^1.5.4"
+    seroval-plugins "^1.5.4"
+
 "@tanstack/router-devtools-core@1.167.3":
   version "1.167.3"
   resolved "https://registry.yarnpkg.com/@tanstack/router-devtools-core/-/router-devtools-core-1.167.3.tgz#d7ebbbced761a05f8d1bed7b86410d7ec0c3e7bf"
@@ -1271,13 +1281,13 @@
     clsx "^2.1.1"
     goober "^2.1.16"
 
-"@tanstack/router-generator@1.166.40":
-  version "1.166.40"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-generator/-/router-generator-1.166.40.tgz#3f2c57b768faace96560be02962a55dd79765f01"
-  integrity sha512-78WYpSUBeNFkxJZ76nltzccKdGKNZSqfwCts424nVOyM6nF5CSXPS5Lfbyu28u3Gi7Pu/mGR3e4Rkc9WDKNP1Q==
+"@tanstack/router-generator@1.166.41":
+  version "1.166.41"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-generator/-/router-generator-1.166.41.tgz#277bd1f0e6d360e02b2a0a93dc2ed64cc6dff4e6"
+  integrity sha512-XpnkVvk9AlCtw5vggJsnSx3MdKGk8Asopwy9wUFAqFAHqlrRJzV9PoZ5kGkNEJMOYYcMTriJLN4D+kyXRUJpDQ==
   dependencies:
     "@babel/types" "^7.28.5"
-    "@tanstack/router-core" "1.169.1"
+    "@tanstack/router-core" "1.169.2"
     "@tanstack/router-utils" "1.161.8"
     "@tanstack/virtual-file-routes" "1.161.7"
     jiti "^2.6.1"
@@ -1285,10 +1295,10 @@
     prettier "^3.5.0"
     zod "^3.24.2"
 
-"@tanstack/router-plugin@1.167.33":
-  version "1.167.33"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-plugin/-/router-plugin-1.167.33.tgz#d28965acc77f6ebce42673b20f5a4bfbd294cf25"
-  integrity sha512-oopYVBUpLeT28EPpXmnKOtqfeEtY4IYp4YOYLx3OuRMQcOUsssU7lug4KhEhVGUxLx+S9jcBhcMb3bCyTUVlwA==
+"@tanstack/router-plugin@1.167.34":
+  version "1.167.34"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-plugin/-/router-plugin-1.167.34.tgz#4ca9cdf29ddc4cee5f0f3b2bdebb93a3c6f24b88"
+  integrity sha512-hU0Cuw79Yo6FGPBB0mW9Ik8bnTzmnUKtbgbvmIzeFdK3wKBPS4+xN7kcxVaBqXfP6xR3PFkIf2SSoYsiuLjVtg==
   dependencies:
     "@babel/core" "^7.28.5"
     "@babel/plugin-syntax-jsx" "^7.27.1"
@@ -1296,8 +1306,8 @@
     "@babel/template" "^7.27.2"
     "@babel/traverse" "^7.28.5"
     "@babel/types" "^7.28.5"
-    "@tanstack/router-core" "1.169.1"
-    "@tanstack/router-generator" "1.166.40"
+    "@tanstack/router-core" "1.169.2"
+    "@tanstack/router-generator" "1.166.41"
     "@tanstack/router-utils" "1.161.8"
     "@tanstack/virtual-file-routes" "1.161.7"
     chokidar "^3.6.0"
@@ -1319,12 +1329,12 @@
     pathe "^2.0.3"
     tinyglobby "^0.2.15"
 
-"@tanstack/router-vite-plugin@1.166.48":
-  version "1.166.48"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-vite-plugin/-/router-vite-plugin-1.166.48.tgz#1d2bbdaf33ce3dcbf9217e568f2290075c55cb0a"
-  integrity sha512-28EaZYrA78cXpfcKpNYKbzNn90E8y1U5XVuxO1WOn3Rjcfnfx0q5dIClYUs8CTZBx4mPGLLddZ/fzVDUhrrWRQ==
+"@tanstack/router-vite-plugin@1.166.49":
+  version "1.166.49"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-vite-plugin/-/router-vite-plugin-1.166.49.tgz#1815dfd09759feb5194c520a8294b531297491dd"
+  integrity sha512-68oDikho9Lp8tLT7Nz8teRUOS+AvvbBrWEYaOwn+jG3kVJhS5C6dDU2f+yMGcfOn/2EQwFy+6dOHIFJFWuew+g==
   dependencies:
-    "@tanstack/router-plugin" "1.167.33"
+    "@tanstack/router-plugin" "1.167.34"
 
 "@tanstack/store@0.9.3":
   version "0.9.3"
@@ -3380,13 +3390,13 @@ git-hooks-list@^4.0.0:
   resolved "https://registry.yarnpkg.com/git-hooks-list/-/git-hooks-list-4.1.1.tgz#ae340b82a9312354c73b48007f33840bbd83d3c0"
   integrity sha512-cmP497iLq54AZnv4YRAEMnEyQ1eIn4tGKbmswqwmFV4GBnAqE8NLtWxxdXa++AalfgL5EBH4IxTPyquEuGY/jA==
 
-gitzy@6.5.9:
-  version "6.5.9"
-  resolved "https://registry.yarnpkg.com/gitzy/-/gitzy-6.5.9.tgz#959da3cc26bc9cf7d314ce98083e7e6145221399"
-  integrity sha512-NseXyfcECEsfPSMEUPkgBhwVI6cOj7qutGpbhlpxK6hufkEwfBJCj6ZeTtnL2ipTOHXTsy7ewkiR9tTqu4Vm7A==
+gitzy@7.0.4:
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/gitzy/-/gitzy-7.0.4.tgz#34a2ef38b99ae659f70e85b1919a1bf1c9d829a7"
+  integrity sha512-FCFL6qK/DbsHmkZ75NM0rBhQs/q1fmOdEN/O2o6ejpGa2W5woAfoch5rHIiATTr8+Lr45dK12f15A+E/RTPooQ==
   dependencies:
     lilconfig "^3.1.3"
-    tinyexec "^1.0.2"
+    tinyexec "^1.1.2"
 
 glob-parent@^5.1.2, glob-parent@~5.1.2:
   version "5.1.2"
@@ -3805,10 +3815,10 @@ istanbul-reports@^3.2.0:
     html-escaper "^2.0.0"
     istanbul-lib-report "^3.0.0"
 
-jiti@2.6.1, jiti@^2.6.0, jiti@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/jiti/-/jiti-2.6.1.tgz#178ef2fc9a1a594248c20627cd820187a4d78d92"
-  integrity sha512-ekilCSN1jwRvIbgeg/57YFh8qQDNbwDb9xT/qu2DAHbFFZUicIl4ygVaAvzveMhMVr3LnpSKTNnwt8PoOfmKhQ==
+jiti@2.7.0, jiti@^2.6.0, jiti@^2.6.1:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/jiti/-/jiti-2.7.0.tgz#974228f2f4ca2bc21885a1797b45fea68e950c64"
+  integrity sha512-AC/7JofJvZGrrneWNaEnJeOLUx+JlGt7tNa0wZiRPT4MY1wmfKjt2+6O2p2uz2+skll8OZZmJMNqeke7kKbNgQ==
 
 js-tokens@^10.0.0:
   version "10.0.0"
@@ -3872,10 +3882,10 @@ keyv@^4.5.4:
   dependencies:
     json-buffer "3.0.1"
 
-knip@6.11.0:
-  version "6.11.0"
-  resolved "https://registry.yarnpkg.com/knip/-/knip-6.11.0.tgz#b12d5dfc0851fdc9a0031c884846843f61a30640"
-  integrity sha512-84PTlN8Q5smLpTbzs8smTVh8PMbTDXtw0tFksXq/m6auGFC/KSzJykKFmnYh3As38kiWDkoDBvdTTyKk5M1TAQ==
+knip@6.12.0:
+  version "6.12.0"
+  resolved "https://registry.yarnpkg.com/knip/-/knip-6.12.0.tgz#b45d45a5707d6015a23c933b6903563ac3c0db99"
+  integrity sha512-nRg8+DOFcfBD6NjmNzu9+3D35QnEmMsnojJGOHQUqv+70r1aOx99wpSUXvEV7syQVOL5E6tNXXkoyG1Fuz8BWg==
   dependencies:
     fdir "^6.5.0"
     formatly "^0.3.0"
@@ -4824,10 +4834,20 @@ seroval-plugins@^1.5.0:
   resolved "https://registry.yarnpkg.com/seroval-plugins/-/seroval-plugins-1.5.2.tgz#102b8ec17525e2504e9476b1fe6a1f442926f0af"
   integrity sha512-qpY0Cl+fKYFn4GOf3cMiq6l72CpuVaawb6ILjubOQ+diJ54LfOWaSSPsaswN8DRPIPW4Yq+tE1k5aKd7ILyaFg==
 
+seroval-plugins@^1.5.4:
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/seroval-plugins/-/seroval-plugins-1.5.4.tgz#3e7d1910b5a516684046770d201b993c81b1b95a"
+  integrity sha512-S0xQPhUTefAhNvNWFg0c1J8qJArHt5KdtJ/cFAofo06KD1MVSeFWyl4iiu+ApDIuw0WhjpOfCdgConOfAnLgkw==
+
 seroval@^1.5.0:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/seroval/-/seroval-1.5.2.tgz#b07584d531281498fa7f51f49dfdc5d76e76a681"
   integrity sha512-xcRN39BdsnO9Tf+VzsE7b3JyTJASItIV1FVFewJKCFcW4s4haIKS3e6vj8PGB9qBwC7tnuOywQMdv5N4qkzi7Q==
+
+seroval@^1.5.4:
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/seroval/-/seroval-1.5.4.tgz#9d0cedae244f8213bbbbbcc99c497eb7c945d961"
+  integrity sha512-46uFvgrXTVxZcUorgSSRZ4y+ieqLLQRMlG4bnCZKW3qI6BZm7Rg4ntMW4p1mILEEBZWrFlcpp0AyIIlM6jD9iw==
 
 set-function-length@^1.2.2:
   version "1.2.2"
@@ -5087,10 +5107,10 @@ tinybench@^2.9.0:
   resolved "https://registry.yarnpkg.com/tinybench/-/tinybench-2.9.0.tgz#103c9f8ba6d7237a47ab6dd1dcff77251863426b"
   integrity sha512-0+DUvqWMValLmha6lr4kD8iAMK1HzV0/aKnCtWb9v9641TnP/MFb7Pc2bxoxQjTXAErryXVgUOfv2YqNllqGeg==
 
-tinyexec@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/tinyexec/-/tinyexec-1.0.2.tgz#bdd2737fe2ba40bd6f918ae26642f264b99ca251"
-  integrity sha512-W/KYk+NFhkmsYpuHq5JykngiOCnxeVL8v8dFnqxSD8qEEdRfXk1SDM6JzNqcERbcGYj9tMrDQBYV9cjgnunFIg==
+tinyexec@^1.0.2, tinyexec@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/tinyexec/-/tinyexec-1.1.2.tgz#11feef204b706d4668ca4013db29f3bd64f5c4dc"
+  integrity sha512-dAqSqE/RabpBKI8+h26GfLq6Vb3JVXs30XYQjdMjaj/c2tS8IYYMbIzP599KtRj7c57/wYApb3QjgRgXmrCukA==
 
 tinyglobby@^0.2.12, tinyglobby@^0.2.14, tinyglobby@^0.2.15, tinyglobby@^0.2.16:
   version "0.2.16"
