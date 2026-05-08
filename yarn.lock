@@ -3802,7 +3802,7 @@ istanbul-reports@^3.2.0:
     html-escaper "^2.0.0"
     istanbul-lib-report "^3.0.0"
 
-jiti@2.7.0, jiti@^2.6.0, jiti@^2.7.0:
+jiti@2.7.0, jiti@^2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/jiti/-/jiti-2.7.0.tgz#974228f2f4ca2bc21885a1797b45fea68e950c64"
   integrity sha512-AC/7JofJvZGrrneWNaEnJeOLUx+JlGt7tNa0wZiRPT4MY1wmfKjt2+6O2p2uz2+skll8OZZmJMNqeke7kKbNgQ==
@@ -3869,15 +3869,15 @@ keyv@^4.5.4:
   dependencies:
     json-buffer "3.0.1"
 
-knip@6.12.0:
-  version "6.12.0"
-  resolved "https://registry.yarnpkg.com/knip/-/knip-6.12.0.tgz#b45d45a5707d6015a23c933b6903563ac3c0db99"
-  integrity sha512-nRg8+DOFcfBD6NjmNzu9+3D35QnEmMsnojJGOHQUqv+70r1aOx99wpSUXvEV7syQVOL5E6tNXXkoyG1Fuz8BWg==
+knip@6.12.1:
+  version "6.12.1"
+  resolved "https://registry.yarnpkg.com/knip/-/knip-6.12.1.tgz#7d94a82583f783aabf7f5d914da48d4a66ba0df7"
+  integrity sha512-9JRZB1mENe8xNMpP4jJRiFXkRVBHTWzD7YtiLywkO7aKXCefbvI+hA0YDl7H7dPvJt7gcVolgxKgABJQ31NL3w==
   dependencies:
     fdir "^6.5.0"
     formatly "^0.3.0"
     get-tsconfig "4.14.0"
-    jiti "^2.6.0"
+    jiti "^2.7.0"
     minimist "^1.2.8"
     oxc-parser "^0.128.0"
     oxc-resolver "^11.19.1"
