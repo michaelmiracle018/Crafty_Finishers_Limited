@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@iconify-json/logos": "1.2.11",
-    "@iconify-json/lucide": "1.2.106",
+    "@iconify-json/lucide": "1.2.107",
     "@jimmy.codes/eslint-config": "7.7.0",
     "@jimmy.codes/prettier-config": "2.1.2",
     "@playwright/test": "1.60.0",
@@ -57,7 +57,7 @@
     "happy-dom": "20.9.0",
     "is-ci": "4.1.0",
     "jiti": "2.7.0",
-    "knip": "6.12.2",
+    "knip": "6.13.1",
     "lefthook": "2.1.6",
     "prettier": "^3.8.3",
     "turbo": "2.9.12",
