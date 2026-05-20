@@ -1235,14 +1235,14 @@
   dependencies:
     "@tanstack/router-devtools-core" "1.168.0"
 
-"@tanstack/react-router@1.170.4":
-  version "1.170.4"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.170.4.tgz#b2e66c9b414101fd09549403fc6df513a5befdd7"
-  integrity sha512-cusL4YCTuGGJhjfsXEBm6/SmOAs/G8wRVNadeyN3ofu4OZwX69KAybBEf217buxYzI+FohdJVoigEpJV+tGzIw==
+"@tanstack/react-router@1.170.6":
+  version "1.170.6"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.170.6.tgz#5b939d91628c971147c6983ad51b4855e44b2c39"
+  integrity sha512-tGQkOjcMESBbfw+iz9zE/ivcuw4D2zdhW8PA4wMmpOyA2bLiqpc6bg5MnJPxamdXoO3GZBiHYOOoEwi5qxpPgA==
   dependencies:
     "@tanstack/history" "1.162.0"
     "@tanstack/react-store" "^0.9.3"
-    "@tanstack/router-core" "1.171.2"
+    "@tanstack/router-core" "1.171.4"
     isbot "^5.1.22"
 
 "@tanstack/react-store@^0.9.3":
