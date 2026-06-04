@@ -1250,16 +1250,6 @@
     "@tanstack/store" "0.9.3"
     use-sync-external-store "^1.6.0"
 
-"@tanstack/router-core@1.171.7":
-  version "1.171.7"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.171.7.tgz#ff2edaa37e25cd8954d0e92d81534b493c7f3df7"
-  integrity sha512-AboyQD0OPIu0adJi6HeCupTU9Wx7zr4q4ceJYQdBL3mLH18m4M57XXdzJdtzOg/twl8DtWej0RGJ12ma8CV1iQ==
-  dependencies:
-    "@tanstack/history" "1.162.0"
-    cookie-es "^3.0.0"
-    seroval "^1.5.4"
-    seroval-plugins "^1.5.4"
-
 "@tanstack/router-core@1.171.9":
   version "1.171.9"
   resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.171.9.tgz#ce8afe0e6c9c0b3713a9697ffcb0380a0756239f"
@@ -2260,6 +2250,13 @@ browserslist@^4.28.1:
     electron-to-chromium "^1.5.328"
     node-releases "^2.0.36"
     update-browserslist-db "^1.2.3"
+
+buffer-image-size@^0.6.4:
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/buffer-image-size/-/buffer-image-size-0.6.4.tgz#357e8173e951ced3b5a2785c695993aa29dbcac4"
+  integrity sha512-nEh+kZOPY1w+gcCMobZ6ETUp9WfibndnosbpwB1iJk/8Gt5ZF2bhS6+B6bPYz424KtwsR6Rflc3tCz1/ghX2dQ==
+  dependencies:
+    "@types/node" "*"
 
 builtin-modules@^5.0.0:
   version "5.0.0"
@@ -3428,14 +3425,15 @@ graceful-fs@^4.2.4:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
   integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
 
-happy-dom@20.9.0:
-  version "20.9.0"
-  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-20.9.0.tgz#22fa4f2b8a34d2fbd0fb43eb48227e4bf8e206e8"
-  integrity sha512-GZZ9mKe8r646NUAf/zemnGbjYh4Bt8/MqASJY+pSm5ZDtc3YQox+4gsLI7yi1hba6o+eCsGxpHn5+iEVn31/FQ==
+happy-dom@20.10.1:
+  version "20.10.1"
+  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-20.10.1.tgz#0df69188359dddbfe00e16c8563d95cc3cb4f673"
+  integrity sha512-awPoqPjx8CgjapJllyDlgzgVHjBExcitKK5ZJkxwhQJyQpHFkyS2bEcqCm7IeW20cQvuCI0cz2Ifq79CJKqtiw==
   dependencies:
     "@types/node" ">=20.0.0"
     "@types/whatwg-mimetype" "^3.0.2"
     "@types/ws" "^8.18.1"
+    buffer-image-size "^0.6.4"
     entities "^7.0.1"
     whatwg-mimetype "^3.0.0"
     ws "^8.18.3"
