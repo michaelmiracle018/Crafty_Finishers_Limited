@@ -54,7 +54,7 @@
     "babel-plugin-react-compiler": "19.1.0-rc.3",
     "eslint": "^10.4.1",
     "gitzy": "7.0.10",
-    "happy-dom": "20.9.0",
+    "happy-dom": "20.10.1",
     "is-ci": "4.1.0",
     "jiti": "2.7.0",
     "knip": "6.15.0",
