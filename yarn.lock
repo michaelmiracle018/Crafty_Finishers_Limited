@@ -3363,10 +3363,10 @@ git-hooks-list@^4.0.0:
   resolved "https://registry.yarnpkg.com/git-hooks-list/-/git-hooks-list-4.1.1.tgz#ae340b82a9312354c73b48007f33840bbd83d3c0"
   integrity sha512-cmP497iLq54AZnv4YRAEMnEyQ1eIn4tGKbmswqwmFV4GBnAqE8NLtWxxdXa++AalfgL5EBH4IxTPyquEuGY/jA==
 
-gitzy@7.0.10:
-  version "7.0.10"
-  resolved "https://registry.yarnpkg.com/gitzy/-/gitzy-7.0.10.tgz#13af052ea3944b1000270abec2c0556243310645"
-  integrity sha512-cRXykQz/ueG/zFJHwLKf9I/dRVpJPSto9sqIW8s0sUAzcDkRy3LlNtIkJ+ZMWWGQ5e3kUv357of6BDyi/hzIjQ==
+gitzy@7.0.11:
+  version "7.0.11"
+  resolved "https://registry.yarnpkg.com/gitzy/-/gitzy-7.0.11.tgz#179b50e02ce70bbff4b4413cef07b4f205443db2"
+  integrity sha512-LLTa7MgwOJX91jUpDig8DzSv9U9Wt2ARDTkxT6xvqVfzon98ZP5d1s7IkDfzhk5225nuWjxNDfvB4fxonCvycQ==
 
 glob-parent@^5.1.2:
   version "5.1.2"
@@ -3846,16 +3846,15 @@ keyv@^4.5.4:
   dependencies:
     json-buffer "3.0.1"
 
-knip@6.15.0:
-  version "6.15.0"
-  resolved "https://registry.yarnpkg.com/knip/-/knip-6.15.0.tgz#b0feb5be6582a309e15e0f47a55afed100fc006d"
-  integrity sha512-uBaKFEGcu/HG4EY2gWFBMr+fBF43Jftoc2riJX51TKME1Z46C8UQIbNEusenYbEWihphxe2PY0Kns0yPvPYz4A==
+knip@6.16.0:
+  version "6.16.0"
+  resolved "https://registry.yarnpkg.com/knip/-/knip-6.16.0.tgz#43cdaf198555908d782db07ac6dbe71304ca5b19"
+  integrity sha512-znPEmwYmkGHp57VxCQ/k983bVWls74DpRKh/EgYojyssgV2h2dZDvjN3+7WU034LzObjElUVRPoBHq9w/fG1ng==
   dependencies:
     fdir "^6.5.0"
     formatly "^0.3.0"
     get-tsconfig "4.14.0"
     jiti "^2.7.0"
-    minimist "^1.2.8"
     oxc-parser "^0.133.0"
     oxc-resolver "^11.20.0"
     picomatch "^4.0.4"
@@ -4178,11 +4177,6 @@ minimatch@^9.0.4, minimatch@^9.0.5:
   integrity sha512-G6T0ZX48xgozx7587koeX9Ys2NYy6Gmv//P89sEte9V9whIapMNF4idKxnW2QtCcLiTWlb/wfCabAtAFWhhBow==
   dependencies:
     brace-expansion "^2.0.1"
-
-minimist@^1.2.8:
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
-  integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
 
 mlly@^1.7.4:
   version "1.8.0"
