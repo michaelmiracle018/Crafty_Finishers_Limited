@@ -1232,14 +1232,14 @@
   dependencies:
     "@tanstack/router-devtools-core" "1.168.0"
 
-"@tanstack/react-router@1.170.11":
-  version "1.170.11"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.170.11.tgz#0dc401bb1101d18d5197c12002f3b64b586eb508"
-  integrity sha512-gP2vzdyaI8Ow/Uz/MRPfK2wN09YwRI0Y/oF74Wuy9R3KmjbfJv2tLrkM+Onu1xWklSn3ugZarMPJXRE0kzrJTA==
+"@tanstack/react-router@1.170.15":
+  version "1.170.15"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.170.15.tgz#8f6ae4699bffab765dd8636249146dc95e19810d"
+  integrity sha512-GawYz7HEjj8rTUUDoT/SemDEVm63pZUO+2mOcXHY9Jl3EwMS5gFBnPu/2UvcrwRm1jN1k79fokc0d4aFmrLatg==
   dependencies:
     "@tanstack/history" "1.162.0"
     "@tanstack/react-store" "^0.9.3"
-    "@tanstack/router-core" "1.171.9"
+    "@tanstack/router-core" "1.171.13"
     isbot "^5.1.22"
 
 "@tanstack/react-store@^0.9.3":
@@ -1249,6 +1249,16 @@
   dependencies:
     "@tanstack/store" "0.9.3"
     use-sync-external-store "^1.6.0"
+
+"@tanstack/router-core@1.171.13":
+  version "1.171.13"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.171.13.tgz#49bee672c8401693d7bf902389b3dcb799de1429"
+  integrity sha512-+NOwEj1kO/6IGmpHRIZHasYxYWpyBQGNIZAST9aNrk9Q3YlU9SgqVnl1pbLa9qAKfeNdXQIRve0RQb/0kyDeDA==
+  dependencies:
+    "@tanstack/history" "1.162.0"
+    cookie-es "^3.0.0"
+    seroval "^1.5.4"
+    seroval-plugins "^1.5.4"
 
 "@tanstack/router-core@1.171.9":
   version "1.171.9"
