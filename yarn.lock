@@ -2846,10 +2846,10 @@ git-hooks-list@^4.0.0:
   resolved "https://registry.yarnpkg.com/git-hooks-list/-/git-hooks-list-4.1.1.tgz#ae340b82a9312354c73b48007f33840bbd83d3c0"
   integrity sha512-cmP497iLq54AZnv4YRAEMnEyQ1eIn4tGKbmswqwmFV4GBnAqE8NLtWxxdXa++AalfgL5EBH4IxTPyquEuGY/jA==
 
-gitzy@7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/gitzy/-/gitzy-7.1.0.tgz#b0cb643c56d00cf58845d250a538e243d99e801e"
-  integrity sha512-oxBhjZ2L1niaS002SqoTeApSmKSqd6jKumLI+mYEmEPUV+ELa4KcG6c9iScUyMMLGeaXfwIugu44XNFLvtHUDQ==
+gitzy@7.2.1:
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/gitzy/-/gitzy-7.2.1.tgz#9b942daf6de9249962be199fca9ce65d1e4cfd50"
+  integrity sha512-YXi7f610a06EuvBIXauaAZtPjchV1TqWIVOZ0qizaboxURnwdUfelOqKhRULHIMorbrwNw3ubA6+BUL/Zgy34g==
 
 glob-parent@^5.1.2:
   version "5.1.2"
