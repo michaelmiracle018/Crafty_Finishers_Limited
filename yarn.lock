@@ -1333,35 +1333,35 @@
   resolved "https://registry.yarnpkg.com/@total-typescript/ts-reset/-/ts-reset-0.6.1.tgz#aebb29b6a79bb404e4cf618da6a392c94ed73a45"
   integrity sha512-cka47fVSo6lfQDIATYqb/vO1nvFfbPw7uWLayIXIhGETj0wcOOlrlkobOMDNQOFr9QOafegUPq13V2+6vtD7yg==
 
-"@turbo/darwin-64@2.10.0":
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/@turbo/darwin-64/-/darwin-64-2.10.0.tgz#891121a0086e7a3b05365b71d82c1e05041570f0"
-  integrity sha512-EwvHThXzpY0KGd1/NAmuewI5D+aVa3Rl/OlxE36yfjUKb/+ySrfJrSlEFt8aD1OXwnnaHnQnPKHFndor0Zxlsg==
+"@turbo/darwin-64@2.10.2":
+  version "2.10.2"
+  resolved "https://registry.yarnpkg.com/@turbo/darwin-64/-/darwin-64-2.10.2.tgz#224d47639e882a23985664f69278c61be37a2602"
+  integrity sha512-wBM3ObqOWnKUDmg7QfUFDkDHPFUAJmrYlYqmEM8jMPAPA/I6wRJIbWimeQUqhOiQ8xPKhzyWM+xaiUP0wz8FEQ==
 
-"@turbo/darwin-arm64@2.10.0":
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/@turbo/darwin-arm64/-/darwin-arm64-2.10.0.tgz#8a7c528b0c4481c534c29223326ecb3850821bef"
-  integrity sha512-9d2fTyyG0lf5Wq1bwJA9qUaeecViMkLcdctWaMMmCkxZ/JqypmqOwK3W6vmejeKVgkr06gSoiX8bD+xN5Jpxcg==
+"@turbo/darwin-arm64@2.10.2":
+  version "2.10.2"
+  resolved "https://registry.yarnpkg.com/@turbo/darwin-arm64/-/darwin-arm64-2.10.2.tgz#c6f075855a10e87ee0f5db7582432906cf05b484"
+  integrity sha512-/Cq0joWnuMjDPfhjbFP4sv+C/7gkQ415zlaO4XUzD5EZxbtrKgXKvuuydMvogG8GeUnN1aDltW71RlmEfpjbyw==
 
-"@turbo/linux-64@2.10.0":
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/@turbo/linux-64/-/linux-64-2.10.0.tgz#a7e3a3f1746dbc73c2cb8cffd69938a90f4a1a74"
-  integrity sha512-sZBtjMuufitanjzi6UssoUpJMnnPlLMcdcJj3m3ptNsSq31Xh7MnjhwA5nWvLDTfEFg8GPcbYFXMo8vSdKRfqQ==
+"@turbo/linux-64@2.10.2":
+  version "2.10.2"
+  resolved "https://registry.yarnpkg.com/@turbo/linux-64/-/linux-64-2.10.2.tgz#d4251e876fda269a3a9b1c02ee668dbb3187b2a5"
+  integrity sha512-mMsf5IIhiKuceEXNstd25IbadjBXZ0amxzFOqliEzJX6HyeeHdBQPVSY583PWqYDyqM/FB8d5ZjkthfBSeuH3Q==
 
-"@turbo/linux-arm64@2.10.0":
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/@turbo/linux-arm64/-/linux-arm64-2.10.0.tgz#4a7b96117ed1e9aa5ed2abae47d1e9be5632ca89"
-  integrity sha512-vkq/Z8R+1DQ+kifWFa810IjRy2NNBVvha3cg9sWA3nFh6nnGrHSMnnJKrzH7c/No9kq4Jb55Ru44YKsCSBgrKg==
+"@turbo/linux-arm64@2.10.2":
+  version "2.10.2"
+  resolved "https://registry.yarnpkg.com/@turbo/linux-arm64/-/linux-arm64-2.10.2.tgz#2a68be00512a6874fe972dcf028a8f6d7b0b7620"
+  integrity sha512-Wcng1i2kaKmXutmwxT9MUoYZvdaIekXAdlGr4+0TpgbhGLw7nDuEcRBFrxb5BbRoX1d1q8SpdRxLc45TvDZIdQ==
 
-"@turbo/windows-64@2.10.0":
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/@turbo/windows-64/-/windows-64-2.10.0.tgz#c86568e19d0c0abd2452ca6c112db66f143a8499"
-  integrity sha512-CRUEguLWxFQHptYZS7HjPhNhAFawfea07iR+xAQ5e4klgLrPCMdexBkXwSCwOxqTFknJ7RZFN3gOaADsw+Gttg==
+"@turbo/windows-64@2.10.2":
+  version "2.10.2"
+  resolved "https://registry.yarnpkg.com/@turbo/windows-64/-/windows-64-2.10.2.tgz#f2233aec870c45d12b3dd8f1dfc767a042498151"
+  integrity sha512-SsNhM7Ho7EpAdwtrJKBOic9Hso23vu6Dp0gAfLOvUFjPzurr/sGQlXZEvr6z89ne4RDOypTwz5CBDrixpMKtXw==
 
-"@turbo/windows-arm64@2.10.0":
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/@turbo/windows-arm64/-/windows-arm64-2.10.0.tgz#d0c062c3ed8a1e66e342d07a16153bdc662b469c"
-  integrity sha512-dVHGaf9F8twzgibcBqKoADT/LLqf9++jDb+hq/LPWWaOmRpp4M+/pVOm7vy4z9D++xg8eaxWLT0+wQxFwhYu9A==
+"@turbo/windows-arm64@2.10.2":
+  version "2.10.2"
+  resolved "https://registry.yarnpkg.com/@turbo/windows-arm64/-/windows-arm64-2.10.2.tgz#c7b8c5b7c30b1fb3b7dac33dda9cb161fe09f461"
+  integrity sha512-Gf+S7ICAdimT/n02bOuVWKvhHnct/HYjZg3oBNIz5hZ9ZyWHbQim9J3P5Qip8WpX0ksxF7eaBVziJCuLnjhqDg==
 
 "@tybys/wasm-util@^0.10.0":
   version "0.10.0"
@@ -3703,10 +3703,10 @@ prettier-plugin-tailwindcss@0.7.2:
   resolved "https://registry.yarnpkg.com/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.7.2.tgz#8de2039fc0363b8532ef5a2d3fc9e2c1b6ca3bd4"
   integrity sha512-LkphyK3Fw+q2HdMOoiEHWf93fNtYJwfamoKPl7UwtjFQdei/iIBoX11G6j706FzN3ymX9mPVi97qIY8328vdnA==
 
-prettier@^3.0.0, prettier@^3.5.0, prettier@^3.9.3:
-  version "3.9.3"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.9.3.tgz#4caabe6fb955e8b8f13319f25872522ece519534"
-  integrity sha512-HWmu+K+zvHNpaMfSnYeqdqrDbR16cuIXaPx8WoHaviQkDJh1/0BNtOZmHVQI5jc3wXv0H1yXc9wjvFdXh+n3hQ==
+prettier@^3.0.0, prettier@^3.5.0, prettier@^3.9.4:
+  version "3.9.4"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.9.4.tgz#a9c477cf1614376bd1f6bbc593d8c0d414bcec87"
+  integrity sha512-yWG/o/4oJfo036EKAfK6ACAoDOfHeRHx4tuxkfBZiauURiaSmYwlpOr5LQqKtIkRD2z1PLteme2WoxEnj4tHTg==
 
 punycode@^2.1.0:
   version "2.3.1"
@@ -4117,17 +4117,17 @@ tslib@^2.4.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.8.1.tgz#612efe4ed235d567e8aba5f2a5fab70280ade83f"
   integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
 
-turbo@2.10.0:
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/turbo/-/turbo-2.10.0.tgz#ad79bf82762a078a0f6fc98c2299cede774ff3f1"
-  integrity sha512-o016H9PPtuH2deb3mh3Vci3Avfi9UYgM/RONQisY7HnloupP0IFSbFS3gFYJgFJP8nwBrByHWFQIDa8T2zIXPw==
+turbo@2.10.2:
+  version "2.10.2"
+  resolved "https://registry.yarnpkg.com/turbo/-/turbo-2.10.2.tgz#7b8993242d550e3adf7f3245b231f663e5300ebf"
+  integrity sha512-wTExrNrRjB8qzIcg+ZLm0A3GFNLDsWNwdS/RBXB0FPrBDyzk3i96Yx+TxWZC7a0k1SIreFB8ciUbxjmEqTH8IQ==
   optionalDependencies:
-    "@turbo/darwin-64" "2.10.0"
-    "@turbo/darwin-arm64" "2.10.0"
-    "@turbo/linux-64" "2.10.0"
-    "@turbo/linux-arm64" "2.10.0"
-    "@turbo/windows-64" "2.10.0"
-    "@turbo/windows-arm64" "2.10.0"
+    "@turbo/darwin-64" "2.10.2"
+    "@turbo/darwin-arm64" "2.10.2"
+    "@turbo/linux-64" "2.10.2"
+    "@turbo/linux-arm64" "2.10.2"
+    "@turbo/windows-64" "2.10.2"
+    "@turbo/windows-arm64" "2.10.2"
 
 type-check@^0.4.0, type-check@~0.4.0:
   version "0.4.0"
