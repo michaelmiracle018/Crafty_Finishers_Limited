@@ -1250,16 +1250,6 @@
     "@tanstack/store" "0.9.3"
     use-sync-external-store "^1.6.0"
 
-"@tanstack/router-core@1.171.14":
-  version "1.171.14"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.171.14.tgz#6c5fcced2f3d2c87fbf294ce5e02e8a762608461"
-  integrity sha512-Mo3hwx0qB0cJsVYGDjG0+Ouf7VV74h/vsoDMGztdlyzDanp4gBA2s7IVvm6hFrmQM6GpD9F0Z7SqD7OldfLE7g==
-  dependencies:
-    "@tanstack/history" "1.162.0"
-    cookie-es "^3.0.0"
-    seroval "^1.5.4"
-    seroval-plugins "^1.5.4"
-
 "@tanstack/router-core@1.171.15":
   version "1.171.15"
   resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.171.15.tgz#76a9dd5161678566d6c2bf779d215c36bd54d64a"
@@ -3112,10 +3102,10 @@ keyv@^4.5.4:
   dependencies:
     json-buffer "3.0.1"
 
-knip@6.26.0:
-  version "6.26.0"
-  resolved "https://registry.yarnpkg.com/knip/-/knip-6.26.0.tgz#45de33ffa4c1c18579861a6b241b78b62cc78f8a"
-  integrity sha512-e9eELEEpBpGTd4H4HB7818/DYj9dMzMyUqAddfYwUN/EbSkgIjOuWEF96W/xHsmV0SDrsdXjIM+oZ2xpPzPsBA==
+knip@6.27.0:
+  version "6.27.0"
+  resolved "https://registry.yarnpkg.com/knip/-/knip-6.27.0.tgz#6b345a28c1c7a0bafc6eb2d03323928b706cc535"
+  integrity sha512-CngYEYrD0n20N06FXA8n3u/0Wnnugoa+B9k14OP+iKIgkCHuzvIdsP3nfwjhByoc1WfogpxfiriMboAXFETDUw==
   dependencies:
     fdir "^6.5.0"
     formatly "^0.3.0"
