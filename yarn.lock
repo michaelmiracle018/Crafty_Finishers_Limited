@@ -1201,10 +1201,10 @@
   resolved "https://registry.yarnpkg.com/@tanstack/history/-/history-1.162.0.tgz#5e12a52edd82a5d6d3b081255ec899ccca335443"
   integrity sha512-79pf/RkhteYZTRgcR4F9kbk84P2N8rugQJswxfIqovlbRiT3yI7eBE+5QorIrZaOKktsgzRlXh1l/du/xpl4iA==
 
-"@tanstack/query-core@5.101.2":
-  version "5.101.2"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.101.2.tgz#c901fb76b68169ff5e1e44017404e7e2e90ce1af"
-  integrity sha512-hH5MLoJhF7KaIGd7q3xTXGXvslI+GYlM1Z/35aSHHWaCJWB7XvTSHYuV3eM7tw+aE0mT/xMro4M4Q9rCGHT0lw==
+"@tanstack/query-core@5.101.3":
+  version "5.101.3"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.101.3.tgz#45fb30a36ac59dde6e6d17de9de97cf363b0ac26"
+  integrity sha512-pWLyu7AjFFVM5G+frjcL81kKEW9R8GCCPKnL3uaWbMwd2f3ZINFCuy+PtKkdz/+pKw/f/XMsFsYq/H+uJHM4GQ==
 
 "@tanstack/query-devtools@5.101.2":
   version "5.101.2"
@@ -1218,12 +1218,12 @@
   dependencies:
     "@tanstack/query-devtools" "5.101.2"
 
-"@tanstack/react-query@5.101.2":
-  version "5.101.2"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.101.2.tgz#d886331bcd29df84bc04c45d93192b8207d17c7f"
-  integrity sha512-seDkr6kzGzX1okaaTtZPtgA688CDPlXUz1C6xSg0ESqn04Vuc8tlrYms1s3de+znBqhPVxFRfpAfUf+6XvfPWg==
+"@tanstack/react-query@5.101.3":
+  version "5.101.3"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.101.3.tgz#1608209769e288ef95a450f782ed7eee66d1b062"
+  integrity sha512-ZjgcRwmQUSCythDPj6pE2NKFi9bpQegxIBxgt3hPytXI1ElFHNaa3A7aWW8vFaLCIRjPv467rbREYHbxcdgQbg==
   dependencies:
-    "@tanstack/query-core" "5.101.2"
+    "@tanstack/query-core" "5.101.3"
 
 "@tanstack/react-router-devtools@1.167.0":
   version "1.167.0"
@@ -4032,10 +4032,10 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-swiper@^14.0.5:
-  version "14.0.5"
-  resolved "https://registry.yarnpkg.com/swiper/-/swiper-14.0.5.tgz#a9947029b764eeefc87faf23f83b455366e21d01"
-  integrity sha512-SMSKS0sj+lPIFzngfIKb5cyBtzmAuJw7rXgXdyYiDReb+pSpJXuNljHYgT4DXa5Stnl2Ew2/Lam5ipv4PIqZ7A==
+swiper@^14.0.6:
+  version "14.0.6"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-14.0.6.tgz#41e4498d74a0d11dc93b4d74f25dc6214ba012e5"
+  integrity sha512-ArptjmcZMBvpLCbvzSKuqvQpjjITCbZdymiGOrbZQffQ3ZSjgpvMByXX0WZBUt+FV4PPIumdYfZ9ZdBbFsdH6g==
 
 synckit@0.11.11, synckit@^0.11.0:
   version "0.11.11"
