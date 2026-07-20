@@ -581,10 +581,10 @@
   dependencies:
     "@iconify/types" "*"
 
-"@iconify-json/lucide@1.2.117":
-  version "1.2.117"
-  resolved "https://registry.yarnpkg.com/@iconify-json/lucide/-/lucide-1.2.117.tgz#7a44cdf8945adb5cc6e45cca165e31ce348e479e"
-  integrity sha512-7isYKJKWRZ8NfLNSY8pIYmRWiMBkopL4/X22gZfFmePFhc7az0hQ5biqBLG6vdDEvMctFu2suZB3yQ29RL+8tA==
+"@iconify-json/lucide@1.2.118":
+  version "1.2.118"
+  resolved "https://registry.yarnpkg.com/@iconify-json/lucide/-/lucide-1.2.118.tgz#5a45c47174e3c51158e6fe08c13e8991aa8654db"
+  integrity sha512-JBnK4YOq6K/lA0JP//27QxFxJ4120TjvfXAzGZZIGjCcXcRRRFxl1rcV7+IWdcVCe90KXdqVaAwLaLf6G3HELw==
   dependencies:
     "@iconify/types" "*"
 
@@ -1206,17 +1206,17 @@
   resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.101.2.tgz#c901fb76b68169ff5e1e44017404e7e2e90ce1af"
   integrity sha512-hH5MLoJhF7KaIGd7q3xTXGXvslI+GYlM1Z/35aSHHWaCJWB7XvTSHYuV3eM7tw+aE0mT/xMro4M4Q9rCGHT0lw==
 
-"@tanstack/query-devtools@5.101.2":
-  version "5.101.2"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-devtools/-/query-devtools-5.101.2.tgz#83257da8d449465352bef50fe4c2956154389145"
-  integrity sha512-o+wHcqgN7Pp0s8v1i0UGq/ZrrEKrxdIiMQmKRdYb2w7NPtylYSJ4+wg/tIn71m9DLstwUwdEGAvROdly6HXP6w==
+"@tanstack/query-devtools@5.101.3":
+  version "5.101.3"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-devtools/-/query-devtools-5.101.3.tgz#6e9e3554eb6e65dd07bb453e41c162f8d44731d6"
+  integrity sha512-twEAOB5uBmpFAdlIuy3KIUujwmoZIhCXZpu1PFMTress2XvK/CyzsvV70WrhtTcocszKpbvwMR0Bxq4dqkvH0g==
 
-"@tanstack/react-query-devtools@5.101.2":
-  version "5.101.2"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query-devtools/-/react-query-devtools-5.101.2.tgz#5c6f8b97814242c8ba0c6ffe5680f8751902caae"
-  integrity sha512-eU7HctdA9gDjqoERoEdzLbw9DiqnBDfh5+Hu0u26gjqoHJezOpQAuiesDL2VvkU+2cPV76zgv0tMZsOrI4LjnQ==
+"@tanstack/react-query-devtools@5.101.3":
+  version "5.101.3"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query-devtools/-/react-query-devtools-5.101.3.tgz#31921d6273df93149d483c280e4f0b745cb4d25a"
+  integrity sha512-Xr4gCymObeVmtImtsPDVzOlvy3Itr2ti3IrtdbcyhsmpsM54v2A7VR9hTB40C6wzCf3yM4Q2LqkFbNm1u8wd3A==
   dependencies:
-    "@tanstack/query-devtools" "5.101.2"
+    "@tanstack/query-devtools" "5.101.3"
 
 "@tanstack/react-query@5.101.2":
   version "5.101.2"
@@ -1268,10 +1268,10 @@
     clsx "^2.1.1"
     goober "^2.1.16"
 
-"@tanstack/router-generator@1.167.19":
-  version "1.167.19"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-generator/-/router-generator-1.167.19.tgz#b6bd2f983009df54490567e93c3fad6128e7739a"
-  integrity sha512-db3AQGLinf8ZQ8AKMyxLVWwHIFZxtx+zLktvPXv/nFH/B793/Z7lKLl4dUWM3JpAluynDSVVKaTWQVTAgTYmVA==
+"@tanstack/router-generator@1.167.21":
+  version "1.167.21"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-generator/-/router-generator-1.167.21.tgz#a0e413ba121eda5b20902604bd438c70ffb0f8ec"
+  integrity sha512-m3oXZyienj8owialdyoZ0txHQrnEx/Ra+D9kWtar5fC2cWZr5Pvxl86VY2mX5RRLC5QLKLeRGT1x4HV95wHVDQ==
   dependencies:
     "@babel/types" "^7.28.5"
     "@tanstack/router-core" "1.171.15"
@@ -1282,16 +1282,16 @@
     prettier "^3.5.0"
     zod "^4.4.3"
 
-"@tanstack/router-plugin@1.168.20":
-  version "1.168.20"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-plugin/-/router-plugin-1.168.20.tgz#970e9152339ae0566d1fe513ca1955e852275a8c"
-  integrity sha512-G5S63xDr2AxADtWP+0tQtJsduijT/Mk85hDh3Od4ct8UV0PHr2f/H1CGl72lYWLgcWRMn6bKJoQhz27QFIgLRQ==
+"@tanstack/router-plugin@1.168.23":
+  version "1.168.23"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-plugin/-/router-plugin-1.168.23.tgz#91709e1dbf4bd74f827a7a02345cfdb0f82b2fb5"
+  integrity sha512-0+PIcvnaAimFwjoEIeV3h7LKjzC8zNnp7pH2UamdKwQ9QlY99WU9V0Xl0zbM0i9hrUa/mKgWPDAzELmPUu5fMA==
   dependencies:
     "@babel/core" "^7.28.5"
     "@babel/template" "^7.27.2"
     "@babel/types" "^7.28.5"
     "@tanstack/router-core" "1.171.15"
-    "@tanstack/router-generator" "1.167.19"
+    "@tanstack/router-generator" "1.167.21"
     "@tanstack/router-utils" "1.162.2"
     chokidar "^5.0.0"
     unplugin "^3.0.0"
@@ -1311,12 +1311,12 @@
     pathe "^2.0.3"
     tinyglobby "^0.2.15"
 
-"@tanstack/router-vite-plugin@1.167.20":
-  version "1.167.20"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-vite-plugin/-/router-vite-plugin-1.167.20.tgz#3ca5eca4f8796e9a466cc2d042442dc72999b672"
-  integrity sha512-Cp8yNyIXYN6AmSlL8otN47mpWAI/+2YAUPukmm6vMKtODNB6J53L2QaTv9l4PeTn6sYxvRw/kPfVHJCViMPVjA==
+"@tanstack/router-vite-plugin@1.167.23":
+  version "1.167.23"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-vite-plugin/-/router-vite-plugin-1.167.23.tgz#95ecf81c76a57bbda420b87c0090daa30c6720b0"
+  integrity sha512-MnkK6OIwtMtEeThZTZFMsClQeZCL7apA9kmj8h3roRS+hws5ttGqmy2gkxRlK5EQIfz2ePbefRey0us/qA3hLQ==
   dependencies:
-    "@tanstack/router-plugin" "1.168.20"
+    "@tanstack/router-plugin" "1.168.23"
 
 "@tanstack/store@0.9.3":
   version "0.9.3"
@@ -2905,10 +2905,10 @@ graceful-fs@^4.2.4:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
   integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
 
-happy-dom@20.10.6:
-  version "20.10.6"
-  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-20.10.6.tgz#b92b92abab99f24dd5758b7dc5647f4e4d285707"
-  integrity sha512-6QD0ilzDDt93tX44y8tbmZdAcdTRYDhUP+Asgi6pC8Pp5IA3cvaZGyoVN/EGtlq9ziT65iPuBBn3ASLr6hCgVw==
+happy-dom@20.11.0:
+  version "20.11.0"
+  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-20.11.0.tgz#45edf8007e13219ddfe9d58aa6bb2c46f4499dda"
+  integrity sha512-XogN4asPd1a56di9prVG6bZxteNcXsZxxKmAvcEfc5Px5Ca2hMyMgk8wvqK2K1V8zXg40j9VANXsDaJYh9DeNA==
   dependencies:
     "@types/node" ">=20.0.0"
     "@types/whatwg-mimetype" "^3.0.2"
