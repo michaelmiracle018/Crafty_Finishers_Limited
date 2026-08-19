@@ -559,10 +559,10 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/retry/-/retry-0.4.3.tgz#c2b9d2e374ee62c586d3adbea87199b1d7a7a6ba"
   integrity sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==
 
-"@iconify-json/logos@1.2.12":
-  version "1.2.12"
-  resolved "https://registry.yarnpkg.com/@iconify-json/logos/-/logos-1.2.12.tgz#25c02864a5b99b5b91bdba048821e0cd3a06c3e3"
-  integrity sha512-zUi/AoezU2F3L65nPVd2smiU6Y+ZI7RjdVPlGfeAeYbPbZ9kWn7Ucxj+KshmyQRBYwLtKoqAlUyoGgMqWG1T8g==
+"@iconify-json/logos@1.2.13":
+  version "1.2.13"
+  resolved "https://registry.yarnpkg.com/@iconify-json/logos/-/logos-1.2.13.tgz#19b4b346d771a97426cacd0c6bbff47d1fceb4ba"
+  integrity sha512-Up54ZnIuiuBgGAsuzhR1nvKqwq8VE6YM3XLwVB6IgY+7NAasz6WKu9Ay5hGfAkfuOKowodfwDC8ozReEBYrWRg==
   dependencies:
     "@iconify/types" "*"
 
@@ -1225,16 +1225,6 @@
   dependencies:
     "@tanstack/store" "0.9.3"
     use-sync-external-store "^1.6.0"
-
-"@tanstack/router-core@1.171.23":
-  version "1.171.23"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.171.23.tgz#732863e707f4c93d4daabd6afb7cb706089b804b"
-  integrity sha512-jdo0oyJ5cj7kz04z7I2hvmWswmqLD+zOGDnT2VZlLk20sQ25vF1QVq5uTVi1Lnp/dlHZtZpAuA7fLJuwy+67/A==
-  dependencies:
-    "@tanstack/history" "1.162.1"
-    cookie-es "^3.0.0"
-    seroval "^1.6.2"
-    seroval-plugins "^1.6.2"
 
 "@tanstack/router-core@1.171.24":
   version "1.171.24"
