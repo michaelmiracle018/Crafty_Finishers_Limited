@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@iconify-json/logos": "1.2.13",
-    "@iconify-json/lucide": "1.2.124",
+    "@iconify-json/lucide": "1.2.125",
     "@jimmy.codes/eslint-config": "9.0.0",
     "@jimmy.codes/prettier-config": "2.1.2",
     "@playwright/test": "1.62.1",
