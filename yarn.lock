@@ -1177,10 +1177,10 @@
   resolved "https://registry.yarnpkg.com/@tanstack/history/-/history-1.162.1.tgz#2e0a5052220c2ade74b91013c7956a9f26c35645"
   integrity sha512-DR9t6lfLVdrjgCwpglrR9DR7Ok8/HlXjcOE+goWXF3zyuLUO/ug7vMbSFxTqrQTtbRghJfyhmIZ0S6LhPIy44w==
 
-"@tanstack/query-core@5.101.4":
-  version "5.101.4"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.101.4.tgz#c01b4289b3094144d8ef96235aa506242cf83efa"
-  integrity sha512-gNwcvOJcRbLWPOLG/2OBm+zM+Yv+MKsXKEOWC57USuZDEsI71hEErQsiEGx5wX9rzWWkfwM0fVSPoiIFSsxfiw==
+"@tanstack/query-core@5.102.1":
+  version "5.102.1"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.102.1.tgz#f67b0e6133ade53b47fc7503877b7ec345aa3e97"
+  integrity sha512-bJTsrO2ODWSgg+x1leTsK036GBtmNNjnrF1Vk06J5fg/phYZLQIdXrBe0uf5xTItXYvIW1MtbLhyPw7cPMqUUQ==
 
 "@tanstack/query-devtools@5.102.1":
   version "5.102.1"
@@ -1194,12 +1194,12 @@
   dependencies:
     "@tanstack/query-devtools" "5.102.1"
 
-"@tanstack/react-query@5.101.4":
-  version "5.101.4"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.101.4.tgz#044137754d79aaa30a82f6e6c42488be79c86ea7"
-  integrity sha512-yRg2pfOCxIs4ZJW3XYYHU/WgtD04FHSnfHlpRT7h7pR77hwkdRG4wxbKe4aq6P0RvXUTBSQpQeadS1SUYUe+KA==
+"@tanstack/react-query@5.102.1":
+  version "5.102.1"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.102.1.tgz#a0fdde53571ad53d5ca3615a9410fb25f6b5f77e"
+  integrity sha512-DKJeRvxjsGUWhUVnVVXSseTS0SKBMLSkrz8dm7i08r93IQQ2gAfUkX1e801gVZ18KSwHiG5yng4tQm5+qSGS0w==
   dependencies:
-    "@tanstack/query-core" "5.101.4"
+    "@tanstack/query-core" "5.102.1"
 
 "@tanstack/react-router-devtools@1.167.1":
   version "1.167.1"
@@ -1208,14 +1208,14 @@
   dependencies:
     "@tanstack/router-devtools-core" "1.168.1"
 
-"@tanstack/react-router@1.170.31":
-  version "1.170.31"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.170.31.tgz#3378355db93672990fc0646fbcaa458837be6475"
-  integrity sha512-jqITLcf9Y+es9Wm7fD7XfXFGKk1Fujm+okGqHtr+UhISnQuyLQ8d3frsJlIN0Np1doYoeb5weozSkv72+EZ5bw==
+"@tanstack/react-router@1.170.32":
+  version "1.170.32"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.170.32.tgz#818337b3b933702c7c33aaeb707a7ebf4904e04e"
+  integrity sha512-SIpxvaTKco100a5ZR3ePmArbhtm3XOx+w1dpGYY9gxHDta4iXSKDdQuhLonwJbIMkVJsU1rwXf0UDHMrF/1snw==
   dependencies:
     "@tanstack/history" "1.162.1"
     "@tanstack/react-store" "^0.9.3"
-    "@tanstack/router-core" "1.171.26"
+    "@tanstack/router-core" "1.171.27"
     isbot "^5.1.22"
 
 "@tanstack/react-store@^0.9.3":
@@ -1225,16 +1225,6 @@
   dependencies:
     "@tanstack/store" "0.9.3"
     use-sync-external-store "^1.6.0"
-
-"@tanstack/router-core@1.171.26":
-  version "1.171.26"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.171.26.tgz#e5f0945a3aeea2c37fe1bba65b49bf208c6d8e27"
-  integrity sha512-VymmPSs/93szHur/7PBygT6tRbmfcNO1xR46Wn/JVHeBqVduLPCuxBeJEgfVmVq8E4hSklPEh8i6qGXQd6WRqA==
-  dependencies:
-    "@tanstack/history" "1.162.1"
-    cookie-es "^3.0.0"
-    seroval "^1.6.2"
-    seroval-plugins "^1.6.2"
 
 "@tanstack/router-core@1.171.27":
   version "1.171.27"
