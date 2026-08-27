@@ -566,10 +566,10 @@
   dependencies:
     "@iconify/types" "*"
 
-"@iconify-json/lucide@1.2.125":
-  version "1.2.125"
-  resolved "https://registry.yarnpkg.com/@iconify-json/lucide/-/lucide-1.2.125.tgz#43ad13ed2baeaeb4badb751eb84913f5f0cf15b3"
-  integrity sha512-tOCk1QKMtKnCfPAgZRHgjRkQTP7wF5IO+iPKvvp8vxGZYPkSLhx4HTV3Ng0pIZ3wNWrS6kVpHkunJ1dc19L1og==
+"@iconify-json/lucide@1.2.126":
+  version "1.2.126"
+  resolved "https://registry.yarnpkg.com/@iconify-json/lucide/-/lucide-1.2.126.tgz#2dc7e9650d58074f0d730f859eb16083c81fe287"
+  integrity sha512-Fl3OfR71yeWLrlTLp6C4W5W3rJJDWH9/e70mjtq9VAldYDxvHh149JMNPz7foTeLLTE2Paynnp2aYKVL9rgF5Q==
   dependencies:
     "@iconify/types" "*"
 
@@ -1182,17 +1182,17 @@
   resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.102.1.tgz#f67b0e6133ade53b47fc7503877b7ec345aa3e97"
   integrity sha512-bJTsrO2ODWSgg+x1leTsK036GBtmNNjnrF1Vk06J5fg/phYZLQIdXrBe0uf5xTItXYvIW1MtbLhyPw7cPMqUUQ==
 
-"@tanstack/query-devtools@5.102.1":
-  version "5.102.1"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-devtools/-/query-devtools-5.102.1.tgz#594099b79c3f470c2ec68130868fd153dcb910e6"
-  integrity sha512-zX3fv4ZpkK+5Wzw0V2Axk1z6d1jMfMGgRdLVkF6BCJwZt8Iqveboy1G8rXV1o4cQ4ptKpMS45iOWPHape4QXoQ==
+"@tanstack/query-devtools@5.102.2":
+  version "5.102.2"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-devtools/-/query-devtools-5.102.2.tgz#2dd96c9a1a4b5a6b70ae88025839cc9042ff4cb9"
+  integrity sha512-sbRVlyRWfhKm2z4cnTdHydHiaMYMcH1mCYVNwreE9oR08VmyCsSz97fhy1253gKB4ycMcaRjbfUxQLO0SSLFYw==
 
-"@tanstack/react-query-devtools@5.102.1":
-  version "5.102.1"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query-devtools/-/react-query-devtools-5.102.1.tgz#dd4f081b2a321677345dac7b7edb35281611129d"
-  integrity sha512-4ZrumxXJyt3va+L85M5g/ppBU5LfBrl01IbxmVU9M4Ti/b+2O9E76emulZRsOjRS6AGtdDFQnMJnmYA/fGga0A==
+"@tanstack/react-query-devtools@5.102.2":
+  version "5.102.2"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query-devtools/-/react-query-devtools-5.102.2.tgz#451bfff63763effc93a22e4b7b6c2c9e33c4ec16"
+  integrity sha512-5KzH1NAdess98Jgbo8R0sraP0yto49+eGgSGu6umvrLbXPNdsNJ7iOgAiXegBOoWJrHygp6hW01L2U6MvSIT5Q==
   dependencies:
-    "@tanstack/query-devtools" "5.102.1"
+    "@tanstack/query-devtools" "5.102.2"
 
 "@tanstack/react-query@5.102.1":
   version "5.102.1"
@@ -1409,10 +1409,10 @@
   dependencies:
     undici-types "~7.16.0"
 
-"@types/react-dom@19.2.4":
-  version "19.2.4"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-19.2.4.tgz#165ab5e97dfb081847b0f6755060cf40a3f6666b"
-  integrity sha512-Bsc+QHgp+P/F02XDzNCY9jnZNCUuLki36KT7VKrTXXLdHf+vHMNZnW1rVu5DNW/rCK+fya3DATySbLM4yhtKUw==
+"@types/react-dom@19.2.5":
+  version "19.2.5"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-19.2.5.tgz#d4ecf8d704cab59901d3fbb0975b6f855306595f"
+  integrity sha512-fMPwH9v7r/pp43yUd2/Mbiex5KouJwwR3dzHkhLREUC6764VyDsqxhAxv6OFEYR1RhjOyD1naqba8ECDBe7ZQg==
 
 "@types/react@19.2.18":
   version "19.2.18"
