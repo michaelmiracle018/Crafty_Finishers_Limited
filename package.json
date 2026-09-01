@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@iconify-json/logos": "1.2.13",
-    "@iconify-json/lucide": "1.2.126",
+    "@iconify-json/lucide": "1.2.127",
     "@jimmy.codes/eslint-config": "9.0.0",
     "@jimmy.codes/prettier-config": "2.1.2",
     "@playwright/test": "1.62.1",
@@ -54,7 +54,7 @@
     "babel-plugin-react-compiler": "19.1.0-rc.3",
     "eslint": "^10.9.1",
     "gitzy": "7.2.2",
-    "happy-dom": "20.11.13",
+    "happy-dom": "20.12.0",
     "is-ci": "4.1.0",
     "jiti": "2.7.0",
     "knip": "6.33.0",
