@@ -566,10 +566,10 @@
   dependencies:
     "@iconify/types" "*"
 
-"@iconify-json/lucide@1.2.127":
-  version "1.2.127"
-  resolved "https://registry.yarnpkg.com/@iconify-json/lucide/-/lucide-1.2.127.tgz#d7e08d176261701a4bb6f22110be1887f3ee401c"
-  integrity sha512-7KuCCpkly00kefna4wEnCr8l2HFRkbn4mD4zRib8wCSbrBmnR/l57ExpU6j5jv/Bo+qHpWuHpDtcqceQ0ptArw==
+"@iconify-json/lucide@1.2.128":
+  version "1.2.128"
+  resolved "https://registry.yarnpkg.com/@iconify-json/lucide/-/lucide-1.2.128.tgz#7accfa59cd8d7800348d1ed1ecbf0933c783c20c"
+  integrity sha512-s8tZ6BIQfkwl6INcdHMri3bokShU/MwOVM8cyFUgE7QJ3EuwmIhXFsrqtA0WD8YrhoII1K+KA5EEIJ4x0JWIdw==
   dependencies:
     "@iconify/types" "*"
 
