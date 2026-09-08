@@ -40,7 +40,7 @@
     "@iconify-json/lucide": "1.2.129",
     "@jimmy.codes/eslint-config": "9.0.0",
     "@jimmy.codes/prettier-config": "2.1.2",
-    "@playwright/test": "1.62.1",
+    "@playwright/test": "1.63.0",
     "@tanstack/react-query-devtools": "5.102.8",
     "@tanstack/react-router-devtools": "1.167.1",
     "@tanstack/router-vite-plugin": "1.167.35",
