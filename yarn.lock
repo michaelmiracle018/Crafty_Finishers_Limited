@@ -1406,10 +1406,10 @@
   dependencies:
     "@tanstack/router-devtools-core" "1.168.2"
 
-"@tanstack/react-router@1.170.38":
-  version "1.170.38"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.170.38.tgz#9c58a40d6a46b96a64457ba5969a65f47bf44f28"
-  integrity sha512-iHM9b0aDJbuvftmkiQXawzoqsdV68p2Re2safbVLCnxafe+iLKV++2i3hI/BMAP6uR92/Mjw94JKJJfD7pbwHQ==
+"@tanstack/react-router@1.170.39":
+  version "1.170.39"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.170.39.tgz#ef4691f5434a37a122b62c00a913f002846c0025"
+  integrity sha512-wLZi/hXW/kTeLlMIvI2VB8Oj38GLz8YkHmTM14lLScAzx79UZEwBHWMj6JZw/imuyuhrcmbe8KTFsFBHzJUftg==
   dependencies:
     "@tanstack/history" "1.162.4"
     "@tanstack/react-store" "^0.11.0"
@@ -2990,12 +2990,12 @@ formatly@^0.7.0:
     fd-package-json "^2.0.0"
     package-manager-detector "^1.8.0"
 
-framer-motion@^13.4.1:
-  version "13.4.1"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-13.4.1.tgz#cd0cb7ec7ec4ba125962fce4c8feffd2e3533499"
-  integrity sha512-6DsbU4hsNsokXkwSp3ezdMWMiv5yWzCcdjFgakkeUC6FVIK01Py8ToSzsXvBw8cYA5hff/oXFvZFU7ltbVyUYA==
+framer-motion@^13.4.4:
+  version "13.4.4"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-13.4.4.tgz#a6b91f25d0c07ad31a78d0562be7e90554f34d4c"
+  integrity sha512-lbsZO95NGbulo6apz70zEt6Vxf/anoRwQI2ECEc/EQYWO5CGbITtl7plDW8P/VXgXw6e8wrbhH4a9i+ygke0Mg==
   dependencies:
-    motion-dom "^13.4.1"
+    motion-dom "^13.4.4"
     motion-utils "^13.3.0"
     tslib "^2.4.0"
 
@@ -3496,7 +3496,7 @@ mlly@^1.7.4:
     pkg-types "^1.3.1"
     ufo "^1.6.1"
 
-motion-dom@^13.4.1:
+motion-dom@^13.4.4:
   version "13.4.4"
   resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-13.4.4.tgz#2b0b4de8f39452cfa75ec40d084e5d65660da1ca"
   integrity sha512-z2qN3RUABSci4G7cr5aHTFhqPNCWJsEMMfRlzxqtANQsSCIbVJmHvMV288m5x7doEQBTYbRTWbKdztmquCn4Sw==
