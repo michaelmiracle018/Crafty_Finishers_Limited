@@ -37,11 +37,11 @@
   },
   "devDependencies": {
     "@iconify-json/logos": "1.2.14",
-    "@iconify-json/lucide": "1.2.136",
+    "@iconify-json/lucide": "1.2.137",
     "@jimmy.codes/eslint-config": "9.0.0",
     "@jimmy.codes/prettier-config": "2.1.2",
     "@playwright/test": "1.63.0",
-    "@tanstack/react-query-devtools": "5.103.2",
+    "@tanstack/react-query-devtools": "5.104.0",
     "@tanstack/react-router-devtools": "1.167.2",
     "@tanstack/router-vite-plugin": "1.167.40",
     "@total-typescript/ts-reset": "0.6.1",
