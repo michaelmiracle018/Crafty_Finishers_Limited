@@ -26,8 +26,8 @@
     "vite": "npm:rolldown-vite@7.1.0"
   },
   "dependencies": {
-    "@tanstack/react-query": "5.103.2",
-    "@tanstack/react-router": "1.170.39",
+    "@tanstack/react-query": "5.104.0",
+    "@tanstack/react-router": "1.170.40",
     "framer-motion": "^13.4.4",
     "react": "19.3.0",
     "react-dom": "19.3.0",
