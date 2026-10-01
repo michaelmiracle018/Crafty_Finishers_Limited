@@ -1424,16 +1424,6 @@
     "@tanstack/store" "0.11.1"
     use-sync-external-store "^1.6.0"
 
-"@tanstack/router-core@1.171.32":
-  version "1.171.32"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.171.32.tgz#7a8406fd80ad88ed7d65c389e856db63f6e5ade0"
-  integrity sha512-X86Jqk3vB2KJcUfS6oLi7B7yxbaa59QEhZRPPP1fRx3k+Jw/Fu1UYVBcRtdwK/OccQnrlQdVoKvNO3QXmyEBOw==
-  dependencies:
-    "@tanstack/history" "1.162.4"
-    cookie-es "^3.0.0"
-    seroval "^1.6.2"
-    seroval-plugins "^1.6.2"
-
 "@tanstack/router-core@1.171.33":
   version "1.171.33"
   resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.171.33.tgz#92cf4580e03f2e6936d1cfaffa2532ac6f6b806e"
@@ -3973,11 +3963,6 @@ semver@^7.8.2:
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.8.3.tgz#c350de61c2a1ddbc96d7fae3e5b6fcf92d477fbe"
   integrity sha512-wnilbGyMxzbY7dNOl7jpKbLSjcfeweJWU5j4+u5qW+6/wuGD9KzIGOyZnQVSBM9E7DtWaaH3CyHkppYrKYoxwg==
 
-seroval-plugins@^1.6.2:
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/seroval-plugins/-/seroval-plugins-1.6.2.tgz#8e49b47fd585c2025f74f84f78272ea1753a8daa"
-  integrity sha512-TfxuUjlbBESzUOWdTkTKqvSmav0ABym+itetDXLK6mDz8SmrpdI30aF8RTXE8Bvq+tH/1yIDkvy3W0lfQb1ipQ==
-
 seroval-plugins@^1.6.7:
   version "1.6.8"
   resolved "https://registry.yarnpkg.com/seroval-plugins/-/seroval-plugins-1.6.8.tgz#3187b90331153472bdba83da5be63912e14cd2ac"
@@ -3987,11 +3972,6 @@ seroval-plugins@~1.5.4:
   version "1.5.6"
   resolved "https://registry.yarnpkg.com/seroval-plugins/-/seroval-plugins-1.5.6.tgz#7bca495aceb5b2428b9cb44b4b09e67c2de1c948"
   integrity sha512-HXuLAX2pu/UByPpaeo/TaMfvMIi+1QqIoPJYCcAtU8QkVNwgR6MPlGuCQTErV1JwraaMbYaWVIBX7mppzGLATQ==
-
-seroval@^1.6.2:
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/seroval/-/seroval-1.6.2.tgz#93ecff62ca1312a565e37146b2a332b9d625194d"
-  integrity sha512-mPT+SD2TrlB6wvte1KkYOYUkubaTbd6pZ/6Kk3C9nxzrHmCZyhxOO7XGAeL7f+yLKZglzGtM9odUVvg/EhO+vQ==
 
 seroval@^1.6.7:
   version "1.6.8"
@@ -4140,10 +4120,10 @@ superjson@^2.2.6:
   dependencies:
     copy-anything "^4"
 
-swiper@^14.2.0:
-  version "14.2.0"
-  resolved "https://registry.yarnpkg.com/swiper/-/swiper-14.2.0.tgz#879048cf1ea46fac5b5a8e6b3283833b37701d68"
-  integrity sha512-GsL4M9Fq7Sg22OyL3SjdNj/0bxTfIxPJJHHW394Li0u5vYtExi0a09iBUc8CuLafJi5pAlH2AHUe1PocxHl45g==
+swiper@^14.3.0:
+  version "14.3.0"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-14.3.0.tgz#fa6cc16df408e2838979ebb4ea3a41b3b7987339"
+  integrity sha512-qw0Xv1+sylM8KCQxWxV2iYAK2G6XjFGPZ/8F1baEsY8DK4A3sTnLx6jUJ0G71rDbVQ05JHMWkcWmJ5NvlxZO0w==
 
 synckit@0.11.11, synckit@^0.11.0:
   version "0.11.11"
