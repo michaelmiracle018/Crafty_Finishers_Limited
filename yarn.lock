@@ -1363,11 +1363,6 @@
   dependencies:
     remove-accents "0.5.0"
 
-"@tanstack/query-core@5.104.0":
-  version "5.104.0"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.104.0.tgz#31e432c573b9ed383d9a9fb2ed9ba7871fcfbd17"
-  integrity sha512-JrC2r/JQlXt7khBSdUpsgxNvybzOg+aITa+ARRMlP2AFo93Y8vIqz077rp+e61mJetSZ0T6AJbwW1JHer1vrPQ==
-
 "@tanstack/query-core@5.104.1":
   version "5.104.1"
   resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.104.1.tgz#c9819a22f8183e423bbe04b71780a4e17b42aff8"
@@ -1397,12 +1392,12 @@
   dependencies:
     "@tanstack/query-devtools" "5.104.1"
 
-"@tanstack/react-query@5.104.0":
-  version "5.104.0"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.104.0.tgz#5ddb71742d8ccdaf42aa3e42d1c4dd2148d5569e"
-  integrity sha512-e1TZmDCQnWIfiDVryIHeA6Idj+Lfx1hORLOhXS/l5wcgvtVD4yYqbTDl378sGQKIi2cSgb0TEMC9cKK8GGoJEw==
+"@tanstack/react-query@5.104.1":
+  version "5.104.1"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.104.1.tgz#c9c6b66ea96f8b5f73f4f3491b1776036a3c5456"
+  integrity sha512-Zz70EgjahNI7aCz8BZxM3vUGU44ycxEAzMuCUjLeA7SVhhOkg3ZgPjPJPvHjs6Rmky/dtmnu1WzjGHNHmhCoZQ==
   dependencies:
-    "@tanstack/query-core" "5.104.0"
+    "@tanstack/query-core" "5.104.1"
 
 "@tanstack/react-router-devtools@1.167.2":
   version "1.167.2"
@@ -1411,33 +1406,23 @@
   dependencies:
     "@tanstack/router-devtools-core" "1.168.2"
 
-"@tanstack/react-router@1.170.40":
-  version "1.170.40"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.170.40.tgz#acb67f2b90b0dee7ee9cba8682a8b88bdcd3d334"
-  integrity sha512-vVr3va9Mcq05rZRrDZPGoptAClRMKHvekLbpg2GcfXvAAtOVhW6Q93tOz4dvS8j03vTVrU25VM6weP1SIHGEew==
+"@tanstack/react-router@1.170.41":
+  version "1.170.41"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.170.41.tgz#331b26510a46c8da4a465c11fc2de3626dc3271a"
+  integrity sha512-Mpvw8Wm5MGDbTqI8Yc9flLKxbOHwoWocv0H2aGKcgw2a017oK5nZWqa954P+DrUx/8fI98YNywnHP5XcD3tQ9w==
   dependencies:
     "@tanstack/history" "1.162.4"
-    "@tanstack/react-store" "^0.11.0"
-    "@tanstack/router-core" "1.171.33"
+    "@tanstack/react-store" "^0.11.2"
+    "@tanstack/router-core" "1.171.34"
     isbot "^5.1.22"
 
-"@tanstack/react-store@^0.11.0":
-  version "0.11.1"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-store/-/react-store-0.11.1.tgz#e1e58036ffffa58f5b5d8826c2389f97502fac2c"
-  integrity sha512-HaIGKI3YLmjBYIvy5DFDY23oNaYZIsTZfngey07Uh5iLVJgM3bIGCnZeOFOqzjFld9JHWcaHJnasD/bKoGKwJQ==
+"@tanstack/react-store@^0.11.2":
+  version "0.11.2"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-store/-/react-store-0.11.2.tgz#14f81f98f43b04c34e76d348de3fe8488b3c3939"
+  integrity sha512-oj5O5DmiMWE+ih+SioX2ayC1kbK7d3fpLx0B75fPJr9nY3zU+hoW010yr64qXsY/9fyiLVE2bn5mGNV3owm8RQ==
   dependencies:
-    "@tanstack/store" "0.11.1"
+    "@tanstack/store" "0.11.2"
     use-sync-external-store "^1.6.0"
-
-"@tanstack/router-core@1.171.33":
-  version "1.171.33"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.171.33.tgz#92cf4580e03f2e6936d1cfaffa2532ac6f6b806e"
-  integrity sha512-TK31LyRZuVwwmWrv3oSCBN7OuM4R1qQZePRTiexFyqQUuCo3ERHZgzArosynwZKtYlEf4qbFCvbW7UUfvGiiZw==
-  dependencies:
-    "@tanstack/history" "1.162.4"
-    cookie-es "^3.0.0"
-    seroval "^1.6.7"
-    seroval-plugins "^1.6.7"
 
 "@tanstack/router-core@1.171.34":
   version "1.171.34"
@@ -1507,10 +1492,10 @@
   dependencies:
     "@tanstack/router-plugin" "1.168.42"
 
-"@tanstack/store@0.11.1":
-  version "0.11.1"
-  resolved "https://registry.yarnpkg.com/@tanstack/store/-/store-0.11.1.tgz#063f634fe3cc925ad83704581a7be75301bec612"
-  integrity sha512-mzTOBhypOuDJAy/D8n2MfUZ1HFkXnmSETviRyhqEC8LUE7/IZQExOTxMANj3KjTofYTkFNpBY67qaVrT41YccA==
+"@tanstack/store@0.11.2":
+  version "0.11.2"
+  resolved "https://registry.yarnpkg.com/@tanstack/store/-/store-0.11.2.tgz#cea02e554a483c7334a64a3ca2c0e4b703ba8531"
+  integrity sha512-sJ4mjol8uQsHV0gOJzzjwXfh2Fwm+Sz0+8deqiTm4jGbMdjzNSW+xZCFm0kUa870uhd8yi+DpKnZb5Kc4apa0Q==
 
 "@tanstack/virtual-file-routes@1.162.0":
   version "1.162.0"
