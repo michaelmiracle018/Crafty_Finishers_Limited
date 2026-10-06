@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@iconify-json/logos": "1.2.15",
-    "@iconify-json/lucide": "1.2.138",
+    "@iconify-json/lucide": "1.2.139",
     "@jimmy.codes/eslint-config": "9.0.0",
     "@jimmy.codes/prettier-config": "2.1.2",
     "@playwright/test": "1.63.0",
@@ -52,7 +52,7 @@
     "@vitest/coverage-v8": "5.0.3",
     "@vitest/ui": "5.0.3",
     "babel-plugin-react-compiler": "19.1.0-rc.3",
-    "eslint": "^10.11.0",
+    "eslint": "^10.12.0",
     "gitzy": "7.2.2",
     "happy-dom": "20.14.5",
     "is-ci": "4.1.0",
