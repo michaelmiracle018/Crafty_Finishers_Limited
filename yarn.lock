@@ -3252,10 +3252,10 @@ keyv@^5.6.0:
   dependencies:
     "@keyv/serialize" "^1.1.1"
 
-knip@6.39.0:
-  version "6.39.0"
-  resolved "https://registry.yarnpkg.com/knip/-/knip-6.39.0.tgz#f8650b907519ebe3c12ce35c380b539cf592fa4b"
-  integrity sha512-Y7g6Ve1ATMox1u1v+gx3z9LTlvzVLTJISm/LVn9TgBU4qc7OoC63AWGO8qCFPVDDdaqlYdXkDDvvO1METBfTRw==
+knip@6.40.0:
+  version "6.40.0"
+  resolved "https://registry.yarnpkg.com/knip/-/knip-6.40.0.tgz#daa77654029492f4ab5aabe601c81b8fb09f4821"
+  integrity sha512-5Lp/ANJu3AkW5f+J+2QG14z7xKZGi/ybb5MU1EWjeGdt6MpuIaLpLFiyBi0ZKryTiuTHiJqo/WKJRaWYimvavw==
   dependencies:
     fdir "^6.5.0"
     formatly "^0.7.0"
