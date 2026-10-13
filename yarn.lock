@@ -1356,6 +1356,11 @@
   resolved "https://registry.yarnpkg.com/@tanstack/history/-/history-1.162.4.tgz#bbb72e9d2ad8885fc7beafcbd97ed34b2cd38d1b"
   integrity sha512-utTS5L2OkeYUzXGohL1Z8sefu1GLNOJcxe8Hd6iIdc/Xo1K1nDB2JEp4iSFhvYh33xKC9V91TxrS8qfrpoKobQ==
 
+"@tanstack/history@1.162.5":
+  version "1.162.5"
+  resolved "https://registry.yarnpkg.com/@tanstack/history/-/history-1.162.5.tgz#967cb42b2e33fb1a45cb6d17a561c9223567a0f3"
+  integrity sha512-w1+YvwmTkwt5n8yUqEH3IWZ9DsmorCZW/EQ3KYHnqEgIkOZpH54NvW6/Epq3Dzb8H0ifIeYX8PExvrNLIH5FIA==
+
 "@tanstack/match-sorter-utils@^9.1.2":
   version "9.1.2"
   resolved "https://registry.yarnpkg.com/@tanstack/match-sorter-utils/-/match-sorter-utils-9.1.2.tgz#88734bc01787175e28a4f5cc58775f0f5783c630"
@@ -1406,14 +1411,14 @@
   dependencies:
     "@tanstack/router-devtools-core" "1.168.2"
 
-"@tanstack/react-router@1.170.41":
-  version "1.170.41"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.170.41.tgz#331b26510a46c8da4a465c11fc2de3626dc3271a"
-  integrity sha512-Mpvw8Wm5MGDbTqI8Yc9flLKxbOHwoWocv0H2aGKcgw2a017oK5nZWqa954P+DrUx/8fI98YNywnHP5XcD3tQ9w==
+"@tanstack/react-router@1.170.42":
+  version "1.170.42"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.170.42.tgz#9352cf33dda2cc93c2ae6de5626355b4f3aa1cfd"
+  integrity sha512-4wBptX7DRvc+v/XQ0MxL9rKlmSFb0ob3tSEZWF4ssSl1DD+1HAofWM3HwSn9liQN0r7e00qiv5WQMp6rObOc1g==
   dependencies:
-    "@tanstack/history" "1.162.4"
+    "@tanstack/history" "1.162.5"
     "@tanstack/react-store" "^0.11.2"
-    "@tanstack/router-core" "1.171.34"
+    "@tanstack/router-core" "1.171.35"
     isbot "^5.1.22"
 
 "@tanstack/react-store@^0.11.2":
@@ -1430,6 +1435,16 @@
   integrity sha512-X+19pGuuLVPvvAvPYw9v/+ktRk5cCll8AtfpBpOhDRmVgUMrfqze0467xtq8YRVVs/mmo5rVtWn/7Tp32RDBKw==
   dependencies:
     "@tanstack/history" "1.162.4"
+    cookie-es "^3.0.0"
+    seroval "^1.6.7"
+    seroval-plugins "^1.6.7"
+
+"@tanstack/router-core@1.171.35":
+  version "1.171.35"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.171.35.tgz#adb73cfdb8df17194ad0c7bfcf0e6981067b4913"
+  integrity sha512-fNKsx/rrxppFNmCQ9mPwg4OCb1O3qfLPVrE9FVyyWyRPQk0f0NK5bdJUzTYZQ+T/Ajfllr3SEx9pntM45F5amQ==
+  dependencies:
+    "@tanstack/history" "1.162.5"
     cookie-es "^3.0.0"
     seroval "^1.6.7"
     seroval-plugins "^1.6.7"
@@ -2990,13 +3005,13 @@ formatly@^0.7.0:
     fd-package-json "^2.0.0"
     package-manager-detector "^1.8.0"
 
-framer-motion@^14.0.0:
-  version "14.0.0"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-14.0.0.tgz#d8838c504e56d4982749c633c698e6d584ada181"
-  integrity sha512-QAtHmybrDFSliyW1sexMtSQTQd+1jw2ajibEmzpuI4XdPVzQkn+dAzJMm2sW3pl9MJuSS4xN51djQ7huhlP/VA==
+framer-motion@^14.1.0:
+  version "14.1.0"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-14.1.0.tgz#c49d1f58f32fc58a1fabb1635488b4d88d0d8bd2"
+  integrity sha512-QsdZSdWoyQfUmgi+GZfow8Du5COG6VRYEo9FlgKUPgH87/Le/fYekHCAKwLdYKHdCZcZfWHg4iOxlD6RoqXciQ==
   dependencies:
-    motion-dom "14.0.0"
-    motion-utils "14.0.0"
+    motion-dom "14.1.0"
+    motion-utils "14.1.0"
     tslib "^2.4.0"
 
 fsevents@~2.3.3:
@@ -3501,17 +3516,17 @@ mlly@^1.7.4:
     pkg-types "^1.3.1"
     ufo "^1.6.1"
 
-motion-dom@14.0.0:
-  version "14.0.0"
-  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-14.0.0.tgz#d99ce3f514950c2e456b8fd30483855ba9450e96"
-  integrity sha512-aU3ApXo1yTpeUi3JU+jbDk2TELjxPE3MbBMUP7nZHlARb6RweJK+ojmLjpuB0YsY6zhbBl1YWGo8LMsI1/Llqw==
+motion-dom@14.1.0:
+  version "14.1.0"
+  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-14.1.0.tgz#e1568f9e9f5202e13fd9af0520db62a4d66fd88f"
+  integrity sha512-FyFLkNUAAETzCvf851mZcl+v+kaZrKq+UM+XmkY4G8n+ny/WYfiWh9j0fhSQ1KOKVQrM9/cLO11THO2k71HJlg==
   dependencies:
-    motion-utils "14.0.0"
+    motion-utils "14.1.0"
 
-motion-utils@14.0.0:
-  version "14.0.0"
-  resolved "https://registry.yarnpkg.com/motion-utils/-/motion-utils-14.0.0.tgz#b6e5eacb07248f0a8ed8b1b235f9686777d419d6"
-  integrity sha512-jBsyjVxTTRZNeuvd/v+btVXr90LQkYl4HhRu9T2ARc+PMnvkmjsjRVeAg4Qm10b6TlTw+kykWI8gu/6LuvpLSQ==
+motion-utils@14.1.0:
+  version "14.1.0"
+  resolved "https://registry.yarnpkg.com/motion-utils/-/motion-utils-14.1.0.tgz#dc755d2807d21a9fe5803b83ef70d71f7530125c"
+  integrity sha512-xd4FeWOnnXsJHmAaRCLNbOS7mEaNOangjMt3Pl241H07f1kxW48fADQ/8O5hLLNhf1qdlozgY3PPAHBdOoU7AA==
 
 mrmime@^2.0.0:
   version "2.0.1"
