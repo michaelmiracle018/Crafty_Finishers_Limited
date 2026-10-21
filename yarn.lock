@@ -1373,6 +1373,11 @@
   resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.104.3.tgz#ef22d22c22dfddf554975b990382506a6b6b4871"
   integrity sha512-DZY9TuJAOgU3UyHUhXb4CcTYEHNZszlwkPg4VViIwTxOKzLprPUU+rbaPZQd3srqkGOtpaDdKpW972UV/LKlcg==
 
+"@tanstack/query-core@5.104.4":
+  version "5.104.4"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.104.4.tgz#b2972d45929521eb14e9a4351d5b2f31e35431b6"
+  integrity sha512-nU4Yrb8Sjn0DeVb7PKG9uiepNavys3yoxy1FX0hViY4/P6Ng/mBje2SMl7i9812rtyHKtHyqiaC/td6GkI8StA==
+
 "@tanstack/query-devtools@5.104.3":
   version "5.104.3"
   resolved "https://registry.yarnpkg.com/@tanstack/query-devtools/-/query-devtools-5.104.3.tgz#0c15f160c39bd0cbf03f2e2ee514cccb152014e0"
@@ -1397,12 +1402,12 @@
   dependencies:
     "@tanstack/query-devtools" "5.104.3"
 
-"@tanstack/react-query@5.104.3":
-  version "5.104.3"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.104.3.tgz#007007a2dccbcc4216292b84f37d898a302dc04f"
-  integrity sha512-5Ts1ImwJKqoJgPkLxl9WrPQy1JEoEmti3MaaODCfBamHUGFk57IFrc+AIksPq+BAm10EsroX56qm398Z42LG7w==
+"@tanstack/react-query@5.104.4":
+  version "5.104.4"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.104.4.tgz#c4bd67a1964ca2f359c65cb3376fea86b3149f15"
+  integrity sha512-YD5QkvUNy8Ey3LbOy2vwL97JjoYycwDv++cWAibTe+9BLYvl3c09XpYp5dZ2VcxcguwoDhGF+utYJYb79RB36w==
   dependencies:
-    "@tanstack/query-core" "5.104.3"
+    "@tanstack/query-core" "5.104.4"
 
 "@tanstack/react-router-devtools@1.167.2":
   version "1.167.2"
@@ -1428,16 +1433,6 @@
   dependencies:
     "@tanstack/store" "0.11.2"
     use-sync-external-store "^1.6.0"
-
-"@tanstack/router-core@1.171.37":
-  version "1.171.37"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.171.37.tgz#dd5b3e8f0a12f5b29cda007e594696c03916f976"
-  integrity sha512-11Le36++mHNeeFIABz4C3PdTWyJ1ilOmGmANOQOypknZwC1xN674al5BUqWuimKasWane1/XSNcEx8NYNHh0+A==
-  dependencies:
-    "@tanstack/history" "1.162.5"
-    cookie-es "^3.0.0"
-    seroval "^1.6.7"
-    seroval-plugins "^1.6.7"
 
 "@tanstack/router-core@1.171.38":
   version "1.171.38"
