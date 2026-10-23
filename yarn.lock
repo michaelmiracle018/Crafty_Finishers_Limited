@@ -1368,11 +1368,6 @@
   dependencies:
     remove-accents "0.5.0"
 
-"@tanstack/query-core@5.104.3":
-  version "5.104.3"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.104.3.tgz#ef22d22c22dfddf554975b990382506a6b6b4871"
-  integrity sha512-DZY9TuJAOgU3UyHUhXb4CcTYEHNZszlwkPg4VViIwTxOKzLprPUU+rbaPZQd3srqkGOtpaDdKpW972UV/LKlcg==
-
 "@tanstack/query-core@5.104.5":
   version "5.104.5"
   resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.104.5.tgz#251e241c537fb065ae188d0332e62cf413db863c"
@@ -1402,12 +1397,12 @@
   dependencies:
     "@tanstack/query-devtools" "5.104.5"
 
-"@tanstack/react-query@5.104.3":
-  version "5.104.3"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.104.3.tgz#007007a2dccbcc4216292b84f37d898a302dc04f"
-  integrity sha512-5Ts1ImwJKqoJgPkLxl9WrPQy1JEoEmti3MaaODCfBamHUGFk57IFrc+AIksPq+BAm10EsroX56qm398Z42LG7w==
+"@tanstack/react-query@5.104.5":
+  version "5.104.5"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.104.5.tgz#a7c4d9317fbbdab79a1cb0c6191d3fe689a823f8"
+  integrity sha512-RORgFe052U+93weaNuqg7qHq7vNVNzXN/VrXqD4bbAuQCWUqOl2lV5Ui9flWk5CVvMyL/Bh27QWhzwH0aaOx9g==
   dependencies:
-    "@tanstack/query-core" "5.104.3"
+    "@tanstack/query-core" "5.104.5"
 
 "@tanstack/react-router-devtools@1.167.2":
   version "1.167.2"
@@ -3001,12 +2996,12 @@ formatly@^0.11.4:
     fd-package-json "^2.0.0"
     package-manager-detector "^1.8.0"
 
-framer-motion@^14.3.0:
-  version "14.3.0"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-14.3.0.tgz#acb331971ebe747cc44ded35a9c5c41bb9b3c89e"
-  integrity sha512-d8WCrU0ZQn7ukKMykCsDyIOwb/taZeDqqrDBK0du5GO0AO/ynz8fdR/LIIz9Pyy3n3tGwrneR+n0egyrrLa3fw==
+framer-motion@^14.4.0:
+  version "14.4.0"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-14.4.0.tgz#c152c9e061a4efb91b730da3f51935ae28365e40"
+  integrity sha512-HtO1fxord2rnXYRyr1laG4uY7+OtgwDc9Szcg1wlMq/LF7BO3/S7a+KEo691U7pSi+i0ueRuRqaD1UaLEmZHuQ==
   dependencies:
-    motion-dom "14.3.0"
+    motion-dom "14.4.0"
     motion-utils "14.1.1"
     tslib "^2.4.0"
 
@@ -3517,10 +3512,10 @@ mlly@^1.7.4:
     pkg-types "^1.3.1"
     ufo "^1.6.1"
 
-motion-dom@14.3.0:
-  version "14.3.0"
-  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-14.3.0.tgz#8c3d8fe2b9b3bb305def1be1a2e0a10be55d18fb"
-  integrity sha512-rcKO4aEJzAqDEsrH6qFzhLZxs7bNqZpiUEuEATz9LaRwt6dG7hZEbcFUSHNR8NECaKYM0Iuw6Iv6NpWEGXDI+w==
+motion-dom@14.4.0:
+  version "14.4.0"
+  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-14.4.0.tgz#847fc4eb997dd27e3bfa96bd490f8b585cebd042"
+  integrity sha512-1q8RyHSdr5COpzrv3JgJ9XRjOO88ZN9CwflpkGgyO/SR/SNRP/dD6EU8SEo092kcKY34IzHC5diJPKrQRMA8lQ==
   dependencies:
     motion-utils "14.1.1"
 
