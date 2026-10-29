@@ -695,10 +695,10 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/retry/-/retry-0.4.3.tgz#c2b9d2e374ee62c586d3adbea87199b1d7a7a6ba"
   integrity sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==
 
-"@iconify-json/logos@1.2.17":
-  version "1.2.17"
-  resolved "https://registry.yarnpkg.com/@iconify-json/logos/-/logos-1.2.17.tgz#6d20217edf17562619e009214a555d5b06f62c18"
-  integrity sha512-ruCr6y5h8FW+loXwRJkz+6cJj3njyX5Ccpi+ifMgaWZPbTSCbsCccNyGomZxIdhoyDKNOmNdZuURC3tyBvDr7A==
+"@iconify-json/logos@1.2.18":
+  version "1.2.18"
+  resolved "https://registry.yarnpkg.com/@iconify-json/logos/-/logos-1.2.18.tgz#542076aa0fc05a0738065f207363afdb43ded89a"
+  integrity sha512-Qehd7RmUbYM4LSXNHFqulgvmdmqldOxQ3VDbCmzos5IGlo40+cChVdX7GnG9VODBU0H3+Bb8npYOkplooJZvtQ==
   dependencies:
     "@iconify/types" "*"
 
@@ -1373,29 +1373,34 @@
   resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.104.5.tgz#251e241c537fb065ae188d0332e62cf413db863c"
   integrity sha512-Q94gI8Opd+CbdVNOdj8ZCyV8WqLYitrDq1t96Xc8WZT6lY0r5iRnJLXYDxMex7EEf2v+mXvn4FcjaBKSxXZQ9A==
 
-"@tanstack/query-devtools@5.104.5":
-  version "5.104.5"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-devtools/-/query-devtools-5.104.5.tgz#b26b26d6c500c5a820797006df7cc3bbb67f0276"
-  integrity sha512-BLVEw4lFF7aIRsfqGvI50SSR9oN46/EmlygC+3h5TUdI+fL8GnMQialL3H92TbYi7J1b/hYlUGnckBT2uG5h8w==
+"@tanstack/query-core@5.105.0":
+  version "5.105.0"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.105.0.tgz#c3bbf51a664d4af09b2f404b2595ccdc9a743021"
+  integrity sha512-7p56vRmT/z4UJ6sctGIdl5WRUQyUv53IUpUwEKi2g97zMbO7zh8ZsCLffGAvCPBR4xD72e3VXsDyLwXHhoNTMQ==
+
+"@tanstack/query-devtools@5.105.0":
+  version "5.105.0"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-devtools/-/query-devtools-5.105.0.tgz#a49ad4ae446502ec43d91bb750d7bd5fc5f85bdb"
+  integrity sha512-vRJf9XRHB+P2aMSAEHWtMLsAf1nC9NSsHVqSHiT/FZYU/+5LEo2BOrXKskURQnJEzg6whaBeP6iMn0PS30KJrQ==
   dependencies:
     "@kobalte/core" "^0.13.14"
     "@solid-primitives/keyed" "^1.5.3"
     "@solid-primitives/resize-observer" "^2.2.0"
     "@solid-primitives/storage" "^1.3.11"
     "@tanstack/match-sorter-utils" "^9.1.2"
-    "@tanstack/query-core" "5.104.5"
+    "@tanstack/query-core" "5.105.0"
     clsx "^2.1.1"
     goober "^2.1.19"
     solid-js "^1.9.15"
     solid-transition-group "^0.2.3"
     superjson "^2.2.6"
 
-"@tanstack/react-query-devtools@5.104.5":
-  version "5.104.5"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query-devtools/-/react-query-devtools-5.104.5.tgz#9c1cda1990667c005c363ec28743b511be0ec85f"
-  integrity sha512-2SMhSSYnOGSaPLuSTKLOj5nPoP4sqasOfkpTn5BLe6LIZuHzrpcqrJx0Rm8uUSN5Ob4lPAbh/1oWClnnGaR7Bg==
+"@tanstack/react-query-devtools@5.105.0":
+  version "5.105.0"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query-devtools/-/react-query-devtools-5.105.0.tgz#fe4c4b1c4460ecb936ab145634d4dacb66e55318"
+  integrity sha512-FfRQxvqngBYqTLsuAB+qaj0Ef3KkUpknuRoyUjcl8OCZhwPocTHEvhMPAoBmk1FtO6nXUIVCC7F9A2AHH01SLQ==
   dependencies:
-    "@tanstack/query-devtools" "5.104.5"
+    "@tanstack/query-devtools" "5.105.0"
 
 "@tanstack/react-query@5.104.5":
   version "5.104.5"

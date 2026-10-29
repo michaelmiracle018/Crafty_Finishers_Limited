@@ -36,12 +36,12 @@
     "swiper": "^14.3.0"
   },
   "devDependencies": {
-    "@iconify-json/logos": "1.2.17",
+    "@iconify-json/logos": "1.2.18",
     "@iconify-json/lucide": "1.2.147",
     "@jimmy.codes/eslint-config": "9.0.0",
     "@jimmy.codes/prettier-config": "2.1.2",
     "@playwright/test": "1.64.1",
-    "@tanstack/react-query-devtools": "5.104.5",
+    "@tanstack/react-query-devtools": "5.105.0",
     "@tanstack/react-router-devtools": "1.167.2",
     "@tanstack/router-vite-plugin": "1.167.48",
     "@total-typescript/ts-reset": "0.6.1",
