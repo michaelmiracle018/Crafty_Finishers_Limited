@@ -3261,10 +3261,10 @@ keyv@^5.6.0:
   dependencies:
     "@keyv/serialize" "^1.1.1"
 
-knip@6.44.0:
-  version "6.44.0"
-  resolved "https://registry.yarnpkg.com/knip/-/knip-6.44.0.tgz#85838de02a17509d0a849f1ab62a549c262d5866"
-  integrity sha512-mT0fl71Mqrko91azUO2Jw/uhYKwldORKT4liRq6yV0ZAtt6G2eYusdnvx8eBSQJDjvhRGKkpKUUx+vUG6syV4w==
+knip@6.44.1:
+  version "6.44.1"
+  resolved "https://registry.yarnpkg.com/knip/-/knip-6.44.1.tgz#3bdd3fe5c65383e7d305adc88f8ed1e33f70c6b2"
+  integrity sha512-Hbd8nvkIsNgFfXgC7Jsb5LHv7jj6VwA3tmfHd53XPX2z9Vc9RnAZqV0BIiP4OrtYqKwCoLseFHQZerb1bNlbSw==
   dependencies:
     formatly "^0.11.4"
     get-tsconfig "4.14.3"
