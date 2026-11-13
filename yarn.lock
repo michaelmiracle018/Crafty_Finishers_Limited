@@ -705,10 +705,10 @@
   dependencies:
     "@iconify/types" "*"
 
-"@iconify-json/lucide@1.2.152":
-  version "1.2.152"
-  resolved "https://registry.yarnpkg.com/@iconify-json/lucide/-/lucide-1.2.152.tgz#b7804fd344964dca15cf2349f3ee9ad164e61167"
-  integrity sha512-OQTsOaQ+kD8yhy5EATMD5QHe5O+XJVibExdaRCaXP3hvNPNkn6wVUcTrGA16yU2luqe0ImE4qP74WBK8JuwwNA==
+"@iconify-json/lucide@1.2.153":
+  version "1.2.153"
+  resolved "https://registry.yarnpkg.com/@iconify-json/lucide/-/lucide-1.2.153.tgz#a48f9fb2da076e1e85489f82f6770dc918f47102"
+  integrity sha512-fvb2SSbCxsj6CPUl2adKGWavwV90GvCd8zT/SnW0kd4Eg/Jc/ISQPbYuFjPFOiK7ohOgDWUMGeTIzxMDDMEoHQ==
   dependencies:
     "@iconify/types" "*"
 
@@ -3274,10 +3274,10 @@ keyv@^5.6.0:
   dependencies:
     "@keyv/serialize" "^1.1.1"
 
-knip@6.44.2:
-  version "6.44.2"
-  resolved "https://registry.yarnpkg.com/knip/-/knip-6.44.2.tgz#3d4e9ebf7c729e155244f5a4155000d5c98a121d"
-  integrity sha512-6URO7pnqtOnyvSsXfW6+8C9j1lfcicxUCysXO0RgMtHTZ96HqCXh29op8iabeQW5JeIc8dJWwzSdJVWDokeScQ==
+knip@6.45.0:
+  version "6.45.0"
+  resolved "https://registry.yarnpkg.com/knip/-/knip-6.45.0.tgz#312a2265e302c81bdbbe97b9b818844957ccd0a7"
+  integrity sha512-ywPAhxiJGPWD/1V5dVYawA6el74q4vgX8omkeyl0MbA1CCkdjxrvWXXVqM20a5wQWcl1NbC9ImLHYsbFEbD0Xg==
   dependencies:
     formatly "^0.11.4"
     get-tsconfig "4.14.3"
@@ -3285,12 +3285,11 @@ knip@6.44.2:
     oxc-parser "^0.156.0"
     oxc-resolver "11.24.2"
     picomatch "^4.0.7"
-    smol-toml "^1.9.0"
+    smol-toml "^1.9.1"
     strip-json-comments "5.0.3"
     tinyglobby "^0.2.17"
-    unbash "^6.0.1"
+    unbash "^6.0.4"
     yaml "^2.9.1"
-    zod "^4.6.5"
 
 language-subtag-registry@^0.3.20:
   version "0.3.23"
@@ -4031,7 +4030,7 @@ sirv@^3.0.2:
     mrmime "^2.0.0"
     totalist "^3.0.0"
 
-smol-toml@^1.9.0:
+smol-toml@^1.9.1:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/smol-toml/-/smol-toml-1.9.1.tgz#1262834a084c3ce2985900450956a580f95cf243"
   integrity sha512-j7WyPdf0CJoutMzMoPLF/bVXHtKZIT9Rb4eGeEbWw8X2t5oirjPgpL+OpaENZrILYaXqYwnVH+qgUwVbl+pUJQ==
@@ -4276,10 +4275,10 @@ ufo@^1.6.1:
   resolved "https://registry.yarnpkg.com/ufo/-/ufo-1.6.1.tgz#ac2db1d54614d1b22c1d603e3aef44a85d8f146b"
   integrity sha512-9a4/uxlTWJ4+a5i0ooc1rU7C7YOw3wT+UGqdeNNHWnOF9qcMBgLRS+4IYUqbczewFx4mLEig6gawh7X6mFlEkA==
 
-unbash@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/unbash/-/unbash-6.0.1.tgz#f1f87f708f1c2ced01f3a4461762c26dd84498c1"
-  integrity sha512-0db9eS5iqybux41zLkX69nk90KTci7F7eZ+gXzEG/Q7E0tAqEBhRh5fkZvk1N7jT7QkGWqq34i8SFGPFEe1V8A==
+unbash@^6.0.4:
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/unbash/-/unbash-6.0.4.tgz#f3993524853a81bc5610eaf83a6b3e9639d23c88"
+  integrity sha512-t3OptUArewg9OpYGDskTSlxhyLDahfmZ4d36hE44Efb1y3HRLLpzsVqwH+AwBVymP4t7pP71xN+nnduudn2awA==
 
 undici-types@*:
   version "8.12.2"
@@ -4470,7 +4469,7 @@ zod@^3.22.4:
   resolved "https://registry.yarnpkg.com/zod/-/zod-3.25.76.tgz#26841c3f6fd22a6a2760e7ccb719179768471e34"
   integrity sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==
 
-"zod@^3.25.0 || ^4.0.0", zod@^4.5.4, zod@^4.6.5:
+"zod@^3.25.0 || ^4.0.0", zod@^4.5.4:
   version "4.6.7"
   resolved "https://registry.yarnpkg.com/zod/-/zod-4.6.7.tgz#e806cf64a7f4e37635ce9f2f52c04c3766f75e5b"
   integrity sha512-g8W2D2kU6a8untc053fX1uVBKzM7yqAxW/3zwk83+6RyF2+SKOuV+c0wBDhUwzV1PaGapmZH+rmcUzPf+3CGwg==
