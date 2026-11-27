@@ -36,8 +36,8 @@
     "swiper": "^14.4.0"
   },
   "devDependencies": {
-    "@iconify-json/logos": "1.2.20",
-    "@iconify-json/lucide": "1.2.158",
+    "@iconify-json/logos": "1.2.21",
+    "@iconify-json/lucide": "1.2.159",
     "@jimmy.codes/eslint-config": "9.0.0",
     "@jimmy.codes/prettier-config": "2.1.2",
     "@playwright/test": "1.65.1",
